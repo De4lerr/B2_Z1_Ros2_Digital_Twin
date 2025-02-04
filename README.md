@@ -5,7 +5,7 @@ Explicação de cada diretório:
 - **ubuntu_2204:** Repositório voltado para desenvolvimento em ROS2 Humble.
 - **ros_ws_shrd:** Repositório compartilhado entre os dois containers.
 
-> [!NOTE] Nota
+> ### Nota
 > Os projetos desenvolvidos até então dentro deste repositório foram realizados dentro do ubuntu_2204 em ROS2 Humble usando sdks e outras interfaces disponibilizadas pelas Unitree, a presença do ubuntu_2004 se deve ao fato de projetos passados terem sido desenvolvidos em cima do ROS Noetic.
 
 Cada diretório com prefixo “ubuntu” possui um arquivo localizado em docker/scripts para instalação e inicialização do container.
@@ -15,16 +15,16 @@ Cada diretório com prefixo “ubuntu” possui um arquivo localizado em docker/
 2. Ligue o sistema (iniciando o B2);
 3. Espere o B2 se levantar;
 4. Verifique se a conexão foi estabelecida;
-	![[README-20250127111932802.png]]
+	![Imagem 1](images/README-20250127111932802.png)
 5. Mude as configurações da conexão de acordo com a imagem abaixo e aplique as mudanças.
-	![[README-20250127112143437.png]]
+	![Imagem 2](images/README-20250127112143437.png)
 	Isso permitirá que seu computador se comunique com o sistema da Unitree (o endereço 192.168.123.XXX pode ter quaisquer valores no lugar dos X, a não ser o valor 110, que é usado pelo Z1, e os valores 161, 162, 163 e 164, que são usados pelo B2);
 6. Com o container _ubuntu_2204_ no ar, copie e cole este comando no terminal:
 ```Bash
 cd /z1_controller/build; sudo ./z1_ctrl k
 ```
 Isso iniciará o controle do braço pelo pelo teclado, e uma mensagem como esta deve aparecer:
-	![[README-20250127111752984.png]]
+	![Imagem 3](images/README-20250127111752984.png)
 Então encerre o programa com `ctrl + c`;
 7. Retire o cabo ethernet ligado ao seu computador da porta principal do B2;
 8. Conecte o cabo ethernet que sai do B2 ao Z1;
