@@ -1,4 +1,4 @@
-# B2 ROS2
+# B2-Z1 ROS2
 Este repositório tem por objetivo facilitar o desenvolvimento de aplicações envolvendo o robô quadrupede B2 da Unitree com o braço robótico Z1 montado em cima dele. 
 Explicação de cada diretório:
 - **ubuntu_2004:** Repositório voltado para desenvolvimento em ROS Noetic.
