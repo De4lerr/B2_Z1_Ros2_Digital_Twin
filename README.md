@@ -32,7 +32,7 @@ cd /z1_controller/build; sudo ./z1_ctrl k
 
 Isso iniciará o controle do braço pelo pelo teclado, e uma mensagem como esta deve aparecer:
 
-	![Imagem 3](images/README-20250127111752984.png)
+![Imagem 3](images/README-20250127111752984.png)
  
 Então encerre o programa com `ctrl + c`;
 7. Retire o cabo ethernet ligado ao seu computador da porta principal do B2;
