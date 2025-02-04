@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[ 10%] Built target read_low_state_hg
+[ 45%] Built target read_motion_state
+[ 45%] Built target low_level_ctrl_hg
+[ 55%] Built target read_wireless_controller
+[ 60%] Built target g1_low_level_example
+[ 70%] Built target read_low_state
+[ 85%] Built target low_level_ctrl
+[ 90%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m

@@ -1,0 +1,37 @@
+import launch
+import launch_ros
+import os
+
+
+def generate_launch_description():
+
+    pkgPath = launch_ros.substitutions.FindPackageShare(package='z1_urdf').find('z1_urdf')
+    urdfModelPath=os.path.join(pkgPath, 'urdf/z1.urdf')
+
+    print(urdfModelPath)
+    with open(urdfModelPath,'r') as infp:
+        robot_desc=infp.read()
+
+    params = {'b2_description':robot_desc}
+
+    robot_state_publisher_node=launch_ros.actions.Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        output='screen',
+        parameters=[params],
+        arguments=[urdfModelPath]
+    )
+
+    # joint_state_publisher_node=launch_ros.actions.Node(
+    #     package='b2_nodes',
+    #     executable='parse_joint_state',
+    #     name='parse_joint_state',
+    #     parameters=[params],
+    #     arguments=[urdfModelPath]
+    # )
+
+    # Run the node
+    return launch.LaunchDescription([
+        robot_state_publisher_node,
+        #joint_state_publisher_node,
+    ])

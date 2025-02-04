@@ -1,0 +1,7 @@
+[console_scripts]
+keyboard_control = b2_nodes.keyboard_control:main
+parse_joint_state = b2_nodes.parse_joint_state:main
+parse_joint_state_z1_b2 = b2_nodes.parse_joint_state_z1_b2:main
+parse_odometry = b2_nodes.parse_odometry:main
+print_joint_state = b2_nodes.print_joint_state:main
+

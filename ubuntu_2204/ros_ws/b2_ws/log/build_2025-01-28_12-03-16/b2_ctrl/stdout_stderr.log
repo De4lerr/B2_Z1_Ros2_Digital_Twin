@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[ 20%] Built target g1_low_level_example
+[ 25%] Built target read_wireless_controller
+[ 40%] Built target low_level_ctrl
+[ 55%] Built target low_level_ctrl_hg
+[ 65%] Built target read_low_state
+[ 75%] Built target read_motion_state
+[ 85%] Built target read_low_state_hg
+[ 90%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid SportManager::key_loop()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:49:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kchar[m[K’
+   49 |         [01;31m[Kchar[m[K key = get_key(); // Captura a tecla pressionada
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:56:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kkey[m[K’ was not declared in this scope; did you mean ‘[01m[Kkey_t[m[K’?
+   56 |             if ([01;31m[Kkey[m[K == 'w')
+      |                 [01;31m[K^~~[m[K
+      |                 [32m[Kkey_t[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:126:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kkey[m[K’ was not declared in this scope; did you mean ‘[01m[Kkey_t[m[K’?
+  126 |             if ([01;31m[Kkey[m[K == '!')
+      |                 [01;31m[K^~~[m[K
+      |                 [32m[Kkey_t[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:135:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kkey[m[K’ was not declared in this scope; did you mean ‘[01m[Kkey_t[m[K’?
+  135 |             if ([01;31m[Kkey[m[K == '!')
+      |                 [01;31m[K^~~[m[K
+      |                 [32m[Kkey_t[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:141:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kkey[m[K’ was not declared in this scope; did you mean ‘[01m[Kkey_t[m[K’?
+  141 |         } if ([01;31m[Kkey[m[K == '"')
+      |               [01;31m[K^~~[m[K
+      |               [32m[Kkey_t[m[K
+gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

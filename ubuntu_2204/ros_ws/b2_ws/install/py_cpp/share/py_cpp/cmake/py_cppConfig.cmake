@@ -1,0 +1,1 @@
+/home/ros_ws/ros_ws/b2_ws/build/py_cpp/ament_cmake_core/py_cppConfig.cmake

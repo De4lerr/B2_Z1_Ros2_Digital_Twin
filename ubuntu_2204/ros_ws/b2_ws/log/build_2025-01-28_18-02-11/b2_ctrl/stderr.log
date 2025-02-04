@@ -1,0 +1,62 @@
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    7 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/common/ros2_sport_client.cpp:1[m[K:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/include/common/ros2_sport_client.h:5:10:[m[K [01;31m[Kfatal error: [m[Kunitree_api/msg/request.hpp: No such file or directory
+    5 | #include [01;31m[K"unitree_api/msg/request.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:90: CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:329:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+  329 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Pose>::SharedPtr arm_publisher; // Publicador do braço
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:329:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  329 |     rclcpp::Publisher<geometry_msgs::msg::Pose[01;31m[K>[m[K::SharedPtr arm_publisher; // Publicador do braço
+      |                                               [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:329:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  329 |     rclcpp::Publisher<geometry_msgs::msg::Pose>::[01;31m[KSharedPtr[m[K arm_publisher; // Publicador do braço
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:329:60:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_publisher[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+  329 |     rclcpp::Publisher<geometry_msgs::msg::Pose>::SharedPtr [01;31m[Karm_publisher[m[K; // Publicador do braço
+      |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                            [32m[Krmw_publisher_t[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:[m[K In constructor ‘[01m[KSportManager::SportManager()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kreq_publisher[m[K’?
+   39 |         [01;31m[Karm_publisher[m[K = this->create_publisher<z1_interfaces::msg::ArmControlCommand>("z1_cartesian_control", 10);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Kreq_publisher[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:[m[K In member function ‘[01m[Kvoid SportManager::key_loop()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:70:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   70 |                 [01;31m[Kpath_point_tmp[m[K.vx = 0.3;
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:78:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   78 |                 [01;31m[Kpath_point_tmp[m[K.vx = -0.3;
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:86:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   86 |                 [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:94:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   94 |                 [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:102:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+  102 |                 [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:110:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+  110 |                 [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:282:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+  282 |             arm_command.directions[3] = [01;31m[K=[m[K arm_command.directions[3] - 0.05; // X-
+      |                                         [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:316:9:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kreq_publisher[m[K’?
+  316 |         [01;31m[Karm_publisher[m[K->publish(arm_command);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Kreq_publisher[m[K
+gmake[2]: *** [CMakeFiles/b2_z1_control.dir/build.make:76: CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/b2_z1_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

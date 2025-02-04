@@ -1,0 +1,12 @@
+[ 13%] Built target g1_low_level_example
+[ 21%] Built target read_motion_state
+[ 26%] [32mBuilding CXX object CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o[0m
+[ 39%] Built target low_level_ctrl
+[ 47%] Built target read_low_state_hg
+[ 56%] Built target read_low_state
+[ 73%] Built target low_level_ctrl_hg
+[ 82%] Built target sport_mode_ctrl
+[ 91%] Built target read_wireless_controller
+gmake[2]: *** [CMakeFiles/b2_z1_control.dir/build.make:76: CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/b2_z1_control.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

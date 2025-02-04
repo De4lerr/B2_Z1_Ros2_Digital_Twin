@@ -1,0 +1,108 @@
+[0.187s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.187s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x788dddc611c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x788dddc611c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x788dddc616d0>)
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.312s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.catkin' and name 'b2_description'
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'b2_description' build argument 'cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'b2_description' build argument 'cmake_target' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'b2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'b2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'b2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'b2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'b2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'b2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'b2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.344s] DEBUG:colcon.colcon_core.verb:Building package 'b2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description', 'merge_install': False, 'path': '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description', 'symlink_install': True, 'test_result_base': None}
+[0.344s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.345s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.345s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description' with build type 'catkin'
+[0.345s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description'
+[0.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.349s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description': /usr/bin/cmake /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description
+[1.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description' returned '0': /usr/bin/cmake /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description
+[1.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description': /usr/bin/cmake --build /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description -- -j16 -l16
+[1.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description' returned '0': /usr/bin/cmake --build /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description -- -j16 -l16
+[1.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description': /usr/bin/cmake --build /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description --target tests -- -j16 -l16
+[1.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description' returned '0': /usr/bin/cmake --build /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description --target tests -- -j16 -l16
+[1.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description': /usr/bin/cmake --install /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description
+[2.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description' returned '0': /usr/bin/cmake --install /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description
+[2.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('b2_description', 'ros_package_path')
+[2.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/ros_package_path.ps1'
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/ros_package_path.dsv'
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/ros_package_path.sh'
+[2.249s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/lib/python3/dist-packages'
+[2.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('b2_description', 'pkg_config_path')
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/pkg_config_path.ps1'
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/pkg_config_path.dsv'
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/pkg_config_path.sh'
+[2.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('b2_description', 'pkg_config_path_multiarch')
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/pkg_config_path_multiarch.ps1'
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/pkg_config_path_multiarch.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/pkg_config_path_multiarch.sh'
+[2.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(b2_description)
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description' for CMake module files
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description' for CMake config files
+[2.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('b2_description', 'cmake_prefix_path')
+[2.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/cmake_prefix_path.ps1'
+[2.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/cmake_prefix_path.dsv'
+[2.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/cmake_prefix_path.sh'
+[2.261s] Level 1:colcon.colcon_core.environment:checking '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/lib'
+[2.261s] Level 1:colcon.colcon_core.environment:checking '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/bin'
+[2.261s] Level 1:colcon.colcon_core.environment:checking '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/lib/pkgconfig/b2_description.pc'
+[2.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('b2_description', 'pkg_config')
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/pkg_config.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/pkg_config.dsv'
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/hook/pkg_config.sh'
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/lib/python3.8/site-packages'
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/bin'
+[2.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/package.ps1'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/package.dsv'
+[2.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/package.sh'
+[2.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/package.bash'
+[2.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/package.zsh'
+[2.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/colcon-core/packages/b2_description)
+[2.267s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.267s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.267s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.268s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.275s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.277s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.278s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/local_setup.ps1'
+[2.279s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/_local_setup_util_ps1.py'
+[2.281s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/setup.ps1'
+[2.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/local_setup.sh'
+[2.283s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/_local_setup_util_sh.py'
+[2.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/setup.sh'
+[2.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/local_setup.bash'
+[2.284s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/setup.bash'
+[2.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/local_setup.zsh'
+[2.286s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/setup.zsh'

@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000839] (-) JobUnselected: {'identifier': 'b2_ctrl'}
+[0.000894] (-) JobUnselected: {'identifier': 'b2_nodes'}
+[0.000952] (-) JobUnselected: {'identifier': 'b2_urdf'}
+[0.001005] (-) JobUnselected: {'identifier': 'py_cpp'}
+[0.001032] (-) JobUnselected: {'identifier': 'z1_interfaces'}
+[0.001048] (-) JobUnselected: {'identifier': 'z1_urdf'}
+[0.001066] (z1_nodes) JobQueued: {'identifier': 'z1_nodes', 'dependencies': OrderedDict([('z1_interfaces', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces')])}
+[0.001094] (z1_nodes) JobStarted: {'identifier': 'z1_nodes'}
+[0.014620] (z1_nodes) JobProgress: {'identifier': 'z1_nodes', 'progress': 'cmake'}
+[0.015483] (z1_nodes) JobProgress: {'identifier': 'z1_nodes', 'progress': 'build'}
+[0.015985] (z1_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes', '--', '-j16', '-l16'], 'cwd': '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes', 'env': OrderedDict([('HOSTNAME', 'de4lerr-G15'), ('GIT_ASKPASS', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib'), ('BROWSER', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/ros_ws'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp3s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-51da45d1-05dd-47ab-b918-e7d0774b29a1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1f015a72-b905-4779-b969-4d3d6293462f.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-1f015a72-b905-4779-b969-4d3d6293462f.sock","/home/ros_ws/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-91d6572c0f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-1f015a72-b905-4779-b969-4d3d6293462f.sock'), ('AMENT_PREFIX_PATH', '/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble:/unitree_sdk2:'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/z1_sdk/lib:/z1_sdk/lib'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble:')]), 'shell': False}
+[0.065340] (z1_nodes) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_manager\x1b[0m\n'}
+[0.080464] (z1_nodes) StdoutLine: {'line': b'[ 50%] Built target z1_parse_joint_state\n'}
+[0.096229] (z1_nodes) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o\x1b[0m\n'}
+[0.099832] (-) TimerEvent: {}
+[0.200074] (-) TimerEvent: {}
+[0.300369] (-) TimerEvent: {}
+[0.400708] (-) TimerEvent: {}
+[0.501051] (-) TimerEvent: {}
+[0.601342] (-) TimerEvent: {}
+[0.701596] (-) TimerEvent: {}
+[0.801869] (-) TimerEvent: {}
+[0.902140] (-) TimerEvent: {}
+[1.002453] (-) TimerEvent: {}
+[1.102744] (-) TimerEvent: {}
+[1.203045] (-) TimerEvent: {}
+[1.303348] (-) TimerEvent: {}
+[1.403664] (-) TimerEvent: {}
+[1.504000] (-) TimerEvent: {}
+[1.604365] (-) TimerEvent: {}
+[1.704633] (-) TimerEvent: {}
+[1.804894] (-) TimerEvent: {}
+[1.905194] (-) TimerEvent: {}
+[2.005507] (-) TimerEvent: {}
+[2.105801] (-) TimerEvent: {}
+[2.206120] (-) TimerEvent: {}
+[2.306464] (-) TimerEvent: {}
+[2.406785] (-) TimerEvent: {}
+[2.507071] (-) TimerEvent: {}
+[2.607374] (-) TimerEvent: {}
+[2.707662] (-) TimerEvent: {}
+[2.807940] (-) TimerEvent: {}
+[2.908253] (-) TimerEvent: {}
+[3.008563] (-) TimerEvent: {}
+[3.088176] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Z1ManagerNode::back_to_start_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.088458] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.088585] (z1_nodes) StderrLine: {'line': b'  146 |             \x1b[01;35m\x1b[Krequest\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.088714] (z1_nodes) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.088788] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Z1ManagerNode::set_zero_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.088861] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:165:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.088919] (z1_nodes) StderrLine: {'line': b'  165 |             \x1b[01;35m\x1b[Krequest\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.088973] (z1_nodes) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.089075] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Z1ManagerNode::set_passive_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.089142] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:184:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.089207] (z1_nodes) StderrLine: {'line': b'  184 |             \x1b[01;35m\x1b[Krequest\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.089270] (z1_nodes) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.108666] (-) TimerEvent: {}
+[3.208944] (-) TimerEvent: {}
+[3.309233] (-) TimerEvent: {}
+[3.409512] (-) TimerEvent: {}
+[3.509788] (-) TimerEvent: {}
+[3.610055] (-) TimerEvent: {}
+[3.710336] (-) TimerEvent: {}
+[3.810606] (-) TimerEvent: {}
+[3.910885] (-) TimerEvent: {}
+[4.011166] (-) TimerEvent: {}
+[4.111512] (-) TimerEvent: {}
+[4.211791] (-) TimerEvent: {}
+[4.312076] (-) TimerEvent: {}
+[4.412372] (-) TimerEvent: {}
+[4.512675] (-) TimerEvent: {}
+[4.612979] (-) TimerEvent: {}
+[4.713256] (-) TimerEvent: {}
+[4.813522] (-) TimerEvent: {}
+[4.913801] (-) TimerEvent: {}
+[5.014098] (-) TimerEvent: {}
+[5.114770] (-) TimerEvent: {}
+[5.215096] (-) TimerEvent: {}
+[5.315440] (-) TimerEvent: {}
+[5.415700] (-) TimerEvent: {}
+[5.515983] (-) TimerEvent: {}
+[5.616267] (-) TimerEvent: {}
+[5.716567] (-) TimerEvent: {}
+[5.816850] (-) TimerEvent: {}
+[5.917292] (-) TimerEvent: {}
+[6.017598] (-) TimerEvent: {}
+[6.117898] (-) TimerEvent: {}
+[6.218218] (-) TimerEvent: {}
+[6.318672] (-) TimerEvent: {}
+[6.418985] (-) TimerEvent: {}
+[6.519276] (-) TimerEvent: {}
+[6.619559] (-) TimerEvent: {}
+[6.719835] (-) TimerEvent: {}
+[6.820132] (-) TimerEvent: {}
+[6.920446] (-) TimerEvent: {}
+[7.020744] (-) TimerEvent: {}
+[7.121014] (-) TimerEvent: {}
+[7.221304] (-) TimerEvent: {}
+[7.321604] (-) TimerEvent: {}
+[7.421893] (-) TimerEvent: {}
+[7.522162] (-) TimerEvent: {}
+[7.622450] (-) TimerEvent: {}
+[7.722721] (-) TimerEvent: {}
+[7.823007] (-) TimerEvent: {}
+[7.923278] (-) TimerEvent: {}
+[8.023571] (-) TimerEvent: {}
+[8.123837] (-) TimerEvent: {}
+[8.224114] (-) TimerEvent: {}
+[8.324401] (-) TimerEvent: {}
+[8.424678] (-) TimerEvent: {}
+[8.524954] (-) TimerEvent: {}
+[8.625244] (-) TimerEvent: {}
+[8.725562] (-) TimerEvent: {}
+[8.825847] (-) TimerEvent: {}
+[8.926160] (-) TimerEvent: {}
+[9.026434] (-) TimerEvent: {}
+[9.126708] (-) TimerEvent: {}
+[9.226993] (-) TimerEvent: {}
+[9.327262] (-) TimerEvent: {}
+[9.427537] (-) TimerEvent: {}
+[9.527817] (-) TimerEvent: {}
+[9.628098] (-) TimerEvent: {}
+[9.728401] (-) TimerEvent: {}
+[9.828678] (-) TimerEvent: {}
+[9.928969] (-) TimerEvent: {}
+[10.029284] (-) TimerEvent: {}
+[10.129610] (-) TimerEvent: {}
+[10.229929] (-) TimerEvent: {}
+[10.330256] (-) TimerEvent: {}
+[10.430566] (-) TimerEvent: {}
+[10.530884] (-) TimerEvent: {}
+[10.582988] (z1_nodes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable z1_manager\x1b[0m\n'}
+[10.630984] (-) TimerEvent: {}
+[10.731311] (-) TimerEvent: {}
+[10.831612] (-) TimerEvent: {}
+[10.931914] (-) TimerEvent: {}
+[11.032258] (-) TimerEvent: {}
+[11.077161] (z1_nodes) StdoutLine: {'line': b'[100%] Built target z1_manager\n'}
+[11.089004] (z1_nodes) CommandEnded: {'returncode': 0}
+[11.127613] (z1_nodes) JobProgress: {'identifier': 'z1_nodes', 'progress': 'install'}
+[11.132317] (-) TimerEvent: {}
+[11.137446] (z1_nodes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes'], 'cwd': '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes', 'env': OrderedDict([('HOSTNAME', 'de4lerr-G15'), ('GIT_ASKPASS', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib'), ('BROWSER', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/ros_ws'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp3s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-51da45d1-05dd-47ab-b918-e7d0774b29a1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1f015a72-b905-4779-b969-4d3d6293462f.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-1f015a72-b905-4779-b969-4d3d6293462f.sock","/home/ros_ws/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-91d6572c0f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-1f015a72-b905-4779-b969-4d3d6293462f.sock'), ('AMENT_PREFIX_PATH', '/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble:/unitree_sdk2:'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/z1_sdk/lib:/z1_sdk/lib'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble:')]), 'shell': False}
+[11.146405] (z1_nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.146779] (z1_nodes) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.147061] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/z1_nodes/z1_manager\n'}
+[11.147263] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/z1_nodes/z1_parse_joint_state\n'}
+[11.147394] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/z1_nodes/z1_motor_state_publisher.py\n'}
+[11.147710] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/lib/libZ1_SDK_x86_64.so\n'}
+[11.147838] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/lib/libZ1_x86_64.so\n'}
+[11.147961] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/lib/unitree_arm_interface.cpython-310-x86_64-linux-gnu.so\n'}
+[11.148081] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/lib/unitree_arm_interface.cpython-38-x86_64-linux-gnu.so\n'}
+[11.148356] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/src/z1_manager.cpp\n'}
+[11.148479] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/src/z1_parse_joint_state.cpp\n'}
+[11.148737] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/config/arm_config.yaml\n'}
+[11.148860] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/config/config.xml\n'}
+[11.148982] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/config/savedArmStates.csv\n'}
+[11.149168] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/ament_index/resource_index/package_run_dependencies/z1_nodes\n'}
+[11.149358] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/ament_index/resource_index/parent_prefix_path/z1_nodes\n'}
+[11.149532] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/environment/ament_prefix_path.sh\n'}
+[11.149691] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/environment/ament_prefix_path.dsv\n'}
+[11.149857] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/environment/path.sh\n'}
+[11.150009] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/environment/path.dsv\n'}
+[11.150162] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/local_setup.bash\n'}
+[11.150327] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/local_setup.sh\n'}
+[11.150479] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/local_setup.zsh\n'}
+[11.150629] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/local_setup.dsv\n'}
+[11.150730] (z1_nodes) StdoutLine: {'line': b'-- Symlinking: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/package.dsv\n'}
+[11.161817] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/ament_index/resource_index/packages/z1_nodes\n'}
+[11.162105] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/cmake/z1_nodesConfig.cmake\n'}
+[11.162300] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/cmake/z1_nodesConfig-version.cmake\n'}
+[11.162432] (z1_nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/package.xml\n'}
+[11.165487] (z1_nodes) CommandEnded: {'returncode': 0}
+[11.221851] (z1_nodes) JobEnded: {'identifier': 'z1_nodes', 'rc': 0}
+[11.222518] (-) EventReactorShutdown: {}

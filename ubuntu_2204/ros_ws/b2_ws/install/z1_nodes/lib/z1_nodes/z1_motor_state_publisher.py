@@ -1,0 +1,1 @@
+/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/scripts/z1_motor_state_publisher.py

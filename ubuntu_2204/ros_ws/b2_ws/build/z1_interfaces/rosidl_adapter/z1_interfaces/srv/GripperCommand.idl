@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from z1_interfaces/srv/GripperCommand.srv
+// generated code does not contain a copyright notice
+
+
+module z1_interfaces {
+  module srv {
+    struct GripperCommand_Request {
+      double gripper_pos;
+
+      double gripper_w;
+
+      double gripper_tau;
+    };
+    struct GripperCommand_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

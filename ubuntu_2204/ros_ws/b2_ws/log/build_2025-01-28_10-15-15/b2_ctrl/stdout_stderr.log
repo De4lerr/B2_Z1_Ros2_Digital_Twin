@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[ 15%] Built target low_level_ctrl_hg
+[ 35%] Built target low_level_ctrl
+[ 45%] Built target g1_low_level_example
+[ 55%] Built target read_low_state_hg
+[ 70%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[ 70%] Built target read_wireless_controller
+[ 80%] Built target read_motion_state
+[ 90%] Built target read_low_state
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid KeyboardController::key_loop()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:99:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SportClient[m[K’ has no member named ‘[01m[Kmove[m[K’; did you mean ‘[01m[KMove[m[K’?
+   99 |         sport_req.[01;31m[Kmove[m[K(request, path_point_tmp.vx, path_point_tmp.vy, path_point_tmp.vyaw);
+      |                   [01;31m[K^~~~[m[K
+      |                   [32m[KMove[m[K
+gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

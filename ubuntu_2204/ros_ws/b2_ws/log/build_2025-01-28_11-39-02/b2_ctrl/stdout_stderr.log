@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[ 10%] Built target read_motion_state
+[ 25%] Built target low_level_ctrl_hg
+[ 35%] Built target read_low_state_hg
+[ 50%] Built target g1_low_level_example
+[ 60%] Built target read_wireless_controller
+[ 75%] Built target low_level_ctrl
+[ 85%] Built target read_low_state
+[ 90%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:130:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  130 |     [01;31m[Kuint8[m[K mode = 7;
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Kuint[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid SportManager::key_loop()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:52:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   52 |         if ([01;31m[Kmode[m[K=1)
+      |             [01;31m[K^~~~[m[K
+      |             [32m[KNode[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid SportManager::state_callback(unitree_go::msg::SportModeState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:122:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  122 |         [01;31m[Kmode[m[K = data->mode;
+      |         [01;31m[K^~~~[m[K
+      |         [32m[KNode[m[K
+gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

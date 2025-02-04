@@ -1,0 +1,191 @@
+[0.017s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_interfaces -- -j16 -l16
+[0.067s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.200s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.218s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.225s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.295s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.630s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.852s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.129s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.153s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.176s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.176s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.176s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.205s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.256s] -- Added test 'lint_cmake' to check CMake code style
+[1.258s] -- Added test 'xmllint' to check XML markup files
+[1.263s] -- Configuring done
+[1.326s] -- Generating done
+[1.330s] -- Build files have been written to: /home/ros_ws/ros_ws/b2_ws/build/z1_interfaces
+[1.362s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.374s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.385s] [  6%] Built target ament_cmake_python_symlink_z1_interfaces
+[1.643s] running egg_info
+[1.644s] [  6%] Built target z1_interfaces__cpp
+[1.644s] writing z1_interfaces.egg-info/PKG-INFO
+[1.645s] [35m[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_generator_c[0m
+[1.645s] writing dependency_links to z1_interfaces.egg-info/dependency_links.txt
+[1.645s] writing top-level names to z1_interfaces.egg-info/top_level.txt
+[1.649s] reading manifest file 'z1_interfaces.egg-info/SOURCES.txt'
+[1.649s] writing manifest file 'z1_interfaces.egg-info/SOURCES.txt'
+[1.658s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.658s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.658s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.663s] [ 19%] [32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_c.dir/rosidl_generator_c/z1_interfaces/msg/detail/arm_control_command__functions.c.o[0m
+[1.685s] [ 19%] Built target ament_cmake_python_build_z1_interfaces_egg
+[1.750s] [ 22%] [32m[1mLinking C shared library libz1_interfaces__rosidl_generator_c.so[0m
+[1.812s] [ 22%] Built target z1_interfaces__rosidl_generator_c
+[1.828s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.828s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.828s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.908s] [35m[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_cpp[0m
+[1.928s] [ 35%] [32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/z1_interfaces/msg/arm_control_command__type_support.cpp.o[0m
+[1.938s] [35m[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.941s] [35m[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.958s] [ 38%] [32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/z1_interfaces/msg/detail/arm_control_command__type_support.cpp.o[0m
+[1.962s] [ 41%] [32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/z1_interfaces/msg/detail/dds_fastrtps/arm_control_command__type_support.cpp.o[0m
+[2.084s] [35m[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_c[0m
+[2.100s] [ 45%] [32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/z1_interfaces/msg/arm_control_command__type_support.cpp.o[0m
+[2.119s] [35m[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_introspection_c[0m
+[2.119s] [35m[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.139s] [ 48%] [32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/z1_interfaces/msg/detail/arm_control_command__type_support.c.o[0m
+[2.140s] [ 51%] [32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/z1_interfaces/msg/detail/arm_control_command__type_support_c.cpp.o[0m
+[2.150s] [ 54%] [32m[1mLinking CXX shared library libz1_interfaces__rosidl_typesupport_c.so[0m
+[2.187s] [ 58%] [32m[1mLinking C shared library libz1_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.210s] [ 58%] Built target z1_interfaces__rosidl_typesupport_c
+[2.235s] [ 58%] Built target z1_interfaces__rosidl_typesupport_introspection_c
+[2.258s] [ 61%] [32m[1mLinking CXX shared library libz1_interfaces__rosidl_typesupport_cpp.so[0m
+[2.315s] [ 61%] Built target z1_interfaces__rosidl_typesupport_cpp
+[2.373s] [ 64%] [32m[1mLinking CXX shared library libz1_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.387s] [ 67%] [32m[1mLinking CXX shared library libz1_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.473s] [ 67%] Built target z1_interfaces__rosidl_typesupport_introspection_cpp
+[2.485s] [ 67%] Built target z1_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.498s] [ 70%] [32m[1mLinking CXX shared library libz1_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.580s] [ 70%] Built target z1_interfaces__rosidl_typesupport_fastrtps_c
+[2.609s] [ 70%] Built target z1_interfaces
+[2.639s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.976s] [ 74%] Built target z1_interfaces__py
+[2.994s] [35m[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_generator_py[0m
+[3.014s] [ 77%] [32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_py.dir/rosidl_generator_py/z1_interfaces/msg/_arm_control_command_s.c.o[0m
+[3.124s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/z1_interfaces/libz1_interfaces__rosidl_generator_py.so[0m
+[3.174s] [ 80%] Built target z1_interfaces__rosidl_generator_py
+[3.190s] [35m[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_c__pyext[0m
+[3.191s] [35m[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.191s] [35m[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.210s] [ 90%] [32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.210s] [ 90%] [32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.210s] [ 90%] [32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.334s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/z1_interfaces/z1_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.334s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/z1_interfaces/z1_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.334s] [100%] [32m[1mLinking C shared library rosidl_generator_py/z1_interfaces/z1_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.383s] [100%] Built target z1_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.383s] [100%] Built target z1_interfaces__rosidl_typesupport_c__pyext
+[3.383s] [100%] Built target z1_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.399s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_interfaces -- -j16 -l16
+[3.507s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/z1_interfaces
+[3.518s] -- Install configuration: ""
+[3.519s] -- Execute custom install script
+[3.519s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/ament_index/resource_index/rosidl_interfaces/z1_interfaces
+[3.520s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/arm_control_command.h
+[3.520s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__functions.h
+[3.520s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__struct.h
+[3.520s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__type_support.h
+[3.520s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.521s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/library_path.sh
+[3.521s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/library_path.dsv
+[3.521s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__rosidl_typesupport_fastrtps_c.h
+[3.521s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.522s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__rosidl_typesupport_introspection_c.h
+[3.522s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.522s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/arm_control_command.hpp
+[3.522s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__builder.hpp
+[3.523s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__struct.hpp
+[3.523s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__traits.hpp
+[3.523s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[3.523s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.524s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__rosidl_typesupport_introspection_cpp.hpp
+[3.524s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/pythonpath.sh
+[3.524s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/pythonpath.dsv
+[3.524s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.524s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.525s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.525s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.525s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/__init__.py
+[3.526s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_c.c
+[3.526s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.526s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.526s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/libz1_interfaces__rosidl_generator_py.so
+[3.526s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg/__init__.py
+[3.526s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg/_arm_control_command.py
+[3.526s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg/_arm_control_command_s.c
+[3.527s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.527s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.527s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.527s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.527s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.528s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.528s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/msg/ArmControlCommand.idl
+[3.528s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/msg/ArmControlCommand.msg
+[3.528s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/ament_index/resource_index/package_run_dependencies/z1_interfaces
+[3.528s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/ament_index/resource_index/parent_prefix_path/z1_interfaces
+[3.529s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/ament_prefix_path.sh
+[3.529s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/ament_prefix_path.dsv
+[3.529s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/path.sh
+[3.529s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/path.dsv
+[3.529s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/local_setup.bash
+[3.529s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/local_setup.sh
+[3.530s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/local_setup.zsh
+[3.530s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/local_setup.dsv
+[3.530s] -- Symlinking: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/package.dsv
+[3.543s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/ament_index/resource_index/packages/z1_interfaces
+[3.543s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.543s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.543s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.543s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.543s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.544s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.544s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.544s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfacesConfig.cmake
+[3.544s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfacesConfig-version.cmake
+[3.544s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/package.xml
+[3.545s] -- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_generator_c.so
+[3.545s] -- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_generator_c.so" to ""
+[3.546s] -- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.546s] -- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.546s] -- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_introspection_c.so
+[3.547s] -- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.547s] -- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_c.so
+[3.547s] -- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_c.so" to ""
+[3.548s] -- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.548s] -- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.549s] -- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.549s] -- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.550s] -- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_cpp.so
+[3.550s] -- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.589s] Listing '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces'...
+[3.589s] Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/__init__.py'...
+[3.590s] Listing '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg'...
+[3.590s] Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg/__init__.py'...
+[3.590s] Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg/_arm_control_command.py'...
+[3.594s] -- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_generator_py.so
+[3.595s] -- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_generator_py.so" to ""
+[3.595s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_generator_cExport.cmake
+[3.595s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.595s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.595s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.595s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.596s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.596s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_cExport.cmake
+[3.596s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.596s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_generator_cppExport.cmake
+[3.596s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.596s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.597s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.597s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.597s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_cppExport.cmake
+[3.597s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.597s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_generator_pyExport.cmake
+[3.597s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.600s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/z1_interfaces

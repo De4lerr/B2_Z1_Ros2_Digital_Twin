@@ -1,0 +1,44 @@
+[0.038s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.376s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.376s] -- Found unitree_go: 0.0.0 (/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake)
+[0.379s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.379s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.379s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.379s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.380s] -- Found unitree_hg: 0.0.0 (/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/share/unitree_hg/cmake)
+[0.380s] -- Found unitree_api: 0.0.0 (/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/cmake)
+[0.386s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.418s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.421s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.443s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.491s] -- Found rosbag2_cpp: 0.15.12 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.537s] -- Found z1_interfaces: 0.0.0 (/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake)
+[0.579s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.667s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.673s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.674s] -- Configured cppcheck include dirs: /home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/include;/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/include/common;/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/include/nlohmann
+[0.674s] -- Configured cppcheck exclude dirs and/or files: 
+[0.681s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.681s] -- Configured cpplint exclude dirs and/or files: 
+[0.684s] -- Added test 'lint_cmake' to check CMake code style
+[0.691s] -- Added test 'uncrustify' to check C / C++ code style
+[0.692s] -- Configured uncrustify additional arguments: 
+[0.693s] -- Added test 'xmllint' to check XML markup files
+[0.695s] -- Configuring done
+[0.702s] [31mCMake Error at CMakeLists.txt:51 (add_executable):
+[0.702s]   Cannot find source file:
+[0.702s] 
+[0.703s]     z1_interfaces
+[0.703s] 
+[0.704s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.705s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.705s] 
+[0.705s] [0m
+[0.706s] [31mCMake Error at CMakeLists.txt:51 (add_executable):
+[0.706s]   No SOURCES given to target: b2_z1_control
+[0.706s] 
+[0.706s] [0m
+[0.707s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.714s] gmake: *** [Makefile:638: cmake_check_build_system] Error 1
+[0.716s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16

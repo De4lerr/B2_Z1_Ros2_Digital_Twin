@@ -1,0 +1,45 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o[0m
+[ 75%] Built target z1_parse_joint_state
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::back_to_start_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:158:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  158 |             [01;35m[Krequest[m[K; //Aqui so para evitar avisos no console
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::set_zero_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:177:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  177 |             [01;35m[Krequest[m[K; //Aqui so para evitar avisos no console
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::set_passive_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:196:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  196 |             [01;35m[Krequest[m[K; //Aqui so para evitar avisos no console
+      |             [01;35m[K^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable z1_manager[0m
+[100%] Built target z1_manager
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/z1_nodes/z1_manager
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/z1_nodes/z1_parse_joint_state
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/z1_nodes/z1_motor_state_publisher.py
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/lib/libZ1_SDK_x86_64.so
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/lib/libZ1_x86_64.so
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/lib/unitree_arm_interface.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/lib/lib/unitree_arm_interface.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/src/z1_manager.cpp
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/src/z1_parse_joint_state.cpp
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/config/arm_config.yaml
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/config/config.xml
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/config/savedArmStates.csv
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/ament_index/resource_index/package_run_dependencies/z1_nodes
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/ament_index/resource_index/parent_prefix_path/z1_nodes
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/environment/path.sh
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/environment/path.dsv
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/local_setup.bash
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/local_setup.sh
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/local_setup.zsh
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/local_setup.dsv
+-- Symlinking: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/package.dsv
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/ament_index/resource_index/packages/z1_nodes
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/cmake/z1_nodesConfig.cmake
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/cmake/z1_nodesConfig-version.cmake
+-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_nodes/share/z1_nodes/package.xml

@@ -1,0 +1,57 @@
+[0.385s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_urdf -- -j16 -l16
+[0.454s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_urdf -- -j16 -l16
+[0.513s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/b2_urdf
+[0.526s] -- Install configuration: ""
+[0.527s] -- Execute custom install script
+[0.528s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/launch/b2_model.launch.py
+[0.528s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/launch/b2_rviz.launch.py
+[0.528s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/launch/b2_rviz_real2sim.launch.py
+[0.530s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/launch/b2_z1_rviz.launch.py
+[0.531s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/launch/b2_z1_rviz_real2sim.launch.py
+[0.532s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/urdf/b2_description.urdf
+[0.532s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/urdf/b2_with_z1.xacro
+[0.532s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/config/robot_control.yaml
+[0.532s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/FL_calf.dae
+[0.533s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/FL_foot.dae
+[0.533s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/FL_hip.dae
+[0.533s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/FL_thigh.dae
+[0.533s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/FR_calf.dae
+[0.533s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/FR_hip.dae
+[0.533s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/FR_thigh.dae
+[0.533s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/RL_calf.dae
+[0.533s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/RL_hip.dae
+[0.533s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/RL_thigh.dae
+[0.533s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/RR_calf.dae
+[0.534s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/RR_hip.dae
+[0.534s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/RR_thigh.dae
+[0.534s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/base_link.dae
+[0.534s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/calf.dae
+[0.535s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/hip.dae
+[0.535s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/thigh.dae
+[0.535s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/thigh_mirror.dae
+[0.535s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/trunk.dae
+[0.536s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/trunk1.dae
+[0.536s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/meshes/trunk2.dae
+[0.536s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/xacro/const.xacro
+[0.536s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/xacro/gazebo.xacro
+[0.536s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/xacro/leg.xacro
+[0.537s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/xacro/materials.xacro
+[0.537s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/xacro/robot.xacro
+[0.537s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/xacro/stairs.xacro
+[0.537s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/xacro/transmission.xacro
+[0.537s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/ament_index/resource_index/package_run_dependencies/b2_urdf
+[0.537s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/ament_index/resource_index/parent_prefix_path/b2_urdf
+[0.538s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/environment/ament_prefix_path.sh
+[0.538s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/environment/ament_prefix_path.dsv
+[0.538s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/environment/path.sh
+[0.538s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/environment/path.dsv
+[0.538s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/local_setup.bash
+[0.540s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/local_setup.sh
+[0.541s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/local_setup.zsh
+[0.541s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/local_setup.dsv
+[0.541s] -- Symlinking: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/package.dsv
+[0.560s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/ament_index/resource_index/packages/b2_urdf
+[0.560s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/cmake/b2_urdfConfig.cmake
+[0.560s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/cmake/b2_urdfConfig-version.cmake
+[0.560s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/b2_urdf/share/b2_urdf/package.xml
+[0.564s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/b2_urdf

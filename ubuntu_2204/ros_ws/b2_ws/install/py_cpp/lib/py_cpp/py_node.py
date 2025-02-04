@@ -1,0 +1,1 @@
+/home/ros_ws/ros_ws/b2_ws/src/py_cpp/scripts/py_node.py

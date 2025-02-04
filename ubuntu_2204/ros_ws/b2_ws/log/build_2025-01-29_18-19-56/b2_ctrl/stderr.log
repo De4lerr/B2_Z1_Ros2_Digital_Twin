@@ -1,0 +1,10 @@
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:[m[K In member function ‘[01m[Kvoid SportManager::key_loop()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:60:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ArmControlCommand = struct z1_interfaces::msg::ArmControlCommand_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct z1_interfaces::msg::ArmControlCommand_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kori_speed[m[K’
+   60 |         arm_command.[01;31m[Kori_speed[m[K = 0.3; // Velocidade de orientação
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:61:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ArmControlCommand = struct z1_interfaces::msg::ArmControlCommand_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct z1_interfaces::msg::ArmControlCommand_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpos_speed[m[K’
+   61 |         arm_command.[01;31m[Kpos_speed[m[K = 0.1; // Velocidade de posição
+      |                     [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/b2_z1_control.dir/build.make:76: CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/b2_z1_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="b2_with_z1">
+
+  <!-- Inclui o modelo do robô B2 -->
+  <xacro:include filename="$(find b2_urdf)/xacro/robot.xacro" />
+
+  <!-- Inclui o modelo do braço Z1 -->
+  <xacro:include filename="$(find z1_urdf)/xacro/robot.xacro" />
+
+  <!-- Define a montagem do braço Z1 no robô B2 -->
+  <joint name="base_to_z1" type="fixed">
+    <parent link="base"/><!-- Base do B2 -->
+    <child link="link00"/> <!-- Base do Z1 -->
+    <origin xyz="0.032 0 0.10" rpy="0 0 0"/> <!-- Distância entre as bases -->
+  </joint>
+
+</robot>

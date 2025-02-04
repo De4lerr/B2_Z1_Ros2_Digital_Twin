@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/demo_xt16.dir/unitree_slam_example/demo_xt16.cpp.o -o demo_xt16   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lunitree_ros2_idl_cpp /usr/local/lib/libunitree_sdk2.a -lddsc -lddscxx 

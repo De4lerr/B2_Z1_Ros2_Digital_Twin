@@ -1,0 +1,21 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing b2_nodes.egg-info/PKG-INFO
+writing dependency_links to b2_nodes.egg-info/dependency_links.txt
+writing entry points to b2_nodes.egg-info/entry_points.txt
+writing requirements to b2_nodes.egg-info/requires.txt
+writing top-level names to b2_nodes.egg-info/top_level.txt
+reading manifest file 'b2_nodes.egg-info/SOURCES.txt'
+writing manifest file 'b2_nodes.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2-nodes.egg-link (link to .)
+Installing keyboard_control script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+Installing parse_joint_state script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+Installing parse_joint_state_z1_b2 script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+Installing parse_odometry script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+Installing print_joint_state script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+
+Installed /home/ros_ws/ros_ws/b2_ws/build/b2_nodes
+running symlink_data

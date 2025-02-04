@@ -1,0 +1,8 @@
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:[m[K In member function ‘[01m[Kvoid SportManager::key_loop()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:98:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   98 |         if(key == 0){return[01;31m[K}[m[K
+      |                            [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:98:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+gmake[2]: *** [CMakeFiles/b2_z1_control.dir/build.make:76: CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/b2_z1_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

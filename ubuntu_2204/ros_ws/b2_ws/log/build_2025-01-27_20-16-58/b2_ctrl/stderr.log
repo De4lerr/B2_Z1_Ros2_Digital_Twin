@@ -1,0 +1,37 @@
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:104:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSportClient[m[K’ does not name a type
+  104 |     [01;31m[KSportClient[m[K sport_req;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid KeyboardController::key_loop()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPathPoint[m[K’ was not declared in this scope
+   44 |         [01;31m[KPathPoint[m[K path_point_tmp;
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:50:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   50 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.5;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:57:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   57 |             [01;31m[Kpath_point_tmp[m[K.vx = -0.5;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:64:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   64 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   71 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:78:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   78 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:85:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   85 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:92:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   92 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:96:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksport_req[m[K’ was not declared in this scope
+   96 |         [01;31m[Ksport_req[m[K.TrajectoryFollow(request, path_point_tmp);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:96:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+   96 |         sport_req.TrajectoryFollow(request, [01;31m[Kpath_point_tmp[m[K);
+      |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

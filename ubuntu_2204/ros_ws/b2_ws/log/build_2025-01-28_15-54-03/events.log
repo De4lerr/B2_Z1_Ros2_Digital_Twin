@@ -1,0 +1,274 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (-) JobUnselected: {'identifier': 'b2_nodes'}
+[0.000274] (-) JobUnselected: {'identifier': 'b2_urdf'}
+[0.000295] (-) JobUnselected: {'identifier': 'py_cpp'}
+[0.000312] (-) JobUnselected: {'identifier': 'z1_interfaces'}
+[0.000329] (-) JobUnselected: {'identifier': 'z1_nodes'}
+[0.000345] (-) JobUnselected: {'identifier': 'z1_urdf'}
+[0.000382] (b2_ctrl) JobQueued: {'identifier': 'b2_ctrl', 'dependencies': OrderedDict()}
+[0.000732] (b2_ctrl) JobStarted: {'identifier': 'b2_ctrl'}
+[0.013059] (b2_ctrl) JobProgress: {'identifier': 'b2_ctrl', 'progress': 'cmake'}
+[0.013948] (b2_ctrl) JobProgress: {'identifier': 'b2_ctrl', 'progress': 'build'}
+[0.014607] (b2_ctrl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl', '--', '-j16', '-l16'], 'cwd': '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl', 'env': OrderedDict([('HOSTNAME', 'de4lerr-G15'), ('GIT_ASKPASS', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib'), ('BROWSER', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/ros_ws'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp3s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-01ff6db8-7564-42af-9229-0451d8c15986.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-3266e50a-f380-4c8a-9455-dcd2dea90554.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-3266e50a-f380-4c8a-9455-dcd2dea90554.sock","/home/ros_ws/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-91d6572c0f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-3266e50a-f380-4c8a-9455-dcd2dea90554.sock'), ('AMENT_PREFIX_PATH', '/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble:/unitree_sdk2:'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/z1_sdk/lib:/z1_sdk/lib'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble:')]), 'shell': False}
+[0.081015] (b2_ctrl) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sport_mode_ctrl\x1b[0m\n'}
+[0.099870] (-) TimerEvent: {}
+[0.105757] (b2_ctrl) StdoutLine: {'line': b'[ 40%] Built target low_level_ctrl_hg\n'}
+[0.107573] (b2_ctrl) StdoutLine: {'line': b'[ 55%] Built target g1_low_level_example\n'}
+[0.107725] (b2_ctrl) StdoutLine: {'line': b'[ 55%] Built target read_low_state\n'}
+[0.107837] (b2_ctrl) StdoutLine: {'line': b'[ 55%] Built target read_low_state_hg\n'}
+[0.108074] (b2_ctrl) StdoutLine: {'line': b'[ 75%] Built target low_level_ctrl\n'}
+[0.108162] (b2_ctrl) StdoutLine: {'line': b'[ 75%] Built target read_motion_state\n'}
+[0.108752] (b2_ctrl) StdoutLine: {'line': b'[ 85%] Built target read_wireless_controller\n'}
+[0.122653] (b2_ctrl) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o\x1b[0m\n'}
+[0.199960] (-) TimerEvent: {}
+[0.300232] (-) TimerEvent: {}
+[0.400734] (-) TimerEvent: {}
+[0.501045] (-) TimerEvent: {}
+[0.601300] (-) TimerEvent: {}
+[0.701577] (-) TimerEvent: {}
+[0.801872] (-) TimerEvent: {}
+[0.902187] (-) TimerEvent: {}
+[1.002510] (-) TimerEvent: {}
+[1.102826] (-) TimerEvent: {}
+[1.203131] (-) TimerEvent: {}
+[1.303421] (-) TimerEvent: {}
+[1.403667] (-) TimerEvent: {}
+[1.503940] (-) TimerEvent: {}
+[1.604191] (-) TimerEvent: {}
+[1.704505] (-) TimerEvent: {}
+[1.804803] (-) TimerEvent: {}
+[1.905043] (-) TimerEvent: {}
+[2.005304] (-) TimerEvent: {}
+[2.105591] (-) TimerEvent: {}
+[2.205827] (-) TimerEvent: {}
+[2.306084] (-) TimerEvent: {}
+[2.406336] (-) TimerEvent: {}
+[2.506597] (-) TimerEvent: {}
+[2.606889] (-) TimerEvent: {}
+[2.678415] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SportManager::key_loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.678900] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:177:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>::duration(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.679020] (b2_ctrl) StderrLine: {'line': b'  177 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.679113] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.679193] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.679258] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = _Rep2; _Period2 = _Period2; <template-parameter-2-3> = <template-parameter-1-3>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.679326] (b2_ctrl) StderrLine: {'line': b'  529 |           constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration<_Rep2, _Period2>& __d)\n'}
+[2.679458] (b2_ctrl) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.679526] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.679591] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:177:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.679657] (b2_ctrl) StderrLine: {'line': b'  177 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.679720] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.679783] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.679847] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = _Rep2; <template-parameter-2-2> = <template-parameter-1-2>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.679974] (b2_ctrl) StderrLine: {'line': b'  521 |           constexpr explicit \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const _Rep2& __rep)\n'}
+[2.680060] (b2_ctrl) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.680142] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.680241] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ratio:39\x1b[m\x1b[K,\n'}
+[2.680328] (b2_ctrl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/chrono:39\x1b[m\x1b[K,\n'}
+[2.680423] (b2_ctrl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.680508] (b2_ctrl) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.680605] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2209:11:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Cond> using _Require = std::__enable_if_t<std::__and_< <template-parameter-1-1> >::value> [with _Cond = {std::is_convertible<const double&, long int>, std::__or_<std::chrono::treat_as_floating_point<long int>, std::__not_<std::chrono::treat_as_floating_point<double> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.680712] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:518:27:\x1b[m\x1b[K   required from here\n'}
+[2.680783] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2205:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.680850] (b2_ctrl) StderrLine: {'line': b' 2205 |     using \x1b[01;31m\x1b[K__enable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[2.680934] (b2_ctrl) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.681056] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.681206] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.681313] (b2_ctrl) StderrLine: {'line': b'  514 |         \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration&) = default;\n'}
+[2.681421] (b2_ctrl) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.681517] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<long int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.681638] (b2_ctrl) StderrLine: {'line': b'  514 |         duration(\x1b[01;36m\x1b[Kconst duration&\x1b[m\x1b[K) = default;\n'}
+[2.681741] (b2_ctrl) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.681810] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<_Rep, _Period>::duration() [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.681903] (b2_ctrl) StderrLine: {'line': b'  512 |         constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K() = default;\n'}
+[2.681976] (b2_ctrl) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.682160] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.682607] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:182:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>::duration(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.682929] (b2_ctrl) StderrLine: {'line': b'  182 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.683312] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.683519] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.683803] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = _Rep2; _Period2 = _Period2; <template-parameter-2-3> = <template-parameter-1-3>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.683885] (b2_ctrl) StderrLine: {'line': b'  529 |           constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration<_Rep2, _Period2>& __d)\n'}
+[2.683952] (b2_ctrl) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.684016] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.684076] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:182:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.684136] (b2_ctrl) StderrLine: {'line': b'  182 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.684193] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.684332] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.684425] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = _Rep2; <template-parameter-2-2> = <template-parameter-1-2>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.684499] (b2_ctrl) StderrLine: {'line': b'  521 |           constexpr explicit \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const _Rep2& __rep)\n'}
+[2.684562] (b2_ctrl) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.684629] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.684713] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.684783] (b2_ctrl) StderrLine: {'line': b'  514 |         \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration&) = default;\n'}
+[2.684842] (b2_ctrl) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.684916] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<long int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.684988] (b2_ctrl) StderrLine: {'line': b'  514 |         duration(\x1b[01;36m\x1b[Kconst duration&\x1b[m\x1b[K) = default;\n'}
+[2.685124] (b2_ctrl) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.685196] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<_Rep, _Period>::duration() [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685256] (b2_ctrl) StderrLine: {'line': b'  512 |         constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K() = default;\n'}
+[2.685314] (b2_ctrl) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.685385] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.685458] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:187:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>::duration(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685529] (b2_ctrl) StderrLine: {'line': b'  187 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.685588] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.685648] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.685704] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = _Rep2; _Period2 = _Period2; <template-parameter-2-3> = <template-parameter-1-3>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685763] (b2_ctrl) StderrLine: {'line': b'  529 |           constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration<_Rep2, _Period2>& __d)\n'}
+[2.685819] (b2_ctrl) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.685895] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.685958] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:187:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.686016] (b2_ctrl) StderrLine: {'line': b'  187 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.686073] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.686128] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.686191] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = _Rep2; <template-parameter-2-2> = <template-parameter-1-2>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.686250] (b2_ctrl) StderrLine: {'line': b'  521 |           constexpr explicit \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const _Rep2& __rep)\n'}
+[2.686311] (b2_ctrl) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.686379] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.686447] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.686505] (b2_ctrl) StderrLine: {'line': b'  514 |         \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration&) = default;\n'}
+[2.686565] (b2_ctrl) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.686624] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<long int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.686683] (b2_ctrl) StderrLine: {'line': b'  514 |         duration(\x1b[01;36m\x1b[Kconst duration&\x1b[m\x1b[K) = default;\n'}
+[2.686738] (b2_ctrl) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.686795] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<_Rep, _Period>::duration() [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.686851] (b2_ctrl) StderrLine: {'line': b'  512 |         constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K() = default;\n'}
+[2.686906] (b2_ctrl) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.686962] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.687018] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:192:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>::duration(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.687074] (b2_ctrl) StderrLine: {'line': b'  192 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.687135] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.687192] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.687247] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = _Rep2; _Period2 = _Period2; <template-parameter-2-3> = <template-parameter-1-3>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.687309] (b2_ctrl) StderrLine: {'line': b'  529 |           constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration<_Rep2, _Period2>& __d)\n'}
+[2.687426] (b2_ctrl) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.687496] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.687555] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:192:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.687613] (b2_ctrl) StderrLine: {'line': b'  192 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.687669] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.687725] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.687780] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = _Rep2; <template-parameter-2-2> = <template-parameter-1-2>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.687838] (b2_ctrl) StderrLine: {'line': b'  521 |           constexpr explicit \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const _Rep2& __rep)\n'}
+[2.687912] (b2_ctrl) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.687970] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.688026] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.688084] (b2_ctrl) StderrLine: {'line': b'  514 |         \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration&) = default;\n'}
+[2.688139] (b2_ctrl) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.688194] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<long int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.688288] (b2_ctrl) StderrLine: {'line': b'  514 |         duration(\x1b[01;36m\x1b[Kconst duration&\x1b[m\x1b[K) = default;\n'}
+[2.688375] (b2_ctrl) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.688449] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<_Rep, _Period>::duration() [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.688515] (b2_ctrl) StderrLine: {'line': b'  512 |         constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K() = default;\n'}
+[2.688573] (b2_ctrl) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.688629] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.688705] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:197:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>::duration(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.688776] (b2_ctrl) StderrLine: {'line': b'  197 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.688833] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.688905] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.688964] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = _Rep2; _Period2 = _Period2; <template-parameter-2-3> = <template-parameter-1-3>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.689060] (b2_ctrl) StderrLine: {'line': b'  529 |           constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration<_Rep2, _Period2>& __d)\n'}
+[2.689175] (b2_ctrl) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.689240] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.689298] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:197:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.689365] (b2_ctrl) StderrLine: {'line': b'  197 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.689457] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.689514] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.689569] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = _Rep2; <template-parameter-2-2> = <template-parameter-1-2>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.689626] (b2_ctrl) StderrLine: {'line': b'  521 |           constexpr explicit \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const _Rep2& __rep)\n'}
+[2.689687] (b2_ctrl) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.689744] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.689799] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.689856] (b2_ctrl) StderrLine: {'line': b'  514 |         \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration&) = default;\n'}
+[2.689933] (b2_ctrl) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.689990] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<long int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.690053] (b2_ctrl) StderrLine: {'line': b'  514 |         duration(\x1b[01;36m\x1b[Kconst duration&\x1b[m\x1b[K) = default;\n'}
+[2.690109] (b2_ctrl) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.690164] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<_Rep, _Period>::duration() [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.690220] (b2_ctrl) StderrLine: {'line': b'  512 |         constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K() = default;\n'}
+[2.690276] (b2_ctrl) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.690331] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.690398] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:202:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>::duration(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.690464] (b2_ctrl) StderrLine: {'line': b'  202 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.690521] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.690576] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.690631] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = _Rep2; _Period2 = _Period2; <template-parameter-2-3> = <template-parameter-1-3>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.690691] (b2_ctrl) StderrLine: {'line': b'  529 |           constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration<_Rep2, _Period2>& __d)\n'}
+[2.690746] (b2_ctrl) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.690806] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.690905] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:202:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.690969] (b2_ctrl) StderrLine: {'line': b'  202 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.691026] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.691082] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.691140] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = _Rep2; <template-parameter-2-2> = <template-parameter-1-2>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.691209] (b2_ctrl) StderrLine: {'line': b'  521 |           constexpr explicit \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const _Rep2& __rep)\n'}
+[2.691265] (b2_ctrl) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.691320] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.691439] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.691511] (b2_ctrl) StderrLine: {'line': b'  514 |         \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration&) = default;\n'}
+[2.691572] (b2_ctrl) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.691631] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<long int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.691693] (b2_ctrl) StderrLine: {'line': b'  514 |         duration(\x1b[01;36m\x1b[Kconst duration&\x1b[m\x1b[K) = default;\n'}
+[2.691750] (b2_ctrl) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.691807] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<_Rep, _Period>::duration() [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.691865] (b2_ctrl) StderrLine: {'line': b'  512 |         constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K() = default;\n'}
+[2.691944] (b2_ctrl) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.692003] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.692061] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:207:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>::duration(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.692119] (b2_ctrl) StderrLine: {'line': b'  207 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.692180] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.692253] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.692315] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = _Rep2; _Period2 = _Period2; <template-parameter-2-3> = <template-parameter-1-3>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.692398] (b2_ctrl) StderrLine: {'line': b'  529 |           constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration<_Rep2, _Period2>& __d)\n'}
+[2.692463] (b2_ctrl) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.692520] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:529:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.692584] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:207:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.692644] (b2_ctrl) StderrLine: {'line': b'  207 |             std::this_thread::sleep_for(std::chrono::seconds(0.5\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.692723] (b2_ctrl) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.692780] (b2_ctrl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:2\x1b[m\x1b[K:\n'}
+[2.692835] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = _Rep2; <template-parameter-2-2> = <template-parameter-1-2>; _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.692910] (b2_ctrl) StderrLine: {'line': b'  521 |           constexpr explicit \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const _Rep2& __rep)\n'}
+[2.692969] (b2_ctrl) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.693063] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:521:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.693176] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.693244] (b2_ctrl) StderrLine: {'line': b'  514 |         \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration&) = default;\n'}
+[2.693303] (b2_ctrl) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.693399] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:514:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<long int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.693467] (b2_ctrl) StderrLine: {'line': b'  514 |         duration(\x1b[01;36m\x1b[Kconst duration&\x1b[m\x1b[K) = default;\n'}
+[2.693532] (b2_ctrl) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.693590] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<_Rep, _Period>::duration() [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.693646] (b2_ctrl) StderrLine: {'line': b'  512 |         constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K() = default;\n'}
+[2.693703] (b2_ctrl) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.693757] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:512:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.706977] (-) TimerEvent: {}
+[2.807252] (-) TimerEvent: {}
+[2.907541] (-) TimerEvent: {}
+[3.007817] (-) TimerEvent: {}
+[3.108075] (-) TimerEvent: {}
+[3.208332] (-) TimerEvent: {}
+[3.308600] (-) TimerEvent: {}
+[3.408855] (-) TimerEvent: {}
+[3.509140] (-) TimerEvent: {}
+[3.609402] (-) TimerEvent: {}
+[3.709657] (-) TimerEvent: {}
+[3.809910] (-) TimerEvent: {}
+[3.910163] (-) TimerEvent: {}
+[4.010404] (-) TimerEvent: {}
+[4.110656] (-) TimerEvent: {}
+[4.210918] (-) TimerEvent: {}
+[4.311179] (-) TimerEvent: {}
+[4.411409] (-) TimerEvent: {}
+[4.511697] (-) TimerEvent: {}
+[4.611945] (-) TimerEvent: {}
+[4.712217] (-) TimerEvent: {}
+[4.812485] (-) TimerEvent: {}
+[4.912730] (-) TimerEvent: {}
+[5.012970] (-) TimerEvent: {}
+[5.113218] (-) TimerEvent: {}
+[5.213517] (-) TimerEvent: {}
+[5.305703] (b2_ctrl) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1\n'}
+[5.306011] (b2_ctrl) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2\n'}
+[5.306327] (b2_ctrl) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.308710] (b2_ctrl) CommandEnded: {'returncode': 2}
+[5.313589] (-) TimerEvent: {}
+[5.414184] (-) TimerEvent: {}
+[5.415353] (b2_ctrl) JobEnded: {'identifier': 'b2_ctrl', 'rc': 2}
+[5.425881] (-) EventReactorShutdown: {}

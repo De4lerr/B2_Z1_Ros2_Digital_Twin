@@ -1,0 +1,32 @@
+[0.022s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target b2_z1_control[0m
+[0.132s] [ 21%] Built target g1_low_level_example
+[0.134s] [ 26%] Built target low_level_ctrl
+[0.135s] [ 34%] Built target read_low_state
+[0.135s] [ 47%] Built target low_level_ctrl_hg
+[0.137s] [ 56%] Built target read_low_state_hg
+[0.137s] [ 65%] Built target read_wireless_controller
+[0.141s] [ 73%] Built target read_motion_state
+[0.147s] [ 86%] Built target sport_mode_ctrl
+[0.172s] [ 91%] [32mBuilding CXX object CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o[0m
+[3.460s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:[m[K In function ‘[01m[Kvoid get_key()[m[K’:
+[3.461s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:37:25:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint getchar()[m[K’
+[3.461s]    37 |         int ch = [01;31m[Kgetchar(stdscr)[m[K;
+[3.461s]       |                  [01;31m[K~~~~~~~^~~~~~~~[m[K
+[3.461s] In file included from [01m[K/usr/include/c++/11/cstdio:42[m[K,
+[3.461s]                  from [01m[K/usr/include/c++/11/ext/string_conversions.h:43[m[K,
+[3.461s]                  from [01m[K/usr/include/c++/11/bits/basic_string.h:6608[m[K,
+[3.461s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.461s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.461s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.461s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.461s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[3.462s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.462s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:6[m[K:
+[3.462s] [01m[K/usr/include/stdio.h:520:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.462s]   520 | extern int [01;36m[Kgetchar[m[K (void);
+[3.462s]       |            [01;36m[K^~~~~~~[m[K
+[7.032s] gmake[2]: *** [CMakeFiles/b2_z1_control.dir/build.make:76: CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o] Error 1
+[7.033s] gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/b2_z1_control.dir/all] Error 2
+[7.033s] gmake: *** [Makefile:146: all] Error 2
+[7.036s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '2': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16

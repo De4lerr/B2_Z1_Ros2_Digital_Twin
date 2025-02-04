@@ -1,0 +1,40 @@
+[0.014s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[0.100s] [ 20%] Built target read_motion_state
+[0.100s] [ 25%] Built target low_level_ctrl_hg
+[0.100s] [ 35%] Built target read_low_state
+[0.101s] [ 45%] Built target read_low_state_hg
+[0.103s] [ 60%] Built target g1_low_level_example
+[0.103s] [ 70%] Built target read_wireless_controller
+[0.104s] [ 85%] Built target low_level_ctrl
+[0.119s] [ 90%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[8.414s] [ 95%] [32m[1mLinking CXX executable sport_mode_ctrl[0m
+[8.808s] [100%] Built target sport_mode_ctrl
+[8.824s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[8.921s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl
+[8.931s] -- Install configuration: ""
+[8.932s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/low_level_ctrl
+[8.932s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/low_level_ctrl_hg
+[8.932s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/g1_low_level_example
+[8.933s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/read_low_state
+[8.933s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/read_low_state_hg
+[8.934s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/read_motion_state
+[8.934s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/read_wireless_controller
+[8.934s] -- Installing: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/sport_mode_ctrl
+[8.943s] -- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/sport_mode_ctrl" to ""
+[8.943s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/ament_index/resource_index/package_run_dependencies/b2_ctrl
+[8.943s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/ament_index/resource_index/parent_prefix_path/b2_ctrl
+[8.943s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/environment/ament_prefix_path.sh
+[8.943s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/environment/ament_prefix_path.dsv
+[8.943s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/environment/path.sh
+[8.944s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/environment/path.dsv
+[8.944s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/local_setup.bash
+[8.944s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/local_setup.sh
+[8.944s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/local_setup.zsh
+[8.944s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/local_setup.dsv
+[8.944s] -- Installing: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/package.dsv
+[8.944s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/ament_index/resource_index/packages/b2_ctrl
+[8.944s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/cmake/b2_ctrlConfig.cmake
+[8.944s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/cmake/b2_ctrlConfig-version.cmake
+[8.944s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/package.xml
+[8.946s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl

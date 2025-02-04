@@ -1,0 +1,23 @@
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In constructor ‘[01m[KKeyboardController::KeyboardController()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:36:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksoprt_request[m[K’ has not been declared
+   36 |             "sportmodestate", 10, std::bind(&[01;31m[Ksoprt_request[m[K::state_callback, this, _1));
+      |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid KeyboardController::state_callback(unitree_go::msg::SportModeState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:121:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+  121 |         if ([01;31m[Kt[m[K < 0)
+      |             [01;31m[K^[m[K
+      |             [32m[Ktm[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:124:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpx0[m[K’ was not declared in this scope
+  124 |             [01;31m[Kpx0[m[K = data->position[0];
+      |             [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:125:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpy0[m[K’ was not declared in this scope; did you mean ‘[01m[Ky0[m[K’?
+  125 |             [01;31m[Kpy0[m[K = data->position[1];
+      |             [01;31m[K^~~[m[K
+      |             [32m[Ky0[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:126:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw0[m[K’ was not declared in this scope; did you mean ‘[01m[Ky0[m[K’?
+  126 |             [01;31m[Kyaw0[m[K = data->imu_state.rpy[2];
+      |             [01;31m[K^~~~[m[K
+      |             [32m[Ky0[m[K
+gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

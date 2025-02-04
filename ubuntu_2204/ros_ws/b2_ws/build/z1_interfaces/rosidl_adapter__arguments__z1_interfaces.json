@@ -1,0 +1,11 @@
+{
+  "package_name": "z1_interfaces",
+  "non_idl_tuples": [
+    "/home/ros_ws/ros_ws/b2_ws/src/z1_interfaces:msg/ArmControlCommand.msg",
+    "/home/ros_ws/ros_ws/b2_ws/src/z1_interfaces:srv/GripperCommand.srv",
+    "/home/ros_ws/ros_ws/b2_ws/src/z1_interfaces:srv/MoveCircularPathCommand.srv",
+    "/home/ros_ws/ros_ws/b2_ws/src/z1_interfaces:srv/MoveLinearPathCommand.srv",
+    "/home/ros_ws/ros_ws/b2_ws/src/z1_interfaces:srv/MoveJointPathCommand.srv",
+    "/home/ros_ws/ros_ws/b2_ws/src/z1_interfaces:srv/NoInputCommand.srv"
+  ]
+}

@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target b2_z1_control[0m
+[  8%] Built target read_low_state
+[ 21%] Built target low_level_ctrl_hg
+[ 34%] Built target low_level_ctrl
+[ 47%] Built target g1_low_level_example
+[ 56%] Built target read_motion_state
+[ 65%] Built target read_wireless_controller
+[ 73%] Built target read_low_state_hg
+[ 86%] Built target sport_mode_ctrl
+[ 91%] [32mBuilding CXX object CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o[0m

@@ -1,0 +1,9 @@
+[ 43%] Built target read_low_state
+[ 43%] Built target low_level_ctrl_hg
+[ 43%] Built target read_motion_state
+[ 43%] Built target low_level_ctrl
+[ 52%] Built target read_low_state_hg
+[ 65%] Built target g1_low_level_example
+[ 73%] Built target read_wireless_controller
+[ 78%] [32mBuilding CXX object CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o[0m
+[ 91%] Built target sport_mode_ctrl

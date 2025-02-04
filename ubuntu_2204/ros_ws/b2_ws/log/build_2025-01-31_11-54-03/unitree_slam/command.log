@@ -1,0 +1,4 @@
+Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/unitree_slam': /usr/bin/cmake /home/ros_ws/ros_ws/b2_ws/src/unitree_slam -DCMAKE_INSTALL_PREFIX=/home/ros_ws/ros_ws/b2_ws/install/unitree_slam
+Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/unitree_slam' returned '0': /usr/bin/cmake /home/ros_ws/ros_ws/b2_ws/src/unitree_slam -DCMAKE_INSTALL_PREFIX=/home/ros_ws/ros_ws/b2_ws/install/unitree_slam
+Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/unitree_slam': /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/unitree_slam -- -j16 -l16
+Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/unitree_slam' returned '2': /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/unitree_slam -- -j16 -l16

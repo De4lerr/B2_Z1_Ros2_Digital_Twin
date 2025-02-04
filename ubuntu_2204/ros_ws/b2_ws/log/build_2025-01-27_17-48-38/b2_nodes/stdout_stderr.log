@@ -1,0 +1,51 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2-nodes.egg-link (link to .)
+running egg_info
+writing ../../build/b2_nodes/b2_nodes.egg-info/PKG-INFO
+writing dependency_links to ../../build/b2_nodes/b2_nodes.egg-info/dependency_links.txt
+writing entry points to ../../build/b2_nodes/b2_nodes.egg-info/entry_points.txt
+writing requirements to ../../build/b2_nodes/b2_nodes.egg-info/requires.txt
+writing top-level names to ../../build/b2_nodes/b2_nodes.egg-info/top_level.txt
+reading manifest file '../../build/b2_nodes/b2_nodes.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/b2_nodes/b2_nodes.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build
+creating /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib
+creating /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes
+copying b2_nodes/parse_odometry.py -> /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes
+copying b2_nodes/parse_joint_state_z1_b2.py -> /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes
+copying b2_nodes/print_joint_state.py -> /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes
+copying b2_nodes/__init__.py -> /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes
+copying b2_nodes/keyboard_control.py -> /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes
+copying b2_nodes/parse_joint_state.py -> /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes
+running install
+running install_lib
+creating /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes
+copying /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes/parse_odometry.py -> /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes
+copying /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes/parse_joint_state_z1_b2.py -> /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes
+copying /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes/print_joint_state.py -> /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes
+copying /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes/__init__.py -> /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes
+copying /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes/keyboard_control.py -> /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes
+copying /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build/lib/b2_nodes/parse_joint_state.py -> /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes
+byte-compiling /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes/parse_odometry.py to parse_odometry.cpython-310.pyc
+byte-compiling /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes/parse_joint_state_z1_b2.py to parse_joint_state_z1_b2.cpython-310.pyc
+byte-compiling /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes/print_joint_state.py to print_joint_state.cpython-310.pyc
+byte-compiling /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes/keyboard_control.py to keyboard_control.cpython-310.pyc
+byte-compiling /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes/parse_joint_state.py to parse_joint_state.cpython-310.pyc
+running install_data
+copying resource/b2_nodes -> /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/share/b2_nodes
+running install_egg_info
+Copying ../../build/b2_nodes/b2_nodes.egg-info to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes-0.0.0-py3.10.egg-info
+running install_scripts
+Installing keyboard_control script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+Installing parse_joint_state script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+Installing parse_joint_state_z1_b2 script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+Installing parse_odometry script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+Installing print_joint_state script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+writing list of installed files to '/home/ros_ws/ros_ws/b2_ws/build/b2_nodes/install.log'

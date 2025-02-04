@@ -1,0 +1,639 @@
+[0.017s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_nodes -- -j16 -l16
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target z1_manager[0m
+[0.081s] [ 50%] Built target z1_parse_joint_state
+[0.096s] [ 75%] [32mBuilding CXX object CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o[0m
+[2.989s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:66:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kjhg[m[K’ does not name a type
+[2.989s]    66 | [01;31m[Kjhg[m[K
+[2.989s]       | [01;31m[K^~~[m[K
+[2.995s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid arm_sdk_manager::setUDPConnection()[m[K’:
+[2.995s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:47:9:[m[K [01;31m[Kerror: [m[K‘[01m[KctrlComp[m[K’ was not declared in this scope
+[2.995s]    47 |         [01;31m[KctrlComp[m[K.dt = 0.002; // 500Hz
+[2.995s]       |         [01;31m[K^~~~~~~~[m[K
+[3.032s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28[m[K,
+[3.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.032s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.032s] /opt/ros/humble/include/rclcpp/rclcpp/service.hpp: In instantiation of ‘[01m[Kclass rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >[m[K’:
+[3.032s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:412:65:[m[K   required from here
+[3.032s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:282:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >[m[K’
+[3.033s]   282 |   using [01;31m[KCallbackType[m[K = std::function<
+[3.033s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.033s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:287:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >[m[K’
+[3.033s]   287 |   using [01;31m[KCallbackWithHeaderType[m[K = std::function<
+[3.033s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.033s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:450:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >[m[K’
+[3.033s]   450 |   [01;31m[Ktake_request[m[K(typename ServiceT::Request & request_out, rmw_request_id_t & request_id_out)
+[3.033s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[3.033s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:480:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >[m[K’
+[3.033s]   480 |   [01;31m[Ksend_response[m[K(rmw_request_id_t & req_id, typename ServiceT::Response & response)
+[3.033s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[3.033s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36[m[K,
+[3.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28[m[K,
+[3.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.034s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.034s] /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘[01m[Kclass rclcpp::AnyServiceCallback<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >[m[K’:
+[3.034s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:500:32:[m[K   required from ‘[01m[Kclass rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >[m[K’
+[3.034s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:412:65:[m[K   required from here
+[3.034s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:154:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >[m[K’
+[3.034s]   154 |   [01;31m[Kdispatch[m[K(
+[3.034s]       |   [01;31m[K^~~~~~~~[m[K
+[3.034s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:203:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >[m[K’
+[3.034s]   203 |   using [01;31m[KSharedPtrCallback[m[K = std::function<
+[3.034s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.034s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:208:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >[m[K’
+[3.034s]   208 |   using [01;31m[KSharedPtrWithRequestHeaderCallback[m[K = std::function<
+[3.034s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.034s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:214:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >[m[K’
+[3.034s]   214 |   using [01;31m[KSharedPtrDeferResponseCallback[m[K = std::function<
+[3.034s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.035s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:219:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >[m[K’
+[3.035s]   219 |   using [01;31m[KSharedPtrDeferResponseCallbackWithServiceHandle[m[K = std::function<
+[3.035s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.035s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:231:54:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >[m[K’
+[3.035s]   231 |     SharedPtrDeferResponseCallbackWithServiceHandle> [01;31m[Kcallback_[m[K;
+[3.035s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[3.058s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28[m[K,
+[3.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.059s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.059s] /opt/ros/humble/include/rclcpp/rclcpp/service.hpp: In instantiation of ‘[01m[Kclass rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >[m[K’:
+[3.059s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:415:71:[m[K   required from here
+[3.059s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:282:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> >[m[K’
+[3.059s]   282 |   using [01;31m[KCallbackType[m[K = std::function<
+[3.059s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.059s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:287:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> >[m[K’
+[3.059s]   287 |   using [01;31m[KCallbackWithHeaderType[m[K = std::function<
+[3.059s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.059s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:450:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> >[m[K’
+[3.059s]   450 |   [01;31m[Ktake_request[m[K(typename ServiceT::Request & request_out, rmw_request_id_t & request_id_out)
+[3.059s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[3.059s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:480:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> >[m[K’
+[3.059s]   480 |   [01;31m[Ksend_response[m[K(rmw_request_id_t & req_id, typename ServiceT::Response & response)
+[3.059s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[3.060s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36[m[K,
+[3.060s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28[m[K,
+[3.060s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.060s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.060s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.060s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.060s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.060s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.060s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.060s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.060s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.060s] /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘[01m[Kclass rclcpp::AnyServiceCallback<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >[m[K’:
+[3.060s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:500:32:[m[K   required from ‘[01m[Kclass rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >[m[K’
+[3.060s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:415:71:[m[K   required from here
+[3.060s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:154:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> >[m[K’
+[3.060s]   154 |   [01;31m[Kdispatch[m[K(
+[3.060s]       |   [01;31m[K^~~~~~~~[m[K
+[3.060s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:203:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> >[m[K’
+[3.061s]   203 |   using [01;31m[KSharedPtrCallback[m[K = std::function<
+[3.061s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.061s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:208:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> >[m[K’
+[3.061s]   208 |   using [01;31m[KSharedPtrWithRequestHeaderCallback[m[K = std::function<
+[3.061s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.061s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:214:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> >[m[K’
+[3.061s]   214 |   using [01;31m[KSharedPtrDeferResponseCallback[m[K = std::function<
+[3.061s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.061s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:219:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> >[m[K’
+[3.061s]   219 |   using [01;31m[KSharedPtrDeferResponseCallbackWithServiceHandle[m[K = std::function<
+[3.061s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.061s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:231:54:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> >[m[K’
+[3.061s]   231 |     SharedPtrDeferResponseCallbackWithServiceHandle> [01;31m[Kcallback_[m[K;
+[3.061s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[3.061s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28[m[K,
+[3.061s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.061s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.061s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.061s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.062s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.062s] /opt/ros/humble/include/rclcpp/rclcpp/service.hpp: In instantiation of ‘[01m[Kclass rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >[m[K’:
+[3.062s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:416:72:[m[K   required from here
+[3.062s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:282:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> >[m[K’
+[3.062s]   282 |   using [01;31m[KCallbackType[m[K = std::function<
+[3.062s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.062s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:287:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> >[m[K’
+[3.062s]   287 |   using [01;31m[KCallbackWithHeaderType[m[K = std::function<
+[3.062s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.062s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:450:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> >[m[K’
+[3.062s]   450 |   [01;31m[Ktake_request[m[K(typename ServiceT::Request & request_out, rmw_request_id_t & request_id_out)
+[3.062s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[3.062s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:480:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> >[m[K’
+[3.062s]   480 |   [01;31m[Ksend_response[m[K(rmw_request_id_t & req_id, typename ServiceT::Response & response)
+[3.063s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[3.063s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.064s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.064s] /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘[01m[Kclass rclcpp::AnyServiceCallback<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >[m[K’:
+[3.064s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:500:32:[m[K   required from ‘[01m[Kclass rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >[m[K’
+[3.064s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:416:72:[m[K   required from here
+[3.064s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:154:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> >[m[K’
+[3.064s]   154 |   [01;31m[Kdispatch[m[K(
+[3.064s]       |   [01;31m[K^~~~~~~~[m[K
+[3.064s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:203:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> >[m[K’
+[3.064s]   203 |   using [01;31m[KSharedPtrCallback[m[K = std::function<
+[3.064s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.064s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:208:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> >[m[K’
+[3.064s]   208 |   using [01;31m[KSharedPtrWithRequestHeaderCallback[m[K = std::function<
+[3.064s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.064s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:214:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> >[m[K’
+[3.064s]   214 |   using [01;31m[KSharedPtrDeferResponseCallback[m[K = std::function<
+[3.064s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.064s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:219:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> >[m[K’
+[3.064s]   219 |   using [01;31m[KSharedPtrDeferResponseCallbackWithServiceHandle[m[K = std::function<
+[3.065s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.065s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:231:54:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> >[m[K’
+[3.065s]   231 |     SharedPtrDeferResponseCallbackWithServiceHandle> [01;31m[Kcallback_[m[K;
+[3.065s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[3.065s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.065s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.065s] /opt/ros/humble/include/rclcpp/rclcpp/service.hpp: In instantiation of ‘[01m[Kclass rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >[m[K’:
+[3.065s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:417:74:[m[K   required from here
+[3.065s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:282:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> >[m[K’
+[3.066s]   282 |   using [01;31m[KCallbackType[m[K = std::function<
+[3.066s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.066s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:287:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> >[m[K’
+[3.066s]   287 |   using [01;31m[KCallbackWithHeaderType[m[K = std::function<
+[3.066s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.066s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:450:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> >[m[K’
+[3.066s]   450 |   [01;31m[Ktake_request[m[K(typename ServiceT::Request & request_out, rmw_request_id_t & request_id_out)
+[3.066s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[3.066s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:480:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> >[m[K’
+[3.066s]   480 |   [01;31m[Ksend_response[m[K(rmw_request_id_t & req_id, typename ServiceT::Response & response)
+[3.066s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[3.066s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36[m[K,
+[3.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28[m[K,
+[3.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.066s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.067s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.067s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.067s] /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘[01m[Kclass rclcpp::AnyServiceCallback<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >[m[K’:
+[3.067s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:500:32:[m[K   required from ‘[01m[Kclass rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >[m[K’
+[3.067s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:417:74:[m[K   required from here
+[3.067s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:154:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> >[m[K’
+[3.067s]   154 |   [01;31m[Kdispatch[m[K(
+[3.067s]       |   [01;31m[K^~~~~~~~[m[K
+[3.067s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:203:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> >[m[K’
+[3.067s]   203 |   using [01;31m[KSharedPtrCallback[m[K = std::function<
+[3.067s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.067s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:208:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> >[m[K’
+[3.067s]   208 |   using [01;31m[KSharedPtrWithRequestHeaderCallback[m[K = std::function<
+[3.067s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.068s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:214:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> >[m[K’
+[3.068s]   214 |   using [01;31m[KSharedPtrDeferResponseCallback[m[K = std::function<
+[3.068s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.068s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:219:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> >[m[K’
+[3.068s]   219 |   using [01;31m[KSharedPtrDeferResponseCallbackWithServiceHandle[m[K = std::function<
+[3.068s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.068s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:231:54:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> >[m[K’
+[3.068s]   231 |     SharedPtrDeferResponseCallbackWithServiceHandle> [01;31m[Kcallback_[m[K;
+[3.068s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[3.092s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In constructor ‘[01m[KZ1ManagerNode::Z1ManagerNode()[m[K’:
+[3.092s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:92:115:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >[m[K’} and ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’})
+[3.092s]    92 |             ,std::bind(&Z1ManagerNode::back_to_start_callback, this, std::placeholders::_1, std::placeholders::_2)[01;31m[K)[m[K;
+[3.092s]       |                                                                                                                   [01;31m[K^[m[K
+[3.093s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.093s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.093s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.093s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.093s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.093s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.093s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.093s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.093s]       |         [01;36m[K^~~~~~~~[m[K
+[3.093s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.093s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >&; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’:
+[3.093s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Service<z1_interfaces::srv::NoInputCommand>][m[K’
+[3.093s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:92:115:[m[K   required from here
+[3.093s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >&>[m[K’
+[3.094s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.094s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.094s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.094s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.094s]       |         [01;36m[K^~~~~~~~[m[K
+[3.094s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.094s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:92:115:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[3.094s]    92 |             ,std::bind(&Z1ManagerNode::back_to_start_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.094s]       |                                                                                                                   [01;36m[K^[m[K
+[3.094s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.094s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.094s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.094s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.094s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.094s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.094s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.094s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.094s]       |         [01;36m[K^~~~~~~~[m[K
+[3.094s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.094s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’:
+[3.095s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Service<z1_interfaces::srv::NoInputCommand>][m[K’
+[3.095s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:92:115:[m[K   required from here
+[3.095s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >&>[m[K’
+[3.095s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.095s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.095s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.095s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.095s]       |         [01;36m[K^~~~~~~~[m[K
+[3.095s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.095s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:92:115:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[3.095s]    92 |             ,std::bind(&Z1ManagerNode::back_to_start_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.095s]       |                                                                                                                   [01;36m[K^[m[K
+[3.095s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.095s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.095s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.095s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.095s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.095s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.095s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.096s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.096s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.096s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} to ‘[01m[Kconst std::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >&[m[K’
+[3.096s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[3.096s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.096s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.096s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.096s]       |       [01;36m[K^~~~~~~~[m[K
+[3.096s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} to ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >&&[m[K’
+[3.096s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[3.096s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[3.096s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:96:110:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >[m[K’} and ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’})
+[3.096s]    96 |             ,std::bind(&Z1ManagerNode::set_zero_callback, this, std::placeholders::_1, std::placeholders::_2)[01;31m[K)[m[K;
+[3.096s]       |                                                                                                              [01;31m[K^[m[K
+[3.096s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.096s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.096s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.096s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.097s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.097s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.097s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.097s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.097s]       |         [01;36m[K^~~~~~~~[m[K
+[3.097s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.097s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.097s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.097s]       |         [01;36m[K^~~~~~~~[m[K
+[3.097s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.097s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:96:110:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[3.097s]    96 |             ,std::bind(&Z1ManagerNode::set_zero_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.097s]       |                                                                                                              [01;36m[K^[m[K
+[3.097s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.097s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.097s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.097s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.097s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.097s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.097s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.098s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.098s]       |         [01;36m[K^~~~~~~~[m[K
+[3.098s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.098s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.098s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.098s]       |         [01;36m[K^~~~~~~~[m[K
+[3.098s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.098s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:96:110:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[3.098s]    96 |             ,std::bind(&Z1ManagerNode::set_zero_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.098s]       |                                                                                                              [01;36m[K^[m[K
+[3.098s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.098s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.098s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.098s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.098s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.098s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.098s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.098s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.098s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.098s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} to ‘[01m[Kconst std::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >&[m[K’
+[3.099s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[3.099s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.099s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.099s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.099s]       |       [01;36m[K^~~~~~~~[m[K
+[3.099s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} to ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >&&[m[K’
+[3.099s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[3.099s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[3.099s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:113:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >[m[K’} and ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’})
+[3.099s]   100 |             ,std::bind(&Z1ManagerNode::set_passive_callback, this, std::placeholders::_1, std::placeholders::_2)[01;31m[K)[m[K;
+[3.099s]       |                                                                                                                 [01;31m[K^[m[K
+[3.099s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.099s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.099s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.099s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.099s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.099s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.099s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.099s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.100s]       |         [01;36m[K^~~~~~~~[m[K
+[3.100s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.100s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.100s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.100s]       |         [01;36m[K^~~~~~~~[m[K
+[3.100s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.100s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:113:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[3.100s]   100 |             ,std::bind(&Z1ManagerNode::set_passive_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.100s]       |                                                                                                                 [01;36m[K^[m[K
+[3.100s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.100s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.100s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.100s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.100s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.100s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.100s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.100s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.100s]       |         [01;36m[K^~~~~~~~[m[K
+[3.100s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.100s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.101s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.101s]       |         [01;36m[K^~~~~~~~[m[K
+[3.101s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.101s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:113:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[3.101s]   100 |             ,std::bind(&Z1ManagerNode::set_passive_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.101s]       |                                                                                                                 [01;36m[K^[m[K
+[3.101s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.101s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.101s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.101s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.101s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.101s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.101s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.101s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.101s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.101s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} to ‘[01m[Kconst std::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >&[m[K’
+[3.101s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[3.101s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.101s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >][m[K’
+[3.102s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.102s]       |       [01;36m[K^~~~~~~~[m[K
+[3.102s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::NoInputCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand> >[m[K’} to ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > > >&&[m[K’
+[3.102s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[3.102s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[3.108s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:104:117:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > > >[m[K’} and ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveJointPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand> >[m[K’})
+[3.108s]   104 |             ,std::bind(&Z1ManagerNode::move_joint_path_callback, this, std::placeholders::_1, std::placeholders::_2)[01;31m[K)[m[K;
+[3.108s]       |                                                                                                                     [01;31m[K^[m[K
+[3.108s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.108s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.109s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.109s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.109s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.109s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.109s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.109s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.109s]       |         [01;36m[K^~~~~~~~[m[K
+[3.109s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.109s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand> >&; _Tp = rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >][m[K’:
+[3.109s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand>][m[K’
+[3.109s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:104:117:[m[K   required from here
+[3.109s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > > >&>[m[K’
+[3.109s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.109s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.109s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.109s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.109s]       |         [01;36m[K^~~~~~~~[m[K
+[3.110s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.110s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:104:117:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveJointPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand> >[m[K’} is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[3.110s]   104 |             ,std::bind(&Z1ManagerNode::move_joint_path_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.110s]       |                                                                                                                     [01;36m[K^[m[K
+[3.110s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.110s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.110s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.110s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.110s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.110s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.110s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.110s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.110s]       |         [01;36m[K^~~~~~~~[m[K
+[3.110s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.110s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand> >; _Tp = rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >][m[K’:
+[3.110s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand>][m[K’
+[3.110s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:104:117:[m[K   required from here
+[3.110s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > > >&>[m[K’
+[3.111s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.111s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.111s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.111s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.111s]       |         [01;36m[K^~~~~~~~[m[K
+[3.111s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.111s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:104:117:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveJointPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand> >[m[K’} is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[3.111s]   104 |             ,std::bind(&Z1ManagerNode::move_joint_path_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.111s]       |                                                                                                                     [01;36m[K^[m[K
+[3.111s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.111s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.111s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.111s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.111s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.111s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.111s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.111s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.112s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.112s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveJointPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand> >[m[K’} to ‘[01m[Kconst std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > > >&[m[K’
+[3.112s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[3.112s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.112s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.112s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.112s]       |       [01;36m[K^~~~~~~~[m[K
+[3.112s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveJointPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand> >[m[K’} to ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand_Request_<std::allocator<void> > > >&&[m[K’
+[3.112s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[3.112s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[3.125s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:108:118:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > > >[m[K’} and ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand> >[m[K’})
+[3.125s]   108 |             ,std::bind(&Z1ManagerNode::move_linear_path_callback, this, std::placeholders::_1, std::placeholders::_2)[01;31m[K)[m[K;
+[3.126s]       |                                                                                                                      [01;31m[K^[m[K
+[3.126s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.126s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.126s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.126s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.126s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.126s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.126s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.126s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.126s]       |         [01;36m[K^~~~~~~~[m[K
+[3.126s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.126s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand> >&; _Tp = rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >][m[K’:
+[3.126s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand>][m[K’
+[3.126s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:108:118:[m[K   required from here
+[3.126s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > > >&>[m[K’
+[3.127s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.127s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.127s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.127s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.127s]       |         [01;36m[K^~~~~~~~[m[K
+[3.127s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.127s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:108:118:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand> >[m[K’} is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[3.127s]   108 |             ,std::bind(&Z1ManagerNode::move_linear_path_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.127s]       |                                                                                                                      [01;36m[K^[m[K
+[3.127s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.127s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.127s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.127s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.127s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.127s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.127s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.127s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.127s]       |         [01;36m[K^~~~~~~~[m[K
+[3.128s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.128s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand> >; _Tp = rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >][m[K’:
+[3.128s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand>][m[K’
+[3.128s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:108:118:[m[K   required from here
+[3.128s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > > >&>[m[K’
+[3.128s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.128s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.128s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.128s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.128s]       |         [01;36m[K^~~~~~~~[m[K
+[3.128s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.128s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:108:118:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand> >[m[K’} is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[3.128s]   108 |             ,std::bind(&Z1ManagerNode::move_linear_path_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.128s]       |                                                                                                                      [01;36m[K^[m[K
+[3.128s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.128s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.128s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.128s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.128s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.129s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.129s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.129s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.129s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.129s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand> >[m[K’} to ‘[01m[Kconst std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > > >&[m[K’
+[3.129s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[3.129s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.129s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.129s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.129s]       |       [01;36m[K^~~~~~~~[m[K
+[3.129s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand> >[m[K’} to ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand_Request_<std::allocator<void> > > >&&[m[K’
+[3.129s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[3.129s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[3.141s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:112:120:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > > >[m[K’} and ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand> >[m[K’})
+[3.142s]   112 |             ,std::bind(&Z1ManagerNode::move_circular_path_callback, this, std::placeholders::_1, std::placeholders::_2)[01;31m[K)[m[K;
+[3.142s]       |                                                                                                                        [01;31m[K^[m[K
+[3.142s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.142s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.142s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.142s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.142s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.142s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.142s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.142s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.142s]       |         [01;36m[K^~~~~~~~[m[K
+[3.142s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.142s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand> >&; _Tp = rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >][m[K’:
+[3.142s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand>][m[K’
+[3.142s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:112:120:[m[K   required from here
+[3.142s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > > >&>[m[K’
+[3.142s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.143s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.143s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.143s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.143s]       |         [01;36m[K^~~~~~~~[m[K
+[3.143s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.143s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:112:120:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand> >[m[K’} is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[3.143s]   112 |             ,std::bind(&Z1ManagerNode::move_circular_path_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.143s]       |                                                                                                                        [01;36m[K^[m[K
+[3.143s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.143s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.143s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.143s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.143s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.143s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.143s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.143s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.143s]       |         [01;36m[K^~~~~~~~[m[K
+[3.143s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.143s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand> >; _Tp = rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >][m[K’:
+[3.143s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand>][m[K’
+[3.144s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:112:120:[m[K   required from here
+[3.144s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > > >&>[m[K’
+[3.144s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.144s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.144s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.144s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.144s]       |         [01;36m[K^~~~~~~~[m[K
+[3.144s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.144s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:112:120:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand> >[m[K’} is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[3.144s]   112 |             ,std::bind(&Z1ManagerNode::move_circular_path_callback, this, std::placeholders::_1, std::placeholders::_2)[01;36m[K)[m[K;
+[3.144s]       |                                                                                                                        [01;36m[K^[m[K
+[3.144s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.144s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.144s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.144s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.144s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.144s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.144s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.144s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.144s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.145s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand> >[m[K’} to ‘[01m[Kconst std::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > > >&[m[K’
+[3.145s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[3.145s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.145s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >][m[K’
+[3.145s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.145s]       |       [01;36m[K^~~~~~~~[m[K
+[3.145s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand> >[m[K’} to ‘[01m[Kstd::shared_ptr<rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > > >&&[m[K’
+[3.145s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[3.145s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[3.153s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::back_to_start_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[3.153s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:132:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.153s]   132 |     void back_to_start_callback([01;35m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request> request[m[K,
+[3.153s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.153s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::set_zero_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[3.153s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:150:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.153s]   150 |     void set_zero_callback([01;35m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request> request[m[K,
+[3.153s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.153s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::set_passive_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[3.154s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:168:98:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.154s]   168 |     void set_passive_callback([01;35m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request> request[m[K,
+[3.154s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.172s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::move_circular_path_callback(std::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand_Response_<std::allocator<void> > >)[m[K’:
+[3.172s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:298:87:[m[K [01;31m[Kerror: [m[K‘[01m[Kmiddle_posture[m[K’ was not declared in this scope; did you mean ‘[01m[KmiddlePosture[m[K’?
+[3.172s]   298 |             std::copy(request->middle_posture.begin(), request->middle_posture.end(), [01;31m[Kmiddle_posture[m[K.data());
+[3.172s]       |                                                                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.172s]       |                                                                                       [32m[KmiddlePosture[m[K
+[3.177s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:301:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_posture[m[K’ was not declared in this scope; did you mean ‘[01m[KendPosture[m[K’?
+[3.177s]   301 |             std::copy(request->end_posture.begin(), request->end_posture.end(), [01;31m[Kend_posture[m[K.data());
+[3.178s]       |                                                                                 [01;31m[K^~~~~~~~~~~[m[K
+[3.178s]       |                                                                                 [32m[KendPosture[m[K
+[6.207s] gmake[2]: *** [CMakeFiles/z1_manager.dir/build.make:76: CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o] Error 1
+[6.207s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/z1_manager.dir/all] Error 2
+[6.207s] gmake: *** [Makefile:146: all] Error 2
+[6.210s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes' returned '2': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_nodes -- -j16 -l16

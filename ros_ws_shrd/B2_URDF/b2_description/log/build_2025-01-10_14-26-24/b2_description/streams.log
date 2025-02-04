@@ -1,0 +1,79 @@
+[0.010s] Invoking command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description': /usr/bin/cmake /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description
+[0.151s] -- The C compiler identification is GNU 9.4.0
+[0.253s] -- The CXX compiler identification is GNU 9.4.0
+[0.260s] -- Check for working C compiler: /usr/bin/cc
+[0.330s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.331s] -- Detecting C compiler ABI info
+[0.400s] -- Detecting C compiler ABI info - done
+[0.411s] -- Detecting C compile features
+[0.412s] -- Detecting C compile features - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.493s] -- Detecting CXX compiler ABI info
+[0.570s] -- Detecting CXX compiler ABI info - done
+[0.581s] -- Detecting CXX compile features
+[0.581s] -- Detecting CXX compile features - done
+[0.584s] -- Using CATKIN_DEVEL_PREFIX: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description/devel
+[0.584s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[0.584s] -- This workspace overlays: /opt/ros/noetic
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.609s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.610s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.610s] -- Using Debian Python package layout
+[0.636s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[0.636s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.741s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.741s] -- Call enable_testing()
+[0.744s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description/test_results
+[1.088s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.088s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.088s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.111s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.112s] -- Found Threads: TRUE  
+[1.116s] -- Using Python nosetests: /usr/bin/nosetests3
+[1.163s] -- catkin 0.8.10
+[1.163s] -- BUILD_SHARED_LIBS is on
+[1.436s] -- Configuring done
+[1.447s] -- Generating done
+[1.451s] -- Build files have been written to: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description
+[1.456s] Invoked command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description' returned '0': /usr/bin/cmake /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description
+[1.459s] Invoking command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description': /usr/bin/cmake --build /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description -- -j16 -l16
+[1.500s] Invoked command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description' returned '0': /usr/bin/cmake --build /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description -- -j16 -l16
+[1.503s] Invoking command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description': /usr/bin/cmake --build /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description --target tests -- -j16 -l16
+[1.555s] [35m[1mScanning dependencies of target tests[0m
+[1.565s] Built target tests
+[1.578s] Invoked command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description' returned '0': /usr/bin/cmake --build /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description --target tests -- -j16 -l16
+[1.592s] Invoking command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description': /usr/bin/cmake --install /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description
+[1.600s] -- Install configuration: ""
+[1.600s] -- Execute custom install script
+[1.600s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/lib/pkgconfig/b2_description.pc
+[1.611s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/cmake/b2_descriptionConfig.cmake
+[1.620s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/cmake/b2_descriptionConfig-version.cmake
+[1.630s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/package.xml
+[1.641s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/config/config.rviz
+[1.650s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/config/robot_control.yaml
+[1.660s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/launch/display.launch
+[1.669s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/launch/gazebo.launch
+[1.679s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FL_calf.dae
+[1.689s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FL_foot.dae
+[1.699s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FL_hip.dae
+[1.709s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FL_thigh.dae
+[1.719s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FR_calf.dae
+[1.728s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FR_hip.dae
+[1.738s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FR_thigh.dae
+[1.748s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RL_calf.dae
+[1.758s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RL_hip.dae
+[1.768s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RL_thigh.dae
+[1.778s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RR_calf.dae
+[1.787s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RR_hip.dae
+[1.797s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RR_thigh.dae
+[1.807s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/base_link.dae
+[1.817s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/calf.dae
+[1.826s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/hip.dae
+[1.836s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/thigh.dae
+[1.845s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/thigh_mirror.dae
+[1.856s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/trunk.dae
+[1.866s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/trunk1.dae
+[1.876s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/trunk2.dae
+[1.886s] -- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/urdf/b2_description.urdf
+[1.898s] Invoked command in '/home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description' returned '0': /usr/bin/cmake --install /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description

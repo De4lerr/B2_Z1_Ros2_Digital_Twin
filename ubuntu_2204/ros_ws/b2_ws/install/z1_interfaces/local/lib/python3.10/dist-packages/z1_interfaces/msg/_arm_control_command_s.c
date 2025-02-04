@@ -1,0 +1,1 @@
+/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_py/z1_interfaces/msg/_arm_control_command_s.c

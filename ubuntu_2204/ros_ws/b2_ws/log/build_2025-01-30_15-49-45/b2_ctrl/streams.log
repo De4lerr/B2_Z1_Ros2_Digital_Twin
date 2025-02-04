@@ -1,0 +1,69 @@
+[0.025s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target b2_z1_control[0m
+[0.167s] [  8%] Built target read_low_state
+[0.178s] [ 21%] Built target low_level_ctrl
+[0.185s] [ 34%] Built target low_level_ctrl_hg
+[0.198s] [ 43%] Built target read_low_state_hg
+[0.202s] [ 52%] Built target read_wireless_controller
+[0.204s] [ 65%] Built target read_motion_state
+[0.205s] [ 73%] Built target sport_mode_ctrl
+[0.214s] [ 86%] Built target g1_low_level_example
+[0.225s] [100%] Built target b2_z1_control
+[0.247s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '0': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.381s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl
+[0.397s] -- Install configuration: ""
+[0.397s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/low_level_ctrl
+[0.398s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/low_level_ctrl_hg
+[0.399s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/g1_low_level_example
+[0.399s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/read_low_state
+[0.399s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/read_low_state_hg
+[0.400s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/read_motion_state
+[0.402s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/read_wireless_controller
+[0.403s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/sport_mode_ctrl
+[0.403s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin/b2_z1_control
+[0.403s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/ament_index/resource_index/package_run_dependencies/b2_ctrl
+[0.404s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/ament_index/resource_index/parent_prefix_path/b2_ctrl
+[0.404s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/environment/ament_prefix_path.sh
+[0.404s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/environment/ament_prefix_path.dsv
+[0.404s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/environment/path.sh
+[0.404s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/environment/path.dsv
+[0.405s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/local_setup.bash
+[0.405s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/local_setup.sh
+[0.405s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/local_setup.zsh
+[0.405s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/local_setup.dsv
+[0.406s] -- Installing: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/package.dsv
+[0.406s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/ament_index/resource_index/packages/b2_ctrl
+[0.407s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/cmake/b2_ctrlConfig.cmake
+[0.407s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/cmake/b2_ctrlConfig-version.cmake
+[0.407s] -- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/share/b2_ctrl/package.xml
+[0.418s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '0': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl
+[0.501s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 65, in build
+    has_install_target = await has_target(args.build_base, 'install')
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl', '--target', 'help'] to pass: gmake: *** [Makefile:634: help] Interrupt
+

@@ -1,0 +1,34 @@
+[0.041s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.413s] [35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[0.413s] [ 20%] Built target g1_low_level_example
+[0.413s] [ 25%] Built target read_wireless_controller
+[0.413s] [ 40%] Built target low_level_ctrl
+[0.414s] [ 55%] Built target low_level_ctrl_hg
+[0.415s] [ 65%] Built target read_low_state
+[0.416s] [ 75%] Built target read_motion_state
+[0.417s] [ 85%] Built target read_low_state_hg
+[0.417s] [ 90%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[2.986s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid SportManager::key_loop()[m[K’:
+[2.986s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:49:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kchar[m[K’
+[2.986s]    49 |         [01;31m[Kchar[m[K key = get_key(); // Captura a tecla pressionada
+[2.987s]       |         [01;31m[K^~~~[m[K
+[2.991s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:56:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kkey[m[K’ was not declared in this scope; did you mean ‘[01m[Kkey_t[m[K’?
+[2.991s]    56 |             if ([01;31m[Kkey[m[K == 'w')
+[2.991s]       |                 [01;31m[K^~~[m[K
+[2.991s]       |                 [32m[Kkey_t[m[K
+[2.997s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:126:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kkey[m[K’ was not declared in this scope; did you mean ‘[01m[Kkey_t[m[K’?
+[2.997s]   126 |             if ([01;31m[Kkey[m[K == '!')
+[2.997s]       |                 [01;31m[K^~~[m[K
+[2.997s]       |                 [32m[Kkey_t[m[K
+[3.001s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:135:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kkey[m[K’ was not declared in this scope; did you mean ‘[01m[Kkey_t[m[K’?
+[3.001s]   135 |             if ([01;31m[Kkey[m[K == '!')
+[3.001s]       |                 [01;31m[K^~~[m[K
+[3.001s]       |                 [32m[Kkey_t[m[K
+[3.004s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:141:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kkey[m[K’ was not declared in this scope; did you mean ‘[01m[Kkey_t[m[K’?
+[3.005s]   141 |         } if ([01;31m[Kkey[m[K == '"')
+[3.005s]       |               [01;31m[K^~~[m[K
+[3.005s]       |               [32m[Kkey_t[m[K
+[5.553s] gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+[5.553s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+[5.554s] gmake: *** [Makefile:146: all] Error 2
+[5.556s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16

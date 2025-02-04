@@ -1,0 +1,66 @@
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/pause_nav.dir/build.make:100: pause_nav] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:489: CMakeFiles/pause_nav.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/delete_node.dir/build.make:100: delete_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/delete_node.dir/all] Error 2
+/usr/bin/ldcollect2: error: ld returned 1 exit status
+: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+gmake[2]: *** [CMakeFiles/pose_init.dir/build.make:100: pose_init] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:359: CMakeFiles/pose_init.dir/all] Error 2
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/delete_edge.dir/build.make:100: delete_edge] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/delete_edge.dir/all] Error 2
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/recover_nav.dir/build.make:100: recover_nav] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:515: CMakeFiles/recover_nav.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/start_nav.dir/build.make:100: start_nav] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:385: CMakeFiles/start_nav.dir/all] Error 2
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/multiple_nav_default.dir/build.make:100: multiple_nav_default] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:437: CMakeFiles/multiple_nav_default.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/add_node.dir/build.make:100: add_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:177: CMakeFiles/add_node.dir/all] Error 2
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/query_node.dir/build.make:100: query_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/query_node.dir/all] Error 2
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/query_edge.dir/build.make:100: query_edge] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:281: CMakeFiles/query_edge.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/start_relocation.dir/build.make:100: start_relocation] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/start_relocation.dir/all] Error 2
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/multiple_nav_set.dir/build.make:100: multiple_nav_set] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:463: CMakeFiles/multiple_nav_set.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/end_mappping.dir/build.make:100: end_mappping] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/end_mappping.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/start_mappping.dir/build.make:100: start_mappping] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/start_mappping.dir/all] Error 2
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+/usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/single_nav.dir/build.make:100: single_nav] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:411: CMakeFiles/single_nav.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/add_edge.dir/build.make:100: add_edge] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/add_edge.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

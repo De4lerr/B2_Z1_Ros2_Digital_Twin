@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(z1_interfaces_IDL_FILES "msg/ArmControlCommand.idl;srv/GripperCommand.idl;srv/MoveCircularPathCommand.idl;srv/MoveLinearPathCommand.idl;srv/MoveJointPathCommand.idl;srv/NoInputCommand.idl")
+set(z1_interfaces_INTERFACE_FILES "msg/ArmControlCommand.msg;srv/GripperCommand.srv;srv/GripperCommand_Request.msg;srv/GripperCommand_Response.msg;srv/MoveCircularPathCommand.srv;srv/MoveCircularPathCommand_Request.msg;srv/MoveCircularPathCommand_Response.msg;srv/MoveLinearPathCommand.srv;srv/MoveLinearPathCommand_Request.msg;srv/MoveLinearPathCommand_Response.msg;srv/MoveJointPathCommand.srv;srv/MoveJointPathCommand_Request.msg;srv/MoveJointPathCommand_Response.msg;srv/NoInputCommand.srv;srv/NoInputCommand_Request.msg;srv/NoInputCommand_Response.msg")

@@ -1,0 +1,6 @@
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:518:56:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_command[m[K’ does not name a type
+  518 |     z1_interfaces::msg::ArmControlCommand arm_command; [01;31m[Karm_command[m[K.cartesian = true;
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/b2_z1_control.dir/build.make:76: CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/b2_z1_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

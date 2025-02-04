@@ -1,0 +1,67 @@
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid KeyboardController::key_loop()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:49:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvx[m[K’
+   49 |             request.[01;31m[Kvx[m[K = 0.5;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:50:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvy[m[K’
+   50 |             request.[01;31m[Kvy[m[K = 0.0;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:51:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvyaw[m[K’
+   51 |             request.[01;31m[Kvyaw[m[K = 0.0;
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:56:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvx[m[K’
+   56 |             request.[01;31m[Kvx[m[K = -0.5;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:57:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvy[m[K’
+   57 |             request.[01;31m[Kvy[m[K = 0.0;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:58:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvyaw[m[K’
+   58 |             request.[01;31m[Kvyaw[m[K = 0.0;
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:63:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvx[m[K’
+   63 |             request.[01;31m[Kvx[m[K = 0.0;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:64:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvy[m[K’
+   64 |             request.[01;31m[Kvy[m[K = 0.5;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:65:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvyaw[m[K’
+   65 |             request.[01;31m[Kvyaw[m[K = 0.0;
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:70:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvx[m[K’
+   70 |             request.[01;31m[Kvx[m[K = 0.0;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:71:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvy[m[K’
+   71 |             request.[01;31m[Kvy[m[K = -0.5;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:72:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvyaw[m[K’
+   72 |             request.[01;31m[Kvyaw[m[K = 0.0;
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:77:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvx[m[K’
+   77 |             request.[01;31m[Kvx[m[K = 0.0;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:78:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvy[m[K’
+   78 |             request.[01;31m[Kvy[m[K = 0.0;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:79:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvyaw[m[K’
+   79 |             request.[01;31m[Kvyaw[m[K = 0.5;
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:84:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvx[m[K’
+   84 |             request.[01;31m[Kvx[m[K = 0.0;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:85:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvy[m[K’
+   85 |             request.[01;31m[Kvy[m[K = 0.0;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:86:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvyaw[m[K’
+   86 |             request.[01;31m[Kvyaw[m[K = -0.5;
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:91:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvx[m[K’
+   91 |             request.[01;31m[Kvx[m[K = 0.0;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:92:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvy[m[K’
+   92 |             request.[01;31m[Kvy[m[K = 0.0;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:93:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Request = struct unitree_api::msg::Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvyaw[m[K’
+   93 |             request.[01;31m[Kvyaw[m[K = 0.0;
+      |                     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

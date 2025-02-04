@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ros_ws/ros_ws/b2_ws/build/z1_nodes/z1_manager" "/home/ros_ws/ros_ws/b2_ws/build/z1_nodes/z1_parse_joint_state" "TARGETS" "z1_manager" "z1_parse_joint_state" "DESTINATION" "lib/z1_nodes")

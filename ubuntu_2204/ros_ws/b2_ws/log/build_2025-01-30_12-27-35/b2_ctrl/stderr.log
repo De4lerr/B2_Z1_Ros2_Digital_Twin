@@ -1,0 +1,17 @@
+/usr/bin/ld: CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o: warning: relocation against `stdscr' in read-only section `.text'
+/usr/bin/ld: CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o: in function `get_key()':
+b2_z1_control.cpp:(.text+0x85): undefined reference to `initscr'
+/usr/bin/ld: b2_z1_control.cpp:(.text+0x8a): undefined reference to `cbreak'
+/usr/bin/ld: b2_z1_control.cpp:(.text+0x8f): undefined reference to `noecho'
+/usr/bin/ld: b2_z1_control.cpp:(.text+0x96): undefined reference to `stdscr'
+/usr/bin/ld: b2_z1_control.cpp:(.text+0xa3): undefined reference to `nodelay'
+/usr/bin/ld: b2_z1_control.cpp:(.text+0xaa): undefined reference to `stdscr'
+/usr/bin/ld: b2_z1_control.cpp:(.text+0xb7): undefined reference to `keypad'
+/usr/bin/ld: b2_z1_control.cpp:(.text+0xc0): undefined reference to `stdscr'
+/usr/bin/ld: b2_z1_control.cpp:(.text+0xc8): undefined reference to `wgetch'
+/usr/bin/ld: b2_z1_control.cpp:(.text+0x126): undefined reference to `endwin'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/b2_z1_control.dir/build.make:221: b2_z1_control] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/b2_z1_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

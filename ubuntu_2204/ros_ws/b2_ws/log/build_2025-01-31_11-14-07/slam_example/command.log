@@ -1,0 +1,2 @@
+Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/slam_example': /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/slam_example -- -j16 -l16
+Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/slam_example' returned '2': /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/slam_example -- -j16 -l16

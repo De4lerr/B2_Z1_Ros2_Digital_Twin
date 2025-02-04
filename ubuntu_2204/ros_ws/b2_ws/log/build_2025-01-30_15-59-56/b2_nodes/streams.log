@@ -1,0 +1,26 @@
+[1.112s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/src/b2_nodes': PYTHONPATH=/home/ros_ws/ros_ws/b2_ws/build/b2_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/b2_nodes build --build-base /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build install --record /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/install.log --single-version-externally-managed install_data
+[1.487s] running egg_info
+[1.488s] writing ../../build/b2_nodes/b2_nodes.egg-info/PKG-INFO
+[1.490s] writing dependency_links to ../../build/b2_nodes/b2_nodes.egg-info/dependency_links.txt
+[1.490s] writing entry points to ../../build/b2_nodes/b2_nodes.egg-info/entry_points.txt
+[1.491s] writing requirements to ../../build/b2_nodes/b2_nodes.egg-info/requires.txt
+[1.491s] writing top-level names to ../../build/b2_nodes/b2_nodes.egg-info/top_level.txt
+[1.492s] reading manifest file '../../build/b2_nodes/b2_nodes.egg-info/SOURCES.txt'
+[1.493s] adding license file 'LICENSE'
+[1.495s] writing manifest file '../../build/b2_nodes/b2_nodes.egg-info/SOURCES.txt'
+[1.495s] running build
+[1.495s] running build_py
+[1.496s] running install
+[1.496s] running install_lib
+[1.499s] running install_data
+[1.499s] running install_egg_info
+[1.502s] removing '/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes-0.0.0-py3.10.egg-info' (and everything under it)
+[1.503s] Copying ../../build/b2_nodes/b2_nodes.egg-info to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2_nodes-0.0.0-py3.10.egg-info
+[1.505s] running install_scripts
+[1.541s] Installing keyboard_control script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+[1.545s] Installing parse_joint_state script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+[1.545s] Installing parse_joint_state_z1_b2 script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+[1.545s] Installing parse_odometry script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+[1.545s] Installing print_joint_state script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+[1.545s] writing list of installed files to '/home/ros_ws/ros_ws/b2_ws/build/b2_nodes/install.log'
+[1.615s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/src/b2_nodes' returned '0': PYTHONPATH=/home/ros_ws/ros_ws/b2_ws/build/b2_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/b2_nodes build --build-base /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build install --record /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/install.log --single-version-externally-managed install_data

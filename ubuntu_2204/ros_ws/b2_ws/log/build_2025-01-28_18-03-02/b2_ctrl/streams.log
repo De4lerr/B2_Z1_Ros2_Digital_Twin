@@ -1,0 +1,75 @@
+[0.029s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target b2_z1_control[0m
+[0.161s] [ 13%] Built target low_level_ctrl_hg
+[0.163s] [ 26%] Built target g1_low_level_example
+[0.167s] [ 34%] Built target read_low_state
+[0.171s] [ 43%] Built target read_low_state_hg
+[0.174s] [ 52%] Built target read_wireless_controller
+[0.175s] [ 60%] Built target read_motion_state
+[0.176s] [ 65%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[0.180s] [ 78%] Built target low_level_ctrl
+[0.184s] [ 82%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o[0m
+[0.194s] [ 86%] [32mBuilding CXX object CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o[0m
+[0.261s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.261s]     7 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.262s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.263s] compilation terminated.
+[0.264s] gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+[0.264s] gmake[2]: *** Waiting for unfinished jobs....
+[0.345s] In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/common/ros2_sport_client.cpp:1[m[K:
+[0.345s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/include/common/ros2_sport_client.h:5:10:[m[K [01;31m[Kfatal error: [m[Kunitree_api/msg/request.hpp: No such file or directory
+[0.345s]     5 | #include [01;31m[K"unitree_api/msg/request.hpp"[m[K
+[0.345s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.345s] compilation terminated.
+[0.349s] gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:90: CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o] Error 1
+[0.349s] gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+[0.349s] gmake[1]: *** Waiting for unfinished jobs....
+[3.711s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:329:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[3.712s]   329 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Pose>::SharedPtr arm_publisher; // Publicador do braço
+[3.712s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[3.712s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:329:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.712s]   329 |     rclcpp::Publisher<geometry_msgs::msg::Pose[01;31m[K>[m[K::SharedPtr arm_publisher; // Publicador do braço
+[3.712s]       |                                               [01;31m[K^[m[K
+[3.712s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:329:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.712s]   329 |     rclcpp::Publisher<geometry_msgs::msg::Pose>::[01;31m[KSharedPtr[m[K arm_publisher; // Publicador do braço
+[3.712s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[3.712s]       |                                                           [32m[K;[m[K
+[3.714s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:329:60:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_publisher[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[3.714s]   329 |     rclcpp::Publisher<geometry_msgs::msg::Pose>::SharedPtr [01;31m[Karm_publisher[m[K; // Publicador do braço
+[3.714s]       |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[3.714s]       |                                                            [32m[Krmw_publisher_t[m[K
+[3.725s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:[m[K In constructor ‘[01m[KSportManager::SportManager()[m[K’:
+[3.725s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kreq_publisher[m[K’?
+[3.725s]    39 |         [01;31m[Karm_publisher[m[K = this->create_publisher<z1_interfaces::msg::ArmControlCommand>("z1_cartesian_control", 10);
+[3.725s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.726s]       |         [32m[Kreq_publisher[m[K
+[3.762s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:[m[K In member function ‘[01m[Kvoid SportManager::key_loop()[m[K’:
+[3.762s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:70:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[3.762s]    70 |                 [01;31m[Kpath_point_tmp[m[K.vx = 0.3;
+[3.762s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.772s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:78:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[3.772s]    78 |                 [01;31m[Kpath_point_tmp[m[K.vx = -0.3;
+[3.772s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.782s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:86:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[3.782s]    86 |                 [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+[3.782s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.792s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:94:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[3.792s]    94 |                 [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+[3.792s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.804s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:102:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[3.805s]   102 |                 [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+[3.805s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.815s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:110:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[3.815s]   110 |                 [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+[3.815s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.823s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:282:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[3.823s]   282 |             arm_command.directions[3] = [01;31m[K=[m[K arm_command.directions[3] - 0.05; // X-
+[3.823s]       |                                         [01;31m[K^[m[K
+[3.832s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:316:9:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kreq_publisher[m[K’?
+[3.833s]   316 |         [01;31m[Karm_publisher[m[K->publish(arm_command);
+[3.833s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.833s]       |         [32m[Kreq_publisher[m[K
+[7.288s] gmake[2]: *** [CMakeFiles/b2_z1_control.dir/build.make:76: CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o] Error 1
+[7.288s] gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/b2_z1_control.dir/all] Error 2
+[7.288s] gmake: *** [Makefile:146: all] Error 2
+[7.291s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '2': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16

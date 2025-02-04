@@ -1,0 +1,14 @@
+source;share/b2_ctrl/hook/cmake_prefix_path.ps1
+source;share/b2_ctrl/hook/cmake_prefix_path.dsv
+source;share/b2_ctrl/hook/cmake_prefix_path.sh
+source;share/b2_ctrl/hook/path.ps1
+source;share/b2_ctrl/hook/path.dsv
+source;share/b2_ctrl/hook/path.sh
+source;share/b2_ctrl/hook/pythonscriptspath.ps1
+source;share/b2_ctrl/hook/pythonscriptspath.dsv
+source;share/b2_ctrl/hook/pythonscriptspath.sh
+source;share/b2_ctrl/local_setup.bash
+source;share/b2_ctrl/local_setup.dsv
+source;share/b2_ctrl/local_setup.ps1
+source;share/b2_ctrl/local_setup.sh
+source;share/b2_ctrl/local_setup.zsh

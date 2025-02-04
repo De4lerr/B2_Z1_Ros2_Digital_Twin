@@ -1,0 +1,369 @@
+[0.000000] (-) TimerEvent: {}
+[0.000222] (-) JobUnselected: {'identifier': 'b2_ctrl'}
+[0.000489] (-) JobUnselected: {'identifier': 'b2_nodes'}
+[0.000610] (-) JobUnselected: {'identifier': 'b2_urdf'}
+[0.000713] (-) JobUnselected: {'identifier': 'py_cpp'}
+[0.000754] (-) JobUnselected: {'identifier': 'z1_interfaces'}
+[0.000788] (-) JobUnselected: {'identifier': 'z1_urdf'}
+[0.000822] (z1_nodes) JobQueued: {'identifier': 'z1_nodes', 'dependencies': OrderedDict([('z1_interfaces', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces')])}
+[0.000869] (z1_nodes) JobStarted: {'identifier': 'z1_nodes'}
+[0.014378] (z1_nodes) JobProgress: {'identifier': 'z1_nodes', 'progress': 'cmake'}
+[0.015307] (z1_nodes) JobProgress: {'identifier': 'z1_nodes', 'progress': 'build'}
+[0.015835] (z1_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes', '--', '-j16', '-l16'], 'cwd': '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes', 'env': OrderedDict([('HOSTNAME', 'de4lerr-G15'), ('GIT_ASKPASS', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib'), ('BROWSER', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/ros_ws'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp3s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-51da45d1-05dd-47ab-b918-e7d0774b29a1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1f015a72-b905-4779-b969-4d3d6293462f.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-1f015a72-b905-4779-b969-4d3d6293462f.sock","/home/ros_ws/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-91d6572c0f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-1f015a72-b905-4779-b969-4d3d6293462f.sock'), ('AMENT_PREFIX_PATH', '/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble:/unitree_sdk2:'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/z1_sdk/lib:/z1_sdk/lib'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble:')]), 'shell': False}
+[0.065817] (z1_nodes) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_manager\x1b[0m\n'}
+[0.081371] (z1_nodes) StdoutLine: {'line': b'[ 50%] Built target z1_parse_joint_state\n'}
+[0.095144] (z1_nodes) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o\x1b[0m\n'}
+[0.099823] (-) TimerEvent: {}
+[0.200099] (-) TimerEvent: {}
+[0.300380] (-) TimerEvent: {}
+[0.400692] (-) TimerEvent: {}
+[0.500956] (-) TimerEvent: {}
+[0.601221] (-) TimerEvent: {}
+[0.701497] (-) TimerEvent: {}
+[0.801793] (-) TimerEvent: {}
+[0.902080] (-) TimerEvent: {}
+[1.002378] (-) TimerEvent: {}
+[1.102645] (-) TimerEvent: {}
+[1.202918] (-) TimerEvent: {}
+[1.303208] (-) TimerEvent: {}
+[1.403548] (-) TimerEvent: {}
+[1.503854] (-) TimerEvent: {}
+[1.604152] (-) TimerEvent: {}
+[1.704445] (-) TimerEvent: {}
+[1.804763] (-) TimerEvent: {}
+[1.905055] (-) TimerEvent: {}
+[2.005339] (-) TimerEvent: {}
+[2.105584] (-) TimerEvent: {}
+[2.205865] (-) TimerEvent: {}
+[2.306148] (-) TimerEvent: {}
+[2.406432] (-) TimerEvent: {}
+[2.506765] (-) TimerEvent: {}
+[2.607049] (-) TimerEvent: {}
+[2.707337] (-) TimerEvent: {}
+[2.807622] (-) TimerEvent: {}
+[2.907916] (-) TimerEvent: {}
+[3.008193] (-) TimerEvent: {}
+[3.106881] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.107389] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.107474] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.107571] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.107645] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.107711] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Z1ManagerNode::back_to_start_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.107780] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.108138] (z1_nodes) StderrLine: {'line': b'  146 |             request=\x1b[01;31m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.108388] (-) TimerEvent: {}
+[3.108490] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.108581] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.108642] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.108697] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.110216] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.110503] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.110593] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.110654] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.110714] (z1_nodes) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[3.110785] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.110838] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.110890] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.110950] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.111000] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.111049] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.111098] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.111146] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.111198] (z1_nodes) StderrLine: {'line': b'  146 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.111250] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.111301] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.111351] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.111400] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.111451] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.111502] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.111574] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.111626] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.111689] (z1_nodes) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[3.111737] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.111787] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.111833] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.111879] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.111924] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.111968] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.112076] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.112160] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.112230] (z1_nodes) StderrLine: {'line': b'  146 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.112294] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.112354] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.112414] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.112472] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.112549] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.112621] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.112683] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.112743] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.112812] (z1_nodes) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[3.112874] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.112932] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.112991] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.113048] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.113094] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.113140] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.113187] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.113233] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.113281] (z1_nodes) StderrLine: {'line': b'  146 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.113329] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.113375] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.113420] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.113473] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.113524] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.113579] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.113626] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.113673] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.113727] (z1_nodes) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[3.113779] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.113826] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.113874] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.113921] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.113968] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.114014] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.114061] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.114107] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.114155] (z1_nodes) StderrLine: {'line': b'  146 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.114201] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.114247] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.114292] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.114338] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.114398] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.114446] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.114495] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.114566] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[3.114629] (z1_nodes) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[3.114679] (z1_nodes) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.114730] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  passing \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers\n'}
+[3.114780] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[3.114828] (z1_nodes) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[3.114875] (z1_nodes) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.114920] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  passing \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers\n'}
+[3.114967] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.115013] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.115060] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.115107] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.115153] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.115199] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Z1ManagerNode::set_zero_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.115252] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:165:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.115305] (z1_nodes) StderrLine: {'line': b'  165 |             request=\x1b[01;31m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.115356] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.115401] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.115447] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.115498] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.115576] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.115635] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.115725] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.115788] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.115846] (z1_nodes) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[3.115897] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.115944] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.115994] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.116049] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.116099] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.116147] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.116193] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.116241] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:165:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.116289] (z1_nodes) StderrLine: {'line': b'  165 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.116336] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.116384] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.116430] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.116477] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.116533] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.116586] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.116632] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.116684] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.116738] (z1_nodes) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[3.116788] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.116835] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.116883] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.116929] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.116974] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.117020] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.117065] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.117111] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:165:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.117159] (z1_nodes) StderrLine: {'line': b'  165 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.117211] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.117260] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.117307] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.117357] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.117404] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.117452] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.117498] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.117556] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.117607] (z1_nodes) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[3.117656] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.117703] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.117754] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.117824] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.117872] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.117919] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.117965] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.118010] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:165:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.118059] (z1_nodes) StderrLine: {'line': b'  165 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.118105] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.118151] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.118198] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.118244] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.118290] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.118339] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.118388] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.118437] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.118493] (z1_nodes) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[3.118553] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.118604] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.118651] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.118698] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.118743] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.118789] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.118838] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.118885] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:165:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.118938] (z1_nodes) StderrLine: {'line': b'  165 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.118985] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.119034] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.119081] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.119131] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.119179] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.119228] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.119274] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.119321] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[3.119375] (z1_nodes) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[3.119424] (z1_nodes) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.119470] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  passing \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers\n'}
+[3.119523] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[3.119579] (z1_nodes) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[3.119628] (z1_nodes) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.119675] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  passing \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers\n'}
+[3.119724] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.119770] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.119817] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.119862] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.119907] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.119957] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Z1ManagerNode::set_passive_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.120006] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:184:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.120053] (z1_nodes) StderrLine: {'line': b'  184 |             request=\x1b[01;31m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.120099] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.120144] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.120190] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.120240] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.120287] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.120333] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.120380] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.120426] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.120479] (z1_nodes) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[3.120533] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.120591] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.120639] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.120685] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.120731] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.120777] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.120828] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.120876] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:184:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.120929] (z1_nodes) StderrLine: {'line': b'  184 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.120977] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.121025] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.121072] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.121121] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.121168] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.121215] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.121263] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.121310] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.121359] (z1_nodes) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[3.121405] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.121451] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.121497] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.121553] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.121601] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.121650] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.121697] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.121742] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:184:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.121789] (z1_nodes) StderrLine: {'line': b'  184 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.121834] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.121879] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.121925] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.121970] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.122025] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.122072] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.122118] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.122167] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.122217] (z1_nodes) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[3.122269] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.122316] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.122366] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.122415] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.122464] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.122515] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.122569] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.122616] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:184:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.122663] (z1_nodes) StderrLine: {'line': b'  184 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.122708] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.122754] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.122801] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.122847] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.122893] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.122939] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.122984] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.123029] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.123082] (z1_nodes) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[3.123128] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.123175] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.123220] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23\x1b[m\x1b[K,\n'}
+[3.123265] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/signal.h:313\x1b[m\x1b[K,\n'}
+[3.123310] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/csignal:42\x1b[m\x1b[K,\n'}
+[3.123355] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152\x1b[m\x1b[K,\n'}
+[3.123400] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2\x1b[m\x1b[K:\n'}
+[3.123445] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:184:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.123492] (z1_nodes) StderrLine: {'line': b'  184 |             request=\x1b[01;36m\x1b[KNULL\x1b[m\x1b[K; //Aqui so para evitar avisos no console\n'}
+[3.123550] (z1_nodes) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.123599] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.123644] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7\x1b[m\x1b[K,\n'}
+[3.123690] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9\x1b[m\x1b[K,\n'}
+[3.123736] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7\x1b[m\x1b[K,\n'}
+[3.123781] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.123828] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.123873] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[3.123923] (z1_nodes) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[3.123969] (z1_nodes) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.124016] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  passing \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers\n'}
+[3.124080] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[3.124134] (z1_nodes) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[3.124182] (z1_nodes) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.124229] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  passing \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers\n'}
+[3.208505] (-) TimerEvent: {}
+[3.308842] (-) TimerEvent: {}
+[3.409115] (-) TimerEvent: {}
+[3.509404] (-) TimerEvent: {}
+[3.609696] (-) TimerEvent: {}
+[3.709960] (-) TimerEvent: {}
+[3.810210] (-) TimerEvent: {}
+[3.910474] (-) TimerEvent: {}
+[4.010754] (-) TimerEvent: {}
+[4.111036] (-) TimerEvent: {}
+[4.211329] (-) TimerEvent: {}
+[4.311613] (-) TimerEvent: {}
+[4.411883] (-) TimerEvent: {}
+[4.512163] (-) TimerEvent: {}
+[4.612452] (-) TimerEvent: {}
+[4.712734] (-) TimerEvent: {}
+[4.813006] (-) TimerEvent: {}
+[4.913292] (-) TimerEvent: {}
+[5.013574] (-) TimerEvent: {}
+[5.113878] (-) TimerEvent: {}
+[5.214150] (-) TimerEvent: {}
+[5.314444] (-) TimerEvent: {}
+[5.414723] (-) TimerEvent: {}
+[5.514983] (-) TimerEvent: {}
+[5.615265] (-) TimerEvent: {}
+[5.715563] (-) TimerEvent: {}
+[5.815836] (-) TimerEvent: {}
+[5.916597] (-) TimerEvent: {}
+[6.016905] (-) TimerEvent: {}
+[6.117202] (-) TimerEvent: {}
+[6.217493] (-) TimerEvent: {}
+[6.301927] (z1_nodes) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/z1_manager.dir/build.make:76: CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o] Error 1\n'}
+[6.302373] (z1_nodes) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/z1_manager.dir/all] Error 2\n'}
+[6.302546] (z1_nodes) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.304658] (z1_nodes) CommandEnded: {'returncode': 2}
+[6.317534] (-) TimerEvent: {}
+[6.353486] (z1_nodes) JobEnded: {'identifier': 'z1_nodes', 'rc': 2}
+[6.363976] (-) EventReactorShutdown: {}

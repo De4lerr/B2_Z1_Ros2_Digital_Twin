@@ -1,0 +1,13 @@
+[0.035s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.318s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.319s] -- Configuring incomplete, errors occurred!
+[0.319s] See also "/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl/CMakeFiles/CMakeOutput.log".
+[0.319s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.319s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.319s]   before
+[0.319s] Call Stack (most recent call first):
+[0.319s]   CMakeLists.txt:15 (ament_target_dependencies)
+[0.319s] 
+[0.320s] [0m
+[0.320s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.321s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16

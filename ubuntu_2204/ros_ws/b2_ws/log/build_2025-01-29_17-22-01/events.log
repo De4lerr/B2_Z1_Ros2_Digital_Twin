@@ -1,0 +1,403 @@
+[0.000000] (-) TimerEvent: {}
+[0.000472] (-) JobUnselected: {'identifier': 'b2_ctrl'}
+[0.000604] (-) JobUnselected: {'identifier': 'b2_nodes'}
+[0.000647] (-) JobUnselected: {'identifier': 'b2_urdf'}
+[0.000678] (-) JobUnselected: {'identifier': 'py_cpp'}
+[0.000707] (-) JobUnselected: {'identifier': 'z1_nodes'}
+[0.000734] (-) JobUnselected: {'identifier': 'z1_urdf'}
+[0.000763] (z1_interfaces) JobQueued: {'identifier': 'z1_interfaces', 'dependencies': OrderedDict()}
+[0.000795] (z1_interfaces) JobStarted: {'identifier': 'z1_interfaces'}
+[0.011610] (z1_interfaces) JobProgress: {'identifier': 'z1_interfaces', 'progress': 'cmake'}
+[0.012619] (z1_interfaces) JobProgress: {'identifier': 'z1_interfaces', 'progress': 'build'}
+[0.013100] (z1_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces', 'env': OrderedDict([('HOSTNAME', 'de4lerr-G15'), ('GIT_ASKPASS', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib'), ('BROWSER', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/ros_ws'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp3s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-51da45d1-05dd-47ab-b918-e7d0774b29a1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1f015a72-b905-4779-b969-4d3d6293462f.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-1f015a72-b905-4779-b969-4d3d6293462f.sock","/home/ros_ws/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-91d6572c0f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-1f015a72-b905-4779-b969-4d3d6293462f.sock'), ('AMENT_PREFIX_PATH', '/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble:/unitree_sdk2:'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/z1_sdk/lib:/z1_sdk/lib'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble:')]), 'shell': False}
+[0.043667] (z1_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099692] (-) TimerEvent: {}
+[0.160315] (z1_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.167189] (z1_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.169381] (z1_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.171594] (z1_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199021] (z1_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199748] (-) TimerEvent: {}
+[0.221730] (z1_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.299874] (-) TimerEvent: {}
+[0.400150] (-) TimerEvent: {}
+[0.500417] (-) TimerEvent: {}
+[0.565266] (z1_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600507] (-) TimerEvent: {}
+[0.700763] (-) TimerEvent: {}
+[0.777242] (z1_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800862] (-) TimerEvent: {}
+[0.901126] (-) TimerEvent: {}
+[1.001412] (-) TimerEvent: {}
+[1.055239] (z1_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.077957] (z1_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.100777] (z1_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.101038] (z1_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.101128] (z1_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.101475] (-) TimerEvent: {}
+[1.130017] (z1_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.160351] (z1_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.161862] (z1_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.165882] (z1_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.201607] (-) TimerEvent: {}
+[1.224449] (z1_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.228144] (z1_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ros_ws/ros_ws/b2_ws/build/z1_interfaces\n'}
+[1.258525] (z1_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.271232] (z1_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.281801] (z1_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_z1_interfaces\n'}
+[1.301686] (-) TimerEvent: {}
+[1.401948] (-) TimerEvent: {}
+[1.502204] (-) TimerEvent: {}
+[1.531706] (z1_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.532550] (z1_interfaces) StdoutLine: {'line': b'writing z1_interfaces.egg-info/PKG-INFO\n'}
+[1.533073] (z1_interfaces) StdoutLine: {'line': b'writing dependency_links to z1_interfaces.egg-info/dependency_links.txt\n'}
+[1.533209] (z1_interfaces) StdoutLine: {'line': b'writing top-level names to z1_interfaces.egg-info/top_level.txt\n'}
+[1.535513] (z1_interfaces) StdoutLine: {'line': b"reading manifest file 'z1_interfaces.egg-info/SOURCES.txt'\n"}
+[1.538001] (z1_interfaces) StdoutLine: {'line': b"writing manifest file 'z1_interfaces.egg-info/SOURCES.txt'\n"}
+[1.569833] (z1_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_z1_interfaces_egg\n'}
+[1.602295] (-) TimerEvent: {}
+[1.702554] (-) TimerEvent: {}
+[1.802837] (-) TimerEvent: {}
+[1.869126] (z1_interfaces) StdoutLine: {'line': b'[  2%] Built target z1_interfaces__cpp\n'}
+[1.889091] (z1_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.889289] (z1_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.889388] (z1_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.893855] (z1_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.902921] (-) TimerEvent: {}
+[1.914289] (z1_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_c.dir/rosidl_generator_c/z1_interfaces/srv/detail/move_joint_path_command__functions.c.o\x1b[0m\n'}
+[1.914696] (z1_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_c.dir/rosidl_generator_c/z1_interfaces/srv/detail/move_circular_path_command__functions.c.o\x1b[0m\n'}
+[1.914852] (z1_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_c.dir/rosidl_generator_c/z1_interfaces/srv/detail/no_input_command__functions.c.o\x1b[0m\n'}
+[1.915025] (z1_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_c.dir/rosidl_generator_c/z1_interfaces/srv/detail/move_linear_path_command__functions.c.o\x1b[0m\n'}
+[1.915253] (z1_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_c.dir/rosidl_generator_c/z1_interfaces/srv/detail/gripper_command__functions.c.o\x1b[0m\n'}
+[1.915374] (z1_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_c.dir/rosidl_generator_c/z1_interfaces/msg/detail/arm_control_command__functions.c.o\x1b[0m\n'}
+[1.994170] (z1_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libz1_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.003019] (-) TimerEvent: {}
+[2.046263] (z1_interfaces) StdoutLine: {'line': b'[ 16%] Built target z1_interfaces__rosidl_generator_c\n'}
+[2.062297] (z1_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.062541] (z1_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.062667] (z1_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.103124] (-) TimerEvent: {}
+[2.204902] (-) TimerEvent: {}
+[2.305192] (-) TimerEvent: {}
+[2.362566] (z1_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.392718] (z1_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/z1_interfaces/srv/move_circular_path_command__type_support.cpp.o\x1b[0m\n'}
+[2.394284] (z1_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/z1_interfaces/srv/move_linear_path_command__type_support.cpp.o\x1b[0m\n'}
+[2.395616] (z1_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/z1_interfaces/msg/arm_control_command__type_support.cpp.o\x1b[0m\n'}
+[2.396420] (z1_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/z1_interfaces/srv/gripper_command__type_support.cpp.o\x1b[0m\n'}
+[2.396663] (z1_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/z1_interfaces/srv/no_input_command__type_support.cpp.o\x1b[0m\n'}
+[2.396799] (z1_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/z1_interfaces/srv/move_joint_path_command__type_support.cpp.o\x1b[0m\n'}
+[2.408885] (-) TimerEvent: {}
+[2.508969] (z1_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.509267] (-) TimerEvent: {}
+[2.550950] (z1_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/z1_interfaces/msg/detail/arm_control_command__type_support.cpp.o\x1b[0m\n'}
+[2.551370] (z1_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/z1_interfaces/srv/detail/gripper_command__type_support.cpp.o\x1b[0m\n'}
+[2.559553] (z1_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/z1_interfaces/srv/detail/move_circular_path_command__type_support.cpp.o\x1b[0m\n'}
+[2.567375] (z1_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/z1_interfaces/srv/detail/no_input_command__type_support.cpp.o\x1b[0m\n'}
+[2.569791] (z1_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/z1_interfaces/srv/detail/move_joint_path_command__type_support.cpp.o\x1b[0m\n'}
+[2.572908] (z1_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/z1_interfaces/srv/detail/move_linear_path_command__type_support.cpp.o\x1b[0m\n'}
+[2.609396] (-) TimerEvent: {}
+[2.711276] (-) TimerEvent: {}
+[2.801916] (z1_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.811943] (-) TimerEvent: {}
+[2.875883] (z1_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/z1_interfaces/msg/arm_control_command__type_support.cpp.o\x1b[0m\n'}
+[2.876221] (z1_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/z1_interfaces/srv/gripper_command__type_support.cpp.o\x1b[0m\n'}
+[2.876752] (z1_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/z1_interfaces/srv/move_circular_path_command__type_support.cpp.o\x1b[0m\n'}
+[2.884698] (z1_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/z1_interfaces/srv/move_linear_path_command__type_support.cpp.o\x1b[0m\n'}
+[2.900701] (z1_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/z1_interfaces/srv/move_joint_path_command__type_support.cpp.o\x1b[0m\n'}
+[2.905604] (z1_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libz1_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.912319] (-) TimerEvent: {}
+[2.941613] (z1_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.960601] (z1_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/z1_interfaces/srv/no_input_command__type_support.cpp.o\x1b[0m\n'}
+[2.995005] (z1_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/z1_interfaces/msg/detail/dds_fastrtps/arm_control_command__type_support.cpp.o\x1b[0m\n'}
+[2.995297] (z1_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.003981] (z1_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/z1_interfaces/srv/detail/dds_fastrtps/gripper_command__type_support.cpp.o\x1b[0m\n'}
+[3.011361] (z1_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/z1_interfaces/srv/detail/dds_fastrtps/move_circular_path_command__type_support.cpp.o\x1b[0m\n'}
+[3.012392] (-) TimerEvent: {}
+[3.019164] (z1_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/z1_interfaces/srv/detail/dds_fastrtps/move_joint_path_command__type_support.cpp.o\x1b[0m\n'}
+[3.028002] (z1_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/z1_interfaces/srv/detail/dds_fastrtps/move_linear_path_command__type_support.cpp.o\x1b[0m\n'}
+[3.028522] (z1_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.034988] (z1_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/z1_interfaces/srv/detail/dds_fastrtps/no_input_command__type_support.cpp.o\x1b[0m\n'}
+[3.041681] (z1_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libz1_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.045790] (z1_interfaces) StdoutLine: {'line': b'[ 57%] Built target z1_interfaces__rosidl_typesupport_cpp\n'}
+[3.070620] (z1_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/z1_interfaces/msg/detail/arm_control_command__type_support.c.o\x1b[0m\n'}
+[3.071006] (z1_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/z1_interfaces/msg/detail/arm_control_command__type_support_c.cpp.o\x1b[0m\n'}
+[3.080886] (z1_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/z1_interfaces/srv/detail/gripper_command__type_support.c.o\x1b[0m\n'}
+[3.112524] (-) TimerEvent: {}
+[3.171764] (z1_interfaces) StdoutLine: {'line': b'[ 61%] Built target z1_interfaces__rosidl_typesupport_c\n'}
+[3.206002] (z1_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/z1_interfaces/srv/detail/gripper_command__type_support_c.cpp.o\x1b[0m\n'}
+[3.212644] (-) TimerEvent: {}
+[3.213235] (z1_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/z1_interfaces/srv/detail/move_circular_path_command__type_support_c.cpp.o\x1b[0m\n'}
+[3.234906] (z1_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/z1_interfaces/srv/detail/move_circular_path_command__type_support.c.o\x1b[0m\n'}
+[3.259000] (z1_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/z1_interfaces/srv/detail/move_linear_path_command__type_support.c.o\x1b[0m\n'}
+[3.266263] (z1_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/z1_interfaces/srv/detail/move_linear_path_command__type_support_c.cpp.o\x1b[0m\n'}
+[3.312895] (z1_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/z1_interfaces/srv/detail/no_input_command__type_support.c.o\x1b[0m\n'}
+[3.313240] (-) TimerEvent: {}
+[3.313429] (z1_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libz1_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.313611] (z1_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/z1_interfaces/srv/detail/move_joint_path_command__type_support.c.o\x1b[0m\n'}
+[3.319689] (z1_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/z1_interfaces/srv/detail/move_joint_path_command__type_support_c.cpp.o\x1b[0m\n'}
+[3.338861] (z1_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/z1_interfaces/srv/detail/no_input_command__type_support_c.cpp.o\x1b[0m\n'}
+[3.413374] (-) TimerEvent: {}
+[3.436022] (z1_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library libz1_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.513508] (-) TimerEvent: {}
+[3.529338] (z1_interfaces) StdoutLine: {'line': b'[ 77%] Built target z1_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.532922] (z1_interfaces) StdoutLine: {'line': b'[ 77%] Built target z1_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.613627] (-) TimerEvent: {}
+[3.715855] (-) TimerEvent: {}
+[3.816442] (-) TimerEvent: {}
+[3.838690] (z1_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libz1_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.885601] (z1_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libz1_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.916540] (-) TimerEvent: {}
+[3.927191] (z1_interfaces) StdoutLine: {'line': b'[ 80%] Built target z1_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.980186] (z1_interfaces) StdoutLine: {'line': b'[ 80%] Built target z1_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.007959] (z1_interfaces) StdoutLine: {'line': b'[ 80%] Built target z1_interfaces\n'}
+[4.016632] (-) TimerEvent: {}
+[4.036750] (z1_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.116729] (-) TimerEvent: {}
+[4.217014] (-) TimerEvent: {}
+[4.317281] (-) TimerEvent: {}
+[4.417550] (-) TimerEvent: {}
+[4.517824] (-) TimerEvent: {}
+[4.618106] (-) TimerEvent: {}
+[4.718355] (-) TimerEvent: {}
+[4.818622] (-) TimerEvent: {}
+[4.918872] (-) TimerEvent: {}
+[5.010339] (z1_interfaces) StdoutLine: {'line': b'[ 81%] Built target z1_interfaces__py\n'}
+[5.018967] (-) TimerEvent: {}
+[5.026561] (z1_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_generator_py\x1b[0m\n'}
+[5.051744] (z1_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_py.dir/rosidl_generator_py/z1_interfaces/srv/_move_linear_path_command_s.c.o\x1b[0m\n'}
+[5.052024] (z1_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_py.dir/rosidl_generator_py/z1_interfaces/srv/_gripper_command_s.c.o\x1b[0m\n'}
+[5.052190] (z1_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_py.dir/rosidl_generator_py/z1_interfaces/srv/_move_circular_path_command_s.c.o\x1b[0m\n'}
+[5.052293] (z1_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_py.dir/rosidl_generator_py/z1_interfaces/msg/_arm_control_command_s.c.o\x1b[0m\n'}
+[5.052388] (z1_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_py.dir/rosidl_generator_py/z1_interfaces/srv/_no_input_command_s.c.o\x1b[0m\n'}
+[5.052490] (z1_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_generator_py.dir/rosidl_generator_py/z1_interfaces/srv/_move_joint_path_command_s.c.o\x1b[0m\n'}
+[5.119068] (-) TimerEvent: {}
+[5.178722] (z1_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/z1_interfaces/libz1_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[5.219167] (-) TimerEvent: {}
+[5.229950] (z1_interfaces) StdoutLine: {'line': b'[ 91%] Built target z1_interfaces__rosidl_generator_py\n'}
+[5.243413] (z1_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.243581] (z1_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.243649] (z1_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.262315] (z1_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.262552] (z1_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.263434] (z1_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/z1_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.319265] (-) TimerEvent: {}
+[5.413495] (z1_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/z1_interfaces/z1_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.413730] (z1_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/z1_interfaces/z1_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.414582] (z1_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/z1_interfaces/z1_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.419348] (-) TimerEvent: {}
+[5.462173] (z1_interfaces) StdoutLine: {'line': b'[100%] Built target z1_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.462374] (z1_interfaces) StdoutLine: {'line': b'[100%] Built target z1_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.462456] (z1_interfaces) StdoutLine: {'line': b'[100%] Built target z1_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.478633] (z1_interfaces) CommandEnded: {'returncode': 0}
+[5.519445] (-) TimerEvent: {}
+[5.619689] (-) TimerEvent: {}
+[5.719931] (-) TimerEvent: {}
+[5.730013] (z1_interfaces) JobProgress: {'identifier': 'z1_interfaces', 'progress': 'install'}
+[5.740541] (z1_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces'], 'cwd': '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces', 'env': OrderedDict([('HOSTNAME', 'de4lerr-G15'), ('GIT_ASKPASS', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib'), ('BROWSER', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/ros_ws'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp3s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-51da45d1-05dd-47ab-b918-e7d0774b29a1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-1f015a72-b905-4779-b969-4d3d6293462f.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-1f015a72-b905-4779-b969-4d3d6293462f.sock","/home/ros_ws/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-91d6572c0f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-1f015a72-b905-4779-b969-4d3d6293462f.sock'), ('AMENT_PREFIX_PATH', '/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble:/unitree_sdk2:'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/z1_sdk/lib:/z1_sdk/lib'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble:')]), 'shell': False}
+[5.750182] (z1_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.750750] (z1_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.750977] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/ament_index/resource_index/rosidl_interfaces/z1_interfaces\n'}
+[5.751565] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/arm_control_command.h\n'}
+[5.751694] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__functions.h\n'}
+[5.751822] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__struct.h\n'}
+[5.751955] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__type_support.h\n'}
+[5.752072] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.752196] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/gripper_command__functions.h\n'}
+[5.752314] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/gripper_command__struct.h\n'}
+[5.752435] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/gripper_command__type_support.h\n'}
+[5.752559] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_circular_path_command__functions.h\n'}
+[5.752680] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_circular_path_command__struct.h\n'}
+[5.752802] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_circular_path_command__type_support.h\n'}
+[5.752940] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_joint_path_command__functions.h\n'}
+[5.753061] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_joint_path_command__struct.h\n'}
+[5.753183] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_joint_path_command__type_support.h\n'}
+[5.753303] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_linear_path_command__functions.h\n'}
+[5.753424] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_linear_path_command__struct.h\n'}
+[5.753542] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_linear_path_command__type_support.h\n'}
+[5.753663] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/no_input_command__functions.h\n'}
+[5.753785] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/no_input_command__struct.h\n'}
+[5.753912] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/no_input_command__type_support.h\n'}
+[5.754034] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/gripper_command.h\n'}
+[5.754157] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/move_circular_path_command.h\n'}
+[5.754273] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/move_joint_path_command.h\n'}
+[5.754386] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/move_linear_path_command.h\n'}
+[5.754507] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/no_input_command.h\n'}
+[5.754677] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/library_path.sh\n'}
+[5.754823] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/library_path.dsv\n'}
+[5.755415] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__rosidl_typesupport_fastrtps_c.h\n'}
+[5.755537] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.755662] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/gripper_command__rosidl_typesupport_fastrtps_c.h\n'}
+[5.755792] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_circular_path_command__rosidl_typesupport_fastrtps_c.h\n'}
+[5.755934] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_joint_path_command__rosidl_typesupport_fastrtps_c.h\n'}
+[5.756059] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_linear_path_command__rosidl_typesupport_fastrtps_c.h\n'}
+[5.756181] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/no_input_command__rosidl_typesupport_fastrtps_c.h\n'}
+[5.756573] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__rosidl_typesupport_introspection_c.h\n'}
+[5.756714] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.756852] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/gripper_command__rosidl_typesupport_introspection_c.h\n'}
+[5.756980] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_circular_path_command__rosidl_typesupport_introspection_c.h\n'}
+[5.757104] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_joint_path_command__rosidl_typesupport_introspection_c.h\n'}
+[5.757239] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_linear_path_command__rosidl_typesupport_introspection_c.h\n'}
+[5.757355] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/no_input_command__rosidl_typesupport_introspection_c.h\n'}
+[5.757911] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/arm_control_command.hpp\n'}
+[5.758072] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__builder.hpp\n'}
+[5.758199] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__struct.hpp\n'}
+[5.758316] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__traits.hpp\n'}
+[5.758433] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/gripper_command__builder.hpp\n'}
+[5.758552] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/gripper_command__struct.hpp\n'}
+[5.758674] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/gripper_command__traits.hpp\n'}
+[5.758798] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_circular_path_command__builder.hpp\n'}
+[5.758930] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_circular_path_command__struct.hpp\n'}
+[5.759056] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_circular_path_command__traits.hpp\n'}
+[5.759178] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_joint_path_command__builder.hpp\n'}
+[5.759300] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_joint_path_command__struct.hpp\n'}
+[5.759422] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_joint_path_command__traits.hpp\n'}
+[5.759544] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_linear_path_command__builder.hpp\n'}
+[5.759666] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_linear_path_command__struct.hpp\n'}
+[5.759789] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_linear_path_command__traits.hpp\n'}
+[5.759919] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/no_input_command__builder.hpp\n'}
+[5.760043] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/no_input_command__struct.hpp\n'}
+[5.760165] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/no_input_command__traits.hpp\n'}
+[5.760284] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/gripper_command.hpp\n'}
+[5.760412] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/move_circular_path_command.hpp\n'}
+[5.760549] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/move_joint_path_command.hpp\n'}
+[5.760725] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/move_linear_path_command.hpp\n'}
+[5.760925] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/no_input_command.hpp\n'}
+[5.761569] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.761691] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.761821] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.761953] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_circular_path_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.762077] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_joint_path_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.762203] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_linear_path_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.762329] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/no_input_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.762717] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/msg/detail/arm_control_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.762849] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.762975] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_circular_path_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.763098] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_joint_path_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.763220] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/move_linear_path_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.763351] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/include/z1_interfaces/z1_interfaces/srv/detail/no_input_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.763500] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/pythonpath.sh\n'}
+[5.763635] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/pythonpath.dsv\n'}
+[5.763905] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.764032] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.764151] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.764270] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.765059] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/__init__.py\n'}
+[5.765181] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.765296] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.765412] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/_z1_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.765531] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/libz1_interfaces__rosidl_generator_py.so\n'}
+[5.765649] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg/__init__.py\n'}
+[5.765769] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg/_arm_control_command.py\n'}
+[5.765909] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg/_arm_control_command_s.c\n'}
+[5.766036] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/__init__.py\n'}
+[5.766159] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_gripper_command.py\n'}
+[5.766282] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_gripper_command_s.c\n'}
+[5.766403] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_move_circular_path_command.py\n'}
+[5.766522] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_move_circular_path_command_s.c\n'}
+[5.766642] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_move_joint_path_command.py\n'}
+[5.766762] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_move_joint_path_command_s.c\n'}
+[5.766889] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_move_linear_path_command.py\n'}
+[5.767010] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_move_linear_path_command_s.c\n'}
+[5.767129] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_no_input_command.py\n'}
+[5.767249] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_no_input_command_s.c\n'}
+[5.767367] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.767485] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.767599] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.767844] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.768063] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.768279] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/z1_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.768438] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/msg/ArmControlCommand.idl\n'}
+[5.768585] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/GripperCommand.idl\n'}
+[5.768731] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveCircularPathCommand.idl\n'}
+[5.768891] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveLinearPathCommand.idl\n'}
+[5.769037] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveJointPathCommand.idl\n'}
+[5.769179] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/NoInputCommand.idl\n'}
+[5.769317] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/msg/ArmControlCommand.msg\n'}
+[5.769457] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/GripperCommand.srv\n'}
+[5.769595] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/GripperCommand_Request.msg\n'}
+[5.769733] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/GripperCommand_Response.msg\n'}
+[5.769878] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveCircularPathCommand.srv\n'}
+[5.770020] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveCircularPathCommand_Request.msg\n'}
+[5.770159] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveCircularPathCommand_Response.msg\n'}
+[5.770293] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveLinearPathCommand.srv\n'}
+[5.770431] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveLinearPathCommand_Request.msg\n'}
+[5.770572] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveLinearPathCommand_Response.msg\n'}
+[5.770713] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveJointPathCommand.srv\n'}
+[5.770864] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveJointPathCommand_Request.msg\n'}
+[5.771029] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/MoveJointPathCommand_Response.msg\n'}
+[5.771171] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/NoInputCommand.srv\n'}
+[5.771306] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/NoInputCommand_Request.msg\n'}
+[5.771432] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/srv/NoInputCommand_Response.msg\n'}
+[5.771592] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/ament_index/resource_index/package_run_dependencies/z1_interfaces\n'}
+[5.771751] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/ament_index/resource_index/parent_prefix_path/z1_interfaces\n'}
+[5.771907] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/ament_prefix_path.sh\n'}
+[5.772053] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.772199] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/path.sh\n'}
+[5.772325] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/environment/path.dsv\n'}
+[5.772456] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/local_setup.bash\n'}
+[5.772588] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/local_setup.sh\n'}
+[5.772718] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/local_setup.zsh\n'}
+[5.772866] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/local_setup.dsv\n'}
+[5.772982] (z1_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/package.dsv\n'}
+[5.784504] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/ament_index/resource_index/packages/z1_interfaces\n'}
+[5.784701] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.784839] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.785003] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.785159] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.785309] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.785458] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.785607] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.785761] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfacesConfig.cmake\n'}
+[5.785898] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfacesConfig-version.cmake\n'}
+[5.786048] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/package.xml\n'}
+[5.786295] (z1_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_generator_c.so\n'}
+[5.786876] (z1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_generator_c.so" to ""\n'}
+[5.787062] (z1_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.787692] (z1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.787852] (z1_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.788379] (z1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.788540] (z1_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_c.so\n'}
+[5.789031] (z1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.789216] (z1_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.789842] (z1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.790095] (z1_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.790756] (z1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.790977] (z1_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.791556] (z1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.820021] (-) TimerEvent: {}
+[5.834699] (z1_interfaces) StdoutLine: {'line': b"Listing '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces'...\n"}
+[5.834874] (z1_interfaces) StdoutLine: {'line': b"Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/__init__.py'...\n"}
+[5.834957] (z1_interfaces) StdoutLine: {'line': b"Listing '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg'...\n"}
+[5.835027] (z1_interfaces) StdoutLine: {'line': b"Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg/__init__.py'...\n"}
+[5.835088] (z1_interfaces) StdoutLine: {'line': b"Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/msg/_arm_control_command.py'...\n"}
+[5.835149] (z1_interfaces) StdoutLine: {'line': b"Listing '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv'...\n"}
+[5.835204] (z1_interfaces) StdoutLine: {'line': b"Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/__init__.py'...\n"}
+[5.835264] (z1_interfaces) StdoutLine: {'line': b"Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_gripper_command.py'...\n"}
+[5.835331] (z1_interfaces) StdoutLine: {'line': b"Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_move_circular_path_command.py'...\n"}
+[5.835390] (z1_interfaces) StdoutLine: {'line': b"Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_move_joint_path_command.py'...\n"}
+[5.835458] (z1_interfaces) StdoutLine: {'line': b"Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_move_linear_path_command.py'...\n"}
+[5.835518] (z1_interfaces) StdoutLine: {'line': b"Compiling '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages/z1_interfaces/srv/_no_input_command.py'...\n"}
+[5.839380] (z1_interfaces) StdoutLine: {'line': b'-- Installing: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_generator_py.so\n'}
+[5.839962] (z1_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib/libz1_interfaces__rosidl_generator_py.so" to ""\n'}
+[5.840088] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.840188] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.840283] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.840363] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.840502] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.840767] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.840947] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.841027] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.841180] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.841343] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.841455] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.841519] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.841577] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.841636] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.841705] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/z1_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.841765] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.841870] (z1_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/share/z1_interfaces/cmake/export_z1_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.844089] (z1_interfaces) CommandEnded: {'returncode': 0}
+[5.920111] (-) TimerEvent: {}
+[6.020357] (-) TimerEvent: {}
+[6.118414] (z1_interfaces) JobEnded: {'identifier': 'z1_interfaces', 'rc': 0}
+[6.119079] (-) EventReactorShutdown: {}

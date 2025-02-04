@@ -1,0 +1,1 @@
+/home/ros_ws/ros_ws/b2_ws/src/b2_urdf/launch/b2_z1_rviz_real2sim.launch.py

@@ -1,0 +1,19 @@
+[0.044s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.404s] [35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[0.404s] [ 35%] Built target low_level_ctrl_hg
+[0.404s] [ 35%] Built target read_low_state_hg
+[0.404s] [ 35%] Built target read_wireless_controller
+[0.405s] [ 50%] Built target read_low_state
+[0.405s] [ 65%] Built target low_level_ctrl
+[0.405s] [ 70%] Built target read_motion_state
+[0.405s] [ 85%] Built target g1_low_level_example
+[0.406s] [ 95%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o[0m
+[0.407s] [ 95%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[3.189s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid SportManager::key_loop()[m[K’:
+[3.189s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:148:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SportClient[m[K’ has no member named ‘[01m[KSwitchMoveMode[m[K’
+[3.190s]   148 |             sport_req.[01;31m[KSwitchMoveMode[m[K(request, true);
+[3.190s]       |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.880s] gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+[5.880s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+[5.880s] gmake: *** [Makefile:146: all] Error 2
+[5.883s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16

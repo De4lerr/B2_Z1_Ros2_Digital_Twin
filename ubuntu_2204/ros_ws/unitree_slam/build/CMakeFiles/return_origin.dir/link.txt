@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/return_origin.dir/unitree_slam_example/return_origin.cpp.o -o return_origin   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lunitree_ros2_idl_cpp /usr/local/lib/libunitree_sdk2.a -lddsc -lddscxx 

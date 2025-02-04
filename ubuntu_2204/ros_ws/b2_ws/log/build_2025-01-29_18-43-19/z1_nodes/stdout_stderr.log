@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target z1_manager[0m
+[ 50%] Built target z1_parse_joint_state
+[ 75%] [32mBuilding CXX object CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o[0m
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid arm_sdk_manager::setUDPConnection()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:50:9:[m[K [01;31m[Kerror: [m[K‘[01m[KresponseThread[m[K’ was not declared in this scope
+   50 |         [01;31m[KresponseThread[m[K = std::thread(&arm_sdk_manager::startRecVConnection, this);
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In destructor ‘[01m[Karm_sdk_manager::~arm_sdk_manager()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:70:13:[m[K [01;31m[Kerror: [m[K‘[01m[KresponseThread[m[K’ was not declared in this scope
+   70 |         if ([01;31m[KresponseThread[m[K.joinable())
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::back_to_start_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:156:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  156 |             [01;35m[Krequest[m[K; //Aqui so para evitar avisos no console
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::set_zero_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:175:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  175 |             [01;35m[Krequest[m[K; //Aqui so para evitar avisos no console
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::set_passive_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:194:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  194 |             [01;35m[Krequest[m[K; //Aqui so para evitar avisos no console
+      |             [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/z1_manager.dir/build.make:76: CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/z1_manager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1440 @@
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:61:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kjhg[m[K’ does not name a type
+   61 | [01;31m[Kjhg[m[K
+      | [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid arm_sdk_manager::setUDPConnection()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[KctrlComp[m[K’ was not declared in this scope
+   42 |         [01;31m[KctrlComp[m[K.dt = 0.002; // 500Hz
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K At global scope:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:127:70:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  127 |     void back_to_start_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                      [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:127:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  127 |     void back_to_start_callback(const std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                  [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:127:70:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  127 |     void back_to_start_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                      [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:127:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  127 |     void back_to_start_callback(const std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                  [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:127:70:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  127 |     void back_to_start_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                      [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:127:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  127 |     void back_to_start_callback(const std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                  [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:127:39:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  127 |     void back_to_start_callback(const [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::NoInputCommand::Request> request,
+      |                                       [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:127:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  127 |     void back_to_start_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                      [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:127:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  127 |     void back_to_start_callback([01;31m[Kconst[m[K std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request> request,
+      |                                 [01;31m[K^~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:128:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  128 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:128:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  128 |                                 std::shared_ptr<z1_interfaces::srv::NoInputCommand::Response[01;31m[K>[m[K response)
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:128:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  128 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:128:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  128 |                                 std::shared_ptr<z1_interfaces::srv::NoInputCommand::Response[01;31m[K>[m[K response)
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:128:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  128 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:128:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  128 |                                 std::shared_ptr<z1_interfaces::srv::NoInputCommand::Response[01;31m[K>[m[K response)
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:128:33:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  128 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::NoInputCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:128:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  128 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:128:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  128 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::NoInputCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:145:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  145 |     void set_zero_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                 [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:145:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  145 |     void set_zero_callback(const std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K request,
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:145:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  145 |     void set_zero_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                 [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:145:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  145 |     void set_zero_callback(const std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K request,
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:145:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  145 |     void set_zero_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                 [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:145:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  145 |     void set_zero_callback(const std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K request,
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:145:34:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  145 |     void set_zero_callback(const [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::NoInputCommand::Request> request,
+      |                                  [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:145:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  145 |     void set_zero_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:145:28:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  145 |     void set_zero_callback([01;31m[Kconst[m[K std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request> request,
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  146 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  146 |                                 std::shared_ptr<z1_interfaces::srv::NoInputCommand::Response[01;31m[K>[m[K response)
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  146 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  146 |                                 std::shared_ptr<z1_interfaces::srv::NoInputCommand::Response[01;31m[K>[m[K response)
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  146 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  146 |                                 std::shared_ptr<z1_interfaces::srv::NoInputCommand::Response[01;31m[K>[m[K response)
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:33:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  146 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::NoInputCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  146 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  146 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::NoInputCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:163:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  163 |     void set_passive_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                    [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:163:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  163 |     void set_passive_callback(const std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:163:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  163 |     void set_passive_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                    [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:163:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  163 |     void set_passive_callback(const std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:163:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  163 |     void set_passive_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                    [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:163:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  163 |     void set_passive_callback(const std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:163:37:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  163 |     void set_passive_callback(const [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::NoInputCommand::Request> request,
+      |                                     [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:163:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  163 |     void set_passive_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request> request,
+      |                                                                    [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:163:31:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  163 |     void set_passive_callback([01;31m[Kconst[m[K std::shared_ptr<z1_interfaces::srv::NoInputCommand::Request> request,
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:164:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  164 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:164:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  164 |                                 std::shared_ptr<z1_interfaces::srv::NoInputCommand::Response[01;31m[K>[m[K response)
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:164:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  164 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:164:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  164 |                                 std::shared_ptr<z1_interfaces::srv::NoInputCommand::Response[01;31m[K>[m[K response)
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:164:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  164 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:164:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  164 |                                 std::shared_ptr<z1_interfaces::srv::NoInputCommand::Response[01;31m[K>[m[K response)
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:164:33:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  164 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::NoInputCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:164:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  164 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:164:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  164 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::NoInputCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:181:72:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  181 |     void move_joint_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveJointPathCommand::Request> request,
+      |                                                                        [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:181:106:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  181 |     void move_joint_path_callback(const std::shared_ptr<z1_interfaces::srv::MoveJointPathCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                          [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:181:72:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  181 |     void move_joint_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveJointPathCommand::Request> request,
+      |                                                                        [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:181:106:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  181 |     void move_joint_path_callback(const std::shared_ptr<z1_interfaces::srv::MoveJointPathCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                          [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:181:72:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  181 |     void move_joint_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveJointPathCommand::Request> request,
+      |                                                                        [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:181:106:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  181 |     void move_joint_path_callback(const std::shared_ptr<z1_interfaces::srv::MoveJointPathCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                          [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:181:41:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  181 |     void move_joint_path_callback(const [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::MoveJointPathCommand::Request> request,
+      |                                         [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:181:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  181 |     void move_joint_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveJointPathCommand::Request> request,
+      |                                                                        [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:181:35:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  181 |     void move_joint_path_callback([01;31m[Kconst[m[K std::shared_ptr<z1_interfaces::srv::MoveJointPathCommand::Request> request,
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:182:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  182 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveJointPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:182:99:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  182 |                                 std::shared_ptr<z1_interfaces::srv::MoveJointPathCommand::Response[01;31m[K>[m[K response)
+      |                                                                                                   [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:182:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  182 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveJointPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:182:99:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  182 |                                 std::shared_ptr<z1_interfaces::srv::MoveJointPathCommand::Response[01;31m[K>[m[K response)
+      |                                                                                                   [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:182:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  182 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveJointPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:182:99:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  182 |                                 std::shared_ptr<z1_interfaces::srv::MoveJointPathCommand::Response[01;31m[K>[m[K response)
+      |                                                                                                   [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:182:33:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  182 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::MoveJointPathCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:182:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  182 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveJointPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:182:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  182 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::MoveJointPathCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:226:73:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  226 |     void move_linear_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveLinearPathCommand::Request> request,
+      |                                                                         [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:226:108:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  226 |     void move_linear_path_callback(const std::shared_ptr<z1_interfaces::srv::MoveLinearPathCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                            [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:226:73:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  226 |     void move_linear_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveLinearPathCommand::Request> request,
+      |                                                                         [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:226:108:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  226 |     void move_linear_path_callback(const std::shared_ptr<z1_interfaces::srv::MoveLinearPathCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                            [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:226:73:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  226 |     void move_linear_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveLinearPathCommand::Request> request,
+      |                                                                         [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:226:108:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  226 |     void move_linear_path_callback(const std::shared_ptr<z1_interfaces::srv::MoveLinearPathCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                            [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:226:42:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  226 |     void move_linear_path_callback(const [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::MoveLinearPathCommand::Request> request,
+      |                                          [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:226:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  226 |     void move_linear_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveLinearPathCommand::Request> request,
+      |                                                                         [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:226:36:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  226 |     void move_linear_path_callback([01;31m[Kconst[m[K std::shared_ptr<z1_interfaces::srv::MoveLinearPathCommand::Request> request,
+      |                                    [01;31m[K^~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:227:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  227 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveLinearPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:227:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  227 |                                 std::shared_ptr<z1_interfaces::srv::MoveLinearPathCommand::Response[01;31m[K>[m[K response)
+      |                                                                                                    [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:227:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  227 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveLinearPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:227:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  227 |                                 std::shared_ptr<z1_interfaces::srv::MoveLinearPathCommand::Response[01;31m[K>[m[K response)
+      |                                                                                                    [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:227:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  227 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveLinearPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:227:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  227 |                                 std::shared_ptr<z1_interfaces::srv::MoveLinearPathCommand::Response[01;31m[K>[m[K response)
+      |                                                                                                    [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:227:33:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  227 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::MoveLinearPathCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:227:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  227 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveLinearPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:227:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  227 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::MoveLinearPathCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:271:75:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  271 |     void move_circular_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveCircularPathCommand::Request> request,
+      |                                                                           [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:271:112:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  271 |     void move_circular_path_callback(const std::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                                [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:271:75:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  271 |     void move_circular_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveCircularPathCommand::Request> request,
+      |                                                                           [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:271:112:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  271 |     void move_circular_path_callback(const std::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                                [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:271:75:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  271 |     void move_circular_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveCircularPathCommand::Request> request,
+      |                                                                           [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:271:112:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  271 |     void move_circular_path_callback(const std::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand::Request[01;31m[K>[m[K request,
+      |                                                                                                                [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:271:44:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  271 |     void move_circular_path_callback(const [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand::Request> request,
+      |                                            [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:271:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  271 |     void move_circular_path_callback(const std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveCircularPathCommand::Request> request,
+      |                                                                           [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:271:38:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  271 |     void move_circular_path_callback([01;31m[Kconst[m[K std::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand::Request> request,
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:272:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  272 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveCircularPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:272:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  272 |                                 std::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand::Response[01;31m[K>[m[K response)
+      |                                                                                                      [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:272:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  272 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveCircularPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:272:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  272 |                                 std::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand::Response[01;31m[K>[m[K response)
+      |                                                                                                      [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:272:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  272 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveCircularPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:272:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  272 |                                 std::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand::Response[01;31m[K>[m[K response)
+      |                                                                                                      [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:272:33:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  272 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:272:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces::srv[m[K’ has not been declared
+  272 |                                 std::shared_ptr<z1_interfaces::[01;31m[Ksrv[m[K::MoveCircularPathCommand::Response> response)
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:272:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+  272 |                                 [01;31m[Kstd[m[K::shared_ptr<z1_interfaces::srv::MoveCircularPathCommand::Response> response)
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:394:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  394 |     rclcpp::Service<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request>::SharedPtr backToStart_service_;
+      |                                    [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:394:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  394 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K::SharedPtr backToStart_service_;
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:394:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  394 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request>::[01;31m[KSharedPtr[m[K backToStart_service_;
+      |                                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                                            [32m[K;[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:394:77:[m[K [01;31m[Kerror: [m[K‘[01m[KbackToStart_service_[m[K’ does not name a type
+  394 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request>::SharedPtr [01;31m[KbackToStart_service_[m[K;
+      |                                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:395:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  395 |     rclcpp::Service<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request>::SharedPtr setZero_service_;
+      |                                    [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:395:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  395 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K::SharedPtr setZero_service_;
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:395:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  395 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request>::[01;31m[KSharedPtr[m[K setZero_service_;
+      |                                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                                            [32m[K;[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:395:67:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Z1ManagerNode::SharedPtr[m[K’
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:394:67:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Z1ManagerNode::SharedPtr[m[K’
+  394 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request>::[01;36m[KSharedPtr[m[K backToStart_service_;
+      |                                                                   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:395:77:[m[K [01;31m[Kerror: [m[K‘[01m[KsetZero_service_[m[K’ does not name a type
+  395 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request>::SharedPtr [01;31m[KsetZero_service_[m[K;
+      |                                                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:396:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  396 |     rclcpp::Service<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand::Request>::SharedPtr setPassive_service_;
+      |                                    [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:396:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  396 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request[01;31m[K>[m[K::SharedPtr setPassive_service_;
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:396:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  396 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request>::[01;31m[KSharedPtr[m[K setPassive_service_;
+      |                                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                                            [32m[K;[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:396:67:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Z1ManagerNode::SharedPtr[m[K’
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:394:67:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Z1ManagerNode::SharedPtr[m[K’
+  394 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request>::[01;36m[KSharedPtr[m[K backToStart_service_;
+      |                                                                   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:396:77:[m[K [01;31m[Kerror: [m[K‘[01m[KsetPassive_service_[m[K’ does not name a type
+  396 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request>::SharedPtr [01;31m[KsetPassive_service_[m[K;
+      |                                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:397:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  397 |     rclcpp::Service<z1_interfaces::[01;31m[Ksrv[m[K::MoveJointPathCommand::Request>::SharedPtr moveJointPath_service_;
+      |                                    [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:397:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  397 |     rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand::Request[01;31m[K>[m[K::SharedPtr moveJointPath_service_;
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:397:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  397 |     rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand::Request>::[01;31m[KSharedPtr[m[K moveJointPath_service_;
+      |                                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                                  [32m[K;[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:397:73:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Z1ManagerNode::SharedPtr[m[K’
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:394:67:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Z1ManagerNode::SharedPtr[m[K’
+  394 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request>::[01;36m[KSharedPtr[m[K backToStart_service_;
+      |                                                                   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:397:83:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveJointPath_service_[m[K’ does not name a type
+  397 |     rclcpp::Service<z1_interfaces::srv::MoveJointPathCommand::Request>::SharedPtr [01;31m[KmoveJointPath_service_[m[K;
+      |                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:398:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  398 |     rclcpp::Service<z1_interfaces::[01;31m[Ksrv[m[K::MoveLinearPathCommand::Request>::SharedPtr moveLinearPath_service_;
+      |                                    [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:398:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  398 |     rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand::Request[01;31m[K>[m[K::SharedPtr moveLinearPath_service_;
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:398:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  398 |     rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand::Request>::[01;31m[KSharedPtr[m[K moveLinearPath_service_;
+      |                                                                          [01;31m[K^~~~~~~~~[m[K
+      |                                                                                   [32m[K;[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:398:74:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Z1ManagerNode::SharedPtr[m[K’
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:394:67:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Z1ManagerNode::SharedPtr[m[K’
+  394 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request>::[01;36m[KSharedPtr[m[K backToStart_service_;
+      |                                                                   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:398:84:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveLinearPath_service_[m[K’ does not name a type
+  398 |     rclcpp::Service<z1_interfaces::srv::MoveLinearPathCommand::Request>::SharedPtr [01;31m[KmoveLinearPath_service_[m[K;
+      |                                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:399:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  399 |     rclcpp::Service<z1_interfaces::[01;31m[Ksrv[m[K::MoveCircularPathCommand::Request>::SharedPtr moveCircularPath_service_;
+      |                                    [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:399:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  399 |     rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand::Request[01;31m[K>[m[K::SharedPtr moveCircularPath_service_;
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:399:76:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  399 |     rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand::Request>::[01;31m[KSharedPtr[m[K moveCircularPath_service_;
+      |                                                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                                                     [32m[K;[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:399:76:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Z1ManagerNode::SharedPtr[m[K’
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:394:67:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Z1ManagerNode::SharedPtr[m[K’
+  394 |     rclcpp::Service<z1_interfaces::srv::NoInputCommand::Request>::[01;36m[KSharedPtr[m[K backToStart_service_;
+      |                                                                   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:399:86:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveCircularPath_service_[m[K’ does not name a type
+  399 |     rclcpp::Service<z1_interfaces::srv::MoveCircularPathCommand::Request>::SharedPtr [01;31m[KmoveCircularPath_service_[m[K;
+      |                                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In constructor ‘[01m[KZ1ManagerNode::Z1ManagerNode()[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[KbackToStart_service_[m[K’ was not declared in this scope
+   85 |         [01;31m[KbackToStart_service_[m[K = this->create_service<z1_interfaces::srv::NoInputCommand>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:85:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   85 |         backToStart_service_ = this->create_service<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand>(
+      |                                                                    [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:85:38:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   85 |         backToStart_service_ = this->[01;31m[Kcreate_service<z1_interfaces::srv::NoInputCommand>[m[K(
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:85:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KZ1ManagerNode::create_service<<expression error> >(const char [17], std::_Bind_helper<false, void (Z1ManagerNode::*)(...), Z1ManagerNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+   85 |         backToStart_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::NoInputCommand>([m[K
+      |                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   86 | [01;31m[K            "z1_back_to_start"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~[m[K                                                          
+   87 | [01;31m[K            ,std::bind(&Z1ManagerNode::back_to_start_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:85:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   85 |         backToStart_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::NoInputCommand>([m[K
+      |                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   86 | [01;31m[K            "z1_back_to_start"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~[m[K                                                          
+   87 | [01;31m[K            ,std::bind(&Z1ManagerNode::back_to_start_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:89:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetZero_service_[m[K’ was not declared in this scope
+   89 |         [01;31m[KsetZero_service_[m[K = this->create_service<z1_interfaces::srv::NoInputCommand>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:89:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   89 |         setZero_service_ = this->create_service<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand>(
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:89:34:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   89 |         setZero_service_ = this->[01;31m[Kcreate_service<z1_interfaces::srv::NoInputCommand>[m[K(
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:89:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KZ1ManagerNode::create_service<<expression error> >(const char [12], std::_Bind_helper<false, void (Z1ManagerNode::*)(...), Z1ManagerNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+   89 |         setZero_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::NoInputCommand>([m[K
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   90 | [01;31m[K            "z1_set_zero"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~[m[K                                                           
+   91 | [01;31m[K            ,std::bind(&Z1ManagerNode::set_zero_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:89:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   89 |         setZero_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::NoInputCommand>([m[K
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   90 | [01;31m[K            "z1_set_zero"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~[m[K                                                           
+   91 | [01;31m[K            ,std::bind(&Z1ManagerNode::set_zero_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:93:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetPassive_service_[m[K’ was not declared in this scope
+   93 |         [01;31m[KsetPassive_service_[m[K = this->create_service<z1_interfaces::srv::NoInputCommand>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:93:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   93 |         setPassive_service_ = this->create_service<z1_interfaces::[01;31m[Ksrv[m[K::NoInputCommand>(
+      |                                                                   [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:93:37:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   93 |         setPassive_service_ = this->[01;31m[Kcreate_service<z1_interfaces::srv::NoInputCommand>[m[K(
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:93:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KZ1ManagerNode::create_service<<expression error> >(const char [15], std::_Bind_helper<false, void (Z1ManagerNode::*)(...), Z1ManagerNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+   93 |         setPassive_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::NoInputCommand>([m[K
+      |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   94 | [01;31m[K            "z1_set_passive"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~[m[K                                                           
+   95 | [01;31m[K            ,std::bind(&Z1ManagerNode::set_passive_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:93:87:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   93 |         setPassive_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::NoInputCommand>([m[K
+      |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   94 | [01;31m[K            "z1_set_passive"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~[m[K                                                           
+   95 | [01;31m[K            ,std::bind(&Z1ManagerNode::set_passive_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:97:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveJointPath_service_[m[K’ was not declared in this scope
+   97 |         [01;31m[KmoveJointPath_service_[m[K = this->create_service<z1_interfaces::srv::MoveJointPathCommand>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:97:70:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   97 |         moveJointPath_service_ = this->create_service<z1_interfaces::[01;31m[Ksrv[m[K::MoveJointPathCommand>(
+      |                                                                      [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:97:40:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   97 |         moveJointPath_service_ = this->[01;31m[Kcreate_service<z1_interfaces::srv::MoveJointPathCommand>[m[K(
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:97:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KZ1ManagerNode::create_service<<expression error> >(const char [19], std::_Bind_helper<false, void (Z1ManagerNode::*)(...), Z1ManagerNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+   97 |         moveJointPath_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::MoveJointPathCommand>([m[K
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   98 | [01;31m[K            "z1_move_joint_path"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                                                
+   99 | [01;31m[K            ,std::bind(&Z1ManagerNode::move_joint_path_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:97:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   97 |         moveJointPath_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::MoveJointPathCommand>([m[K
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   98 | [01;31m[K            "z1_move_joint_path"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                                                
+   99 | [01;31m[K            ,std::bind(&Z1ManagerNode::move_joint_path_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveLinearPath_service_[m[K’ was not declared in this scope
+  101 |         [01;31m[KmoveLinearPath_service_[m[K = this->create_service<z1_interfaces::srv::MoveLinearPathCommand>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:101:71:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  101 |         moveLinearPath_service_ = this->create_service<z1_interfaces::[01;31m[Ksrv[m[K::MoveLinearPathCommand>(
+      |                                                                       [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:101:41:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  101 |         moveLinearPath_service_ = this->[01;31m[Kcreate_service<z1_interfaces::srv::MoveLinearPathCommand>[m[K(
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:101:98:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KZ1ManagerNode::create_service<<expression error> >(const char [20], std::_Bind_helper<false, void (Z1ManagerNode::*)(...), Z1ManagerNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+  101 |         moveLinearPath_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::MoveLinearPathCommand>([m[K
+      |                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  102 | [01;31m[K            "z1_move_linear_path"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K                                                                 
+  103 | [01;31m[K            ,std::bind(&Z1ManagerNode::move_linear_path_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:101:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  101 |         moveLinearPath_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::MoveLinearPathCommand>([m[K
+      |                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  102 | [01;31m[K            "z1_move_linear_path"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K                                                                 
+  103 | [01;31m[K            ,std::bind(&Z1ManagerNode::move_linear_path_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:105:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveCircularPath_service_[m[K’ was not declared in this scope
+  105 |         [01;31m[KmoveCircularPath_service_[m[K = this->create_service<z1_interfaces::srv::MoveCircularPathCommand>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:105:73:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kz1_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+  105 |         moveCircularPath_service_ = this->create_service<z1_interfaces::[01;31m[Ksrv[m[K::MoveCircularPathCommand>(
+      |                                                                         [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:105:43:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  105 |         moveCircularPath_service_ = this->[01;31m[Kcreate_service<z1_interfaces::srv::MoveCircularPathCommand>[m[K(
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:105:102:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KZ1ManagerNode::create_service<<expression error> >(const char [22], std::_Bind_helper<false, void (Z1ManagerNode::*)(...), Z1ManagerNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+  105 |         moveCircularPath_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::MoveCircularPathCommand>([m[K
+      |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  106 | [01;31m[K            "z1_move_circular_path"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                                   
+  107 | [01;31m[K            ,std::bind(&Z1ManagerNode::move_circular_path_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:105:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  105 |         moveCircularPath_service_ = [01;31m[Kthis->create_service<z1_interfaces::srv::MoveCircularPathCommand>([m[K
+      |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  106 | [01;31m[K            "z1_move_circular_path"[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                                   
+  107 | [01;31m[K            ,std::bind(&Z1ManagerNode::move_circular_path_callback, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::back_to_start_callback(...)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:133:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  133 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:138:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  138 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::set_zero_callback(...)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:151:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  151 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:156:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  156 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::set_passive_callback(...)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:169:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  169 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:174:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  174 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::move_joint_path_callback(...)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:186:45:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KUNITREE_ARM::RecvState[m[K’
+  186 |             if(z1->arm->_ctrlComp->recvState[01;31m[K->[m[Kstate != ArmFSMState::MOVEJ)
+      |                                             [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:192:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  192 |             if ([01;31m[Kmsg[m[K->posture.size() != 6) {
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:192:17:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/arm_control_command.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:10[m[K:
+[01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/detail/arm_control_command__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kz1_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:199:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  199 |             std::copy([01;31m[Kmsg[m[K->posture.begin(), msg->posture.end(), posture.data());
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:199:23:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/arm_control_command.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:10[m[K:
+[01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/detail/arm_control_command__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kz1_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:214:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  214 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:219:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  219 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::move_linear_path_callback(...)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:231:45:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KUNITREE_ARM::RecvState[m[K’
+  231 |             if(z1->arm->_ctrlComp->recvState[01;31m[K->[m[Kstate != ArmFSMState::MOVEL)
+      |                                             [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:237:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  237 |             if ([01;31m[Kmsg[m[K->posture.size() != 6) {
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:237:17:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/arm_control_command.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:10[m[K:
+[01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/detail/arm_control_command__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kz1_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:244:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  244 |             std::copy([01;31m[Kmsg[m[K->posture.begin(), msg->posture.end(), posture.data());
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:244:23:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/arm_control_command.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:10[m[K:
+[01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/detail/arm_control_command__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kz1_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:259:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  259 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:264:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  264 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::move_circular_path_callback(...)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:276:45:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KUNITREE_ARM::RecvState[m[K’
+  276 |             if(z1->arm->_ctrlComp->recvState[01;31m[K->[m[Kstate != ArmFSMState::MOVEC)
+      |                                             [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:282:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  282 |             if ([01;31m[Kmsg[m[K->posture.size() != 6) {
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:282:17:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/arm_control_command.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:10[m[K:
+[01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/detail/arm_control_command__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kz1_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:289:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  289 |             std::copy([01;31m[Kmsg[m[K->posture.begin(), msg->posture.end(), posture.data());
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:289:23:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/arm_control_command.hpp:7[m[K,
+                 from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:10[m[K:
+[01m[K/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_cpp/z1_interfaces/msg/detail/arm_control_command__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kz1_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:304:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  304 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:309:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  309 |             [01;31m[Kresponse[m[K->success = true;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::control_callback(z1_interfaces::msg::ArmControlCommand_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:322:45:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KUNITREE_ARM::RecvState[m[K’
+  322 |             if(z1->arm->_ctrlComp->recvState[01;31m[K->[m[Kstate != ArmFSMState::CARTESIAN)
+      |                                             [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:343:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct z1_interfaces::msg::ArmControlCommand_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct z1_interfaces::msg::ArmControlCommand_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kjointpeed_1[m[K’
+  343 |                 double jointSpeed = msg->[01;31m[Kjointpeed_1[m[K;
+      |                                          [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/z1_manager.dir/build.make:76: CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/z1_manager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[0.310s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/py_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/py_cpp -- -j16 -l16
+[0.372s] [100%] Built target cpp_node
+[0.391s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/py_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/py_cpp -- -j16 -l16
+[0.444s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/py_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/py_cpp
+[0.454s] -- Install configuration: ""
+[0.454s] -- Execute custom install script
+[0.455s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/lib/py_cpp/cpp_node
+[0.455s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/lib/py_cpp/py_node.py
+[0.455s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/ament_index/resource_index/package_run_dependencies/py_cpp
+[0.455s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/ament_index/resource_index/parent_prefix_path/py_cpp
+[0.455s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/environment/ament_prefix_path.sh
+[0.455s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/environment/ament_prefix_path.dsv
+[0.456s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/environment/path.sh
+[0.456s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/environment/path.dsv
+[0.456s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/local_setup.bash
+[0.456s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/local_setup.sh
+[0.456s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/local_setup.zsh
+[0.456s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/local_setup.dsv
+[0.457s] -- Symlinking: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/package.dsv
+[0.471s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/ament_index/resource_index/packages/py_cpp
+[0.471s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/cmake/py_cppConfig.cmake
+[0.471s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/cmake/py_cppConfig-version.cmake
+[0.471s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/py_cpp/share/py_cpp/package.xml
+[0.483s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/py_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/py_cpp

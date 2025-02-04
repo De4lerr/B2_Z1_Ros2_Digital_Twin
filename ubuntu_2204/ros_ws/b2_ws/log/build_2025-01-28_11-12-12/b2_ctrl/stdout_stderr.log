@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[ 55%] Built target low_level_ctrl
+[ 55%] Built target g1_low_level_example
+[ 55%] Built target read_wireless_controller
+[ 55%] Built target low_level_ctrl_hg
+[ 70%] Built target read_low_state_hg
+[ 75%] Built target read_low_state
+[ 85%] Built target read_motion_state
+[ 90%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid SportManager::state_callback(unitree_go::msg::SportModeState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:121:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpx0[m[K’ was not declared in this scope
+  121 |         [01;31m[Kpx0[m[K = data->position[0];
+      |         [01;31m[K^~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:122:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpy0[m[K’ was not declared in this scope; did you mean ‘[01m[Ky0[m[K’?
+  122 |         [01;31m[Kpy0[m[K = data->position[1];
+      |         [01;31m[K^~~[m[K
+      |         [32m[Ky0[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:123:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw0[m[K’ was not declared in this scope; did you mean ‘[01m[Ky0[m[K’?
+  123 |         [01;31m[Kyaw0[m[K = data->imu_state.rpy[2];
+      |         [01;31m[K^~~~[m[K
+      |         [32m[Ky0[m[K
+gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

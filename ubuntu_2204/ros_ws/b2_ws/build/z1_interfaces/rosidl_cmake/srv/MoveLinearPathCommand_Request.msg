@@ -1,0 +1,3 @@
+float64[6] posture
+float64 gripper_pos
+float64 max_speed

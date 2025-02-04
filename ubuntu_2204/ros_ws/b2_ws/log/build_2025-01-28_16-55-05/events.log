@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (-) JobUnselected: {'identifier': 'b2_ctrl'}
+[0.000524] (-) JobUnselected: {'identifier': 'b2_nodes'}
+[0.000643] (-) JobUnselected: {'identifier': 'b2_urdf'}
+[0.000747] (-) JobUnselected: {'identifier': 'py_cpp'}
+[0.000787] (-) JobUnselected: {'identifier': 'z1_interfaces'}
+[0.000820] (-) JobUnselected: {'identifier': 'z1_urdf'}
+[0.000854] (z1_nodes) JobQueued: {'identifier': 'z1_nodes', 'dependencies': OrderedDict([('z1_interfaces', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces')])}
+[0.000893] (z1_nodes) JobStarted: {'identifier': 'z1_nodes'}
+[0.015907] (z1_nodes) JobProgress: {'identifier': 'z1_nodes', 'progress': 'cmake'}
+[0.016873] (z1_nodes) JobProgress: {'identifier': 'z1_nodes', 'progress': 'build'}
+[0.017495] (z1_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes', '--', '-j16', '-l16'], 'cwd': '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes', 'env': OrderedDict([('HOSTNAME', 'de4lerr-G15'), ('GIT_ASKPASS', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib'), ('BROWSER', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/ros_ws'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp3s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-01ff6db8-7564-42af-9229-0451d8c15986.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-3266e50a-f380-4c8a-9455-dcd2dea90554.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-3266e50a-f380-4c8a-9455-dcd2dea90554.sock","/home/ros_ws/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-91d6572c0f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-3266e50a-f380-4c8a-9455-dcd2dea90554.sock'), ('AMENT_PREFIX_PATH', '/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble:/unitree_sdk2:'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/z1_sdk/lib:/z1_sdk/lib'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble:')]), 'shell': False}
+[0.075793] (z1_nodes) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target z1_manager\x1b[0m\n'}
+[0.093227] (z1_nodes) StdoutLine: {'line': b'[ 50%] Built target z1_parse_joint_state\n'}
+[0.099817] (-) TimerEvent: {}
+[0.108314] (z1_nodes) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o\x1b[0m\n'}
+[0.199913] (-) TimerEvent: {}
+[0.300209] (-) TimerEvent: {}
+[0.400464] (-) TimerEvent: {}
+[0.500723] (-) TimerEvent: {}
+[0.600979] (-) TimerEvent: {}
+[0.701284] (-) TimerEvent: {}
+[0.801538] (-) TimerEvent: {}
+[0.901790] (-) TimerEvent: {}
+[1.002067] (-) TimerEvent: {}
+[1.102331] (-) TimerEvent: {}
+[1.202597] (-) TimerEvent: {}
+[1.302859] (-) TimerEvent: {}
+[1.403083] (-) TimerEvent: {}
+[1.503344] (-) TimerEvent: {}
+[1.603603] (-) TimerEvent: {}
+[1.703866] (-) TimerEvent: {}
+[1.804122] (-) TimerEvent: {}
+[1.904392] (-) TimerEvent: {}
+[2.004652] (-) TimerEvent: {}
+[2.104958] (-) TimerEvent: {}
+[2.205252] (-) TimerEvent: {}
+[2.305489] (-) TimerEvent: {}
+[2.405729] (-) TimerEvent: {}
+[2.505965] (-) TimerEvent: {}
+[2.606233] (-) TimerEvent: {}
+[2.706492] (-) TimerEvent: {}
+[2.806759] (-) TimerEvent: {}
+[2.907019] (-) TimerEvent: {}
+[3.007307] (-) TimerEvent: {}
+[3.107560] (-) TimerEvent: {}
+[3.207831] (-) TimerEvent: {}
+[3.308079] (-) TimerEvent: {}
+[3.334274] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kz1_interfaces\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.334534] (z1_nodes) StderrLine: {'line': b'  100 |     void control_callback(const \x1b[01;31m\x1b[Kz1_interfaces\x1b[m\x1b[K::msg::ArmControlCommand::SharedPtr msg) {\n'}
+[3.334629] (z1_nodes) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.334707] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.334784] (z1_nodes) StderrLine: {'line': b'  100 |     void control_callback(const z1_interfaces::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KArmControlCommand::SharedPtr msg) {\n'}
+[3.334853] (z1_nodes) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.334919] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.334987] (z1_nodes) StderrLine: {'line': b'  100 |     void control_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst z1_interfaces::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KArmControlCommand::SharedPtr msg) {\n'}
+[3.335071] (z1_nodes) StderrLine: {'line': b'      |                          \x1b[34m\x1b[K~\x1b[m\x1b[K                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[3.335143] (z1_nodes) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[3.335209] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.335307] (z1_nodes) StderrLine: {'line': b'  100 |     void control_callback(const z1_interfaces::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::ArmControlCommand::SharedPtr msg) {\n'}
+[3.335393] (z1_nodes) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.335475] (z1_nodes) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.338639] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KArmControlCommand\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.338831] (z1_nodes) StderrLine: {'line': b'  100 |     void control_callback(const z1_interfaces::msg::\x1b[01;31m\x1b[KArmControlCommand\x1b[m\x1b[K::SharedPtr msg) {\n'}
+[3.338921] (z1_nodes) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.346357] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kz1_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.346661] (z1_nodes) StderrLine: {'line': b'  152 |     rclcpp::Subscription<\x1b[01;31m\x1b[Kz1_interfaces\x1b[m\x1b[K::msg::ArmControlCommand>::SharedPtr subscription_;\n'}
+[3.346771] (z1_nodes) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.346857] (z1_nodes) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[3.346936] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.347013] (z1_nodes) StderrLine: {'line': b'  152 |     rclcpp::Subscription<z1_interfaces::msg::ArmControlCommand\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[3.347105] (z1_nodes) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.347183] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[3.347260] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[3.347338] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[3.347413] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.347480] (z1_nodes) StderrLine: {'line': b'  152 |     rclcpp::Subscription<z1_interfaces::msg::ArmControlCommand>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[3.347538] (z1_nodes) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.347600] (z1_nodes) StderrLine: {'line': b'      |                                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.348827] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.348919] (z1_nodes) StderrLine: {'line': b'  152 |     rclcpp::Subscription<z1_interfaces::msg::ArmControlCommand>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[3.348981] (z1_nodes) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.349098] (z1_nodes) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[3.364674] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KZ1ManagerNode::Z1ManagerNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.364870] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:79:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.364983] (z1_nodes) StderrLine: {'line': b'   79 |         \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<z1_interfaces::msg::ArmControlCommand>(\n'}
+[3.365216] (z1_nodes) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.365346] (z1_nodes) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[3.372378] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:79:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kz1_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.372592] (z1_nodes) StderrLine: {'line': b'   79 |         subscription_ = this->create_subscription<\x1b[01;31m\x1b[Kz1_interfaces\x1b[m\x1b[K::msg::ArmControlCommand>(\n'}
+[3.372697] (z1_nodes) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.372784] (z1_nodes) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[3.372863] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:79:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.372949] (z1_nodes) StderrLine: {'line': b'   79 |         subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscription<z1_interfaces::msg::ArmControlCommand>\x1b[m\x1b[K(\n'}
+[3.373053] (z1_nodes) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.373249] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:80:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.373426] (z1_nodes) StderrLine: {'line': b'   80 |             "z1_cartesian_control", 10, std::bind(&Z1ManagerNode::control_callback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[3.373510] (z1_nodes) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.373581] (z1_nodes) StderrLine: {'line': b'      |                                                                                           \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[3.373647] (z1_nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:85\x1b[m\x1b[K,\n'}
+[3.373709] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[3.373771] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/math/mathTypes.h:4\x1b[m\x1b[K,\n'}
+[3.373831] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/LowlevelCmd.h:4\x1b[m\x1b[K,\n'}
+[3.373890] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:5\x1b[m\x1b[K,\n'}
+[3.373951] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4\x1b[m\x1b[K,\n'}
+[3.374011] (z1_nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1\x1b[m\x1b[K:\n'}
+[3.374128] (z1_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:225:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.374216] (z1_nodes) StderrLine: {'line': b'  225 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[3.374283] (z1_nodes) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.408166] (-) TimerEvent: {}
+[3.508425] (-) TimerEvent: {}
+[3.608684] (-) TimerEvent: {}
+[3.708933] (-) TimerEvent: {}
+[3.809181] (-) TimerEvent: {}
+[3.909417] (-) TimerEvent: {}
+[4.009666] (-) TimerEvent: {}
+[4.109910] (-) TimerEvent: {}
+[4.210166] (-) TimerEvent: {}
+[4.310431] (-) TimerEvent: {}
+[4.410684] (-) TimerEvent: {}
+[4.510923] (-) TimerEvent: {}
+[4.607266] (z1_nodes) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/z1_manager.dir/build.make:76: CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o] Error 1\n'}
+[4.607549] (z1_nodes) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/z1_manager.dir/all] Error 2\n'}
+[4.607850] (z1_nodes) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.610040] (z1_nodes) CommandEnded: {'returncode': 2}
+[4.611066] (-) TimerEvent: {}
+[4.666936] (z1_nodes) JobEnded: {'identifier': 'z1_nodes', 'rc': 2}
+[4.677536] (-) EventReactorShutdown: {}

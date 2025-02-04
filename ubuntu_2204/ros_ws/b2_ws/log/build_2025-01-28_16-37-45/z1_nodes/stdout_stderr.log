@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target z1_manager[0m
+[ 50%] Built target z1_parse_joint_state
+[ 75%] [32mBuilding CXX object CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o[0m
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:96:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces[m[K’ does not name a type
+   96 |     void control_callback(const [01;31m[Kz1_interfaces[m[K::msg::arm_control_command::SharedPtr msg) {
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:96:51:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   96 |     void control_callback(const z1_interfaces::msg[01;31m[K::[m[Karm_control_command::SharedPtr msg) {
+      |                                                   [01;31m[K^~[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:96:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   96 |     void control_callback[34m[K([m[Kconst z1_interfaces::msg[01;31m[K:[m[K[32m[K:[m[Karm_control_command::SharedPtr msg) {
+      |                          [34m[K~[m[K                        [01;31m[K^[m[K[32m[K~[m[K
+      |                                                   [32m[K)[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:96:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   96 |     void control_callback(const z1_interfaces::[01;31m[Kmsg[m[K::arm_control_command::SharedPtr msg) {
+      |                                                [01;31m[K^~~[m[K
+      |                                                   [32m[K;[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:96:53:[m[K [01;31m[Kerror: [m[K‘[01m[Karm_control_command[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   96 |     void control_callback(const z1_interfaces::msg::[01;31m[Karm_control_command[m[K::SharedPtr msg) {
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/z1_manager.dir/build.make:76: CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/z1_manager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

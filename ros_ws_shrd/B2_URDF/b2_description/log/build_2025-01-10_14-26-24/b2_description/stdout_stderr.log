@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/build/b2_description
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/lib/pkgconfig/b2_description.pc
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/cmake/b2_descriptionConfig.cmake
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/cmake/b2_descriptionConfig-version.cmake
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/package.xml
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/config/config.rviz
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/config/robot_control.yaml
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/launch/display.launch
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/launch/gazebo.launch
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FL_calf.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FL_foot.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FL_hip.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FL_thigh.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FR_calf.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FR_hip.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/FR_thigh.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RL_calf.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RL_hip.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RL_thigh.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RR_calf.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RR_hip.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/RR_thigh.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/base_link.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/calf.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/hip.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/thigh.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/thigh_mirror.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/trunk.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/trunk1.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/meshes/trunk2.dae
+-- Symlinking: /home/ros_ws/ros_ws_shrd/B2_URDF/b2_description/install/b2_description/share/b2_description/urdf/b2_description.urdf

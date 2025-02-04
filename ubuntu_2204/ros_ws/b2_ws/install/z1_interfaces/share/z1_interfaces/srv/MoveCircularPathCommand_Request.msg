@@ -1,0 +1,1 @@
+/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_cmake/srv/MoveCircularPathCommand_Request.msg

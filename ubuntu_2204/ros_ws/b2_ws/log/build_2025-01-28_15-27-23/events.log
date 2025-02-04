@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000331] (-) JobUnselected: {'identifier': 'b2_nodes'}
+[0.000461] (-) JobUnselected: {'identifier': 'b2_urdf'}
+[0.000585] (-) JobUnselected: {'identifier': 'py_cpp'}
+[0.000615] (-) JobUnselected: {'identifier': 'z1_interfaces'}
+[0.000634] (-) JobUnselected: {'identifier': 'z1_nodes'}
+[0.000651] (-) JobUnselected: {'identifier': 'z1_urdf'}
+[0.000670] (b2_ctrl) JobQueued: {'identifier': 'b2_ctrl', 'dependencies': OrderedDict()}
+[0.000721] (b2_ctrl) JobStarted: {'identifier': 'b2_ctrl'}
+[0.013495] (b2_ctrl) JobProgress: {'identifier': 'b2_ctrl', 'progress': 'cmake'}
+[0.014595] (b2_ctrl) JobProgress: {'identifier': 'b2_ctrl', 'progress': 'build'}
+[0.015240] (b2_ctrl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl', '--', '-j16', '-l16'], 'cwd': '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl', 'env': OrderedDict([('HOSTNAME', 'de4lerr-G15'), ('GIT_ASKPASS', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib'), ('BROWSER', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/ros_ws'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp3s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-01ff6db8-7564-42af-9229-0451d8c15986.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-3266e50a-f380-4c8a-9455-dcd2dea90554.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ros_ws/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl/bin:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-3266e50a-f380-4c8a-9455-dcd2dea90554.sock","/home/ros_ws/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-91d6572c0f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-3266e50a-f380-4c8a-9455-dcd2dea90554.sock'), ('AMENT_PREFIX_PATH', '/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble:/unitree_sdk2:'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/z1_sdk/lib:/z1_sdk/lib'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble:')]), 'shell': False}
+[0.086209] (b2_ctrl) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sport_mode_ctrl\x1b[0m\n'}
+[0.099721] (-) TimerEvent: {}
+[0.106487] (b2_ctrl) StdoutLine: {'line': b'[ 10%] Built target read_low_state\n'}
+[0.107136] (b2_ctrl) StdoutLine: {'line': b'[ 20%] Built target read_wireless_controller\n'}
+[0.107338] (b2_ctrl) StdoutLine: {'line': b'[ 30%] Built target read_motion_state\n'}
+[0.107539] (b2_ctrl) StdoutLine: {'line': b'[ 45%] Built target low_level_ctrl_hg\n'}
+[0.109366] (b2_ctrl) StdoutLine: {'line': b'[ 55%] Built target read_low_state_hg\n'}
+[0.110015] (b2_ctrl) StdoutLine: {'line': b'[ 70%] Built target g1_low_level_example\n'}
+[0.110809] (b2_ctrl) StdoutLine: {'line': b'[ 85%] Built target low_level_ctrl\n'}
+[0.123783] (b2_ctrl) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o\x1b[0m\n'}
+[0.199819] (-) TimerEvent: {}
+[0.300092] (-) TimerEvent: {}
+[0.400360] (-) TimerEvent: {}
+[0.500610] (-) TimerEvent: {}
+[0.600884] (-) TimerEvent: {}
+[0.701130] (-) TimerEvent: {}
+[0.801412] (-) TimerEvent: {}
+[0.901664] (-) TimerEvent: {}
+[1.001918] (-) TimerEvent: {}
+[1.102170] (-) TimerEvent: {}
+[1.202422] (-) TimerEvent: {}
+[1.302666] (-) TimerEvent: {}
+[1.402937] (-) TimerEvent: {}
+[1.503186] (-) TimerEvent: {}
+[1.603436] (-) TimerEvent: {}
+[1.703668] (-) TimerEvent: {}
+[1.803915] (-) TimerEvent: {}
+[1.904164] (-) TimerEvent: {}
+[2.004421] (-) TimerEvent: {}
+[2.104672] (-) TimerEvent: {}
+[2.204921] (-) TimerEvent: {}
+[2.305179] (-) TimerEvent: {}
+[2.405436] (-) TimerEvent: {}
+[2.505683] (-) TimerEvent: {}
+[2.605926] (-) TimerEvent: {}
+[2.701666] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SportManager::key_loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.701886] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:228:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K=\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.701984] (b2_ctrl) StderrLine: {'line': b'  228 |             double \x1b[01;31m\x1b[K=\x1b[m\x1b[K height;\n'}
+[2.702069] (b2_ctrl) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.705993] (-) TimerEvent: {}
+[2.706782] (b2_ctrl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:229:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kheight\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.706937] (b2_ctrl) StderrLine: {'line': b'  229 |             \x1b[01;31m\x1b[Kheight\x1b[m\x1b[K = getchar();\n'}
+[2.707088] (b2_ctrl) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.806105] (-) TimerEvent: {}
+[2.906448] (-) TimerEvent: {}
+[3.006719] (-) TimerEvent: {}
+[3.107009] (-) TimerEvent: {}
+[3.207278] (-) TimerEvent: {}
+[3.307552] (-) TimerEvent: {}
+[3.407883] (-) TimerEvent: {}
+[3.508180] (-) TimerEvent: {}
+[3.608586] (-) TimerEvent: {}
+[3.708841] (-) TimerEvent: {}
+[3.809104] (-) TimerEvent: {}
+[3.909347] (-) TimerEvent: {}
+[4.009645] (-) TimerEvent: {}
+[4.109929] (-) TimerEvent: {}
+[4.210212] (-) TimerEvent: {}
+[4.310451] (-) TimerEvent: {}
+[4.410741] (-) TimerEvent: {}
+[4.511016] (-) TimerEvent: {}
+[4.611297] (-) TimerEvent: {}
+[4.711599] (-) TimerEvent: {}
+[4.811835] (-) TimerEvent: {}
+[4.912101] (-) TimerEvent: {}
+[5.012380] (-) TimerEvent: {}
+[5.112686] (-) TimerEvent: {}
+[5.212939] (-) TimerEvent: {}
+[5.313175] (-) TimerEvent: {}
+[5.413457] (-) TimerEvent: {}
+[5.476525] (b2_ctrl) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1\n'}
+[5.476782] (b2_ctrl) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2\n'}
+[5.477093] (b2_ctrl) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.479517] (b2_ctrl) CommandEnded: {'returncode': 2}
+[5.513522] (-) TimerEvent: {}
+[5.583747] (b2_ctrl) JobEnded: {'identifier': 'b2_ctrl', 'rc': 2}
+[5.594305] (-) EventReactorShutdown: {}

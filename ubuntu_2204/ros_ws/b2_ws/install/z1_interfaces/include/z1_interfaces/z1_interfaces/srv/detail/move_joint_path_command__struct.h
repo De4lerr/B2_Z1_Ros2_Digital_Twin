@@ -1,0 +1,1 @@
+/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_c/z1_interfaces/srv/detail/move_joint_path_command__struct.h

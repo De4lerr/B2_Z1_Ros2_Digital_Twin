@@ -1,0 +1,293 @@
+[0.017s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_nodes -- -j16 -l16
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target z1_manager[0m
+[0.081s] [ 50%] Built target z1_parse_joint_state
+[0.094s] [ 75%] [32mBuilding CXX object CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o[0m
+[3.106s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.107s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.107s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.107s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.107s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.107s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::back_to_start_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[3.107s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >[m[K’ and ‘[01m[Klong int[m[K’)
+[3.107s]   146 |             request=[01;31m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.108s]       |                     [01;31m[K^~~~[m[K
+[3.108s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.108s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.108s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.110s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.110s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.110s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.110s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.110s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.110s]       |         [01;36m[K^~~~~~~~[m[K
+[3.110s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.110s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.110s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.110s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.110s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.110s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.110s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[3.110s]   146 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.110s]       |                     [01;36m[K^~~~[m[K
+[3.110s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.110s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.111s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.111s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.111s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.111s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.111s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.111s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.111s]       |         [01;36m[K^~~~~~~~[m[K
+[3.111s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.111s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.111s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.111s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.111s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.111s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.111s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<_Up>[m[K’ and ‘[01m[Klong int[m[K’
+[3.111s]   146 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.111s]       |                     [01;36m[K^~~~[m[K
+[3.112s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.112s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.112s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.112s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.112s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.112s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.112s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.112s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.112s]       |         [01;36m[K^~~~~~~~[m[K
+[3.112s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.112s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.112s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.112s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.112s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.112s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.112s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[3.112s]   146 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.112s]       |                     [01;36m[K^~~~[m[K
+[3.113s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.113s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.113s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.113s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.113s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.113s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.113s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.113s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.113s]       |         [01;36m[K^~~~~~~~[m[K
+[3.113s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.113s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.113s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.113s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.113s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.113s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:146:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Klong int[m[K’
+[3.113s]   146 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.113s]       |                     [01;36m[K^~~~[m[K
+[3.113s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.113s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.113s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.114s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.114s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.114s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.114s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’ (near match)
+[3.114s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.114s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.114s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[3.114s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’ (near match)
+[3.114s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.114s]       |       [01;36m[K^~~~~~~~[m[K
+[3.114s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[3.114s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.114s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.114s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.114s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.114s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::set_zero_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[3.114s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:165:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >[m[K’ and ‘[01m[Klong int[m[K’)
+[3.114s]   165 |             request=[01;31m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.114s]       |                     [01;31m[K^~~~[m[K
+[3.115s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.115s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.115s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.115s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.115s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.115s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.115s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.115s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.115s]       |         [01;36m[K^~~~~~~~[m[K
+[3.115s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.115s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.115s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.115s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.115s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.115s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.115s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:165:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[3.115s]   165 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.115s]       |                     [01;36m[K^~~~[m[K
+[3.116s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.116s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.116s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.116s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.116s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.116s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.116s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.116s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.116s]       |         [01;36m[K^~~~~~~~[m[K
+[3.116s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.116s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.116s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.116s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.116s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.116s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.116s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:165:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<_Up>[m[K’ and ‘[01m[Klong int[m[K’
+[3.116s]   165 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.116s]       |                     [01;36m[K^~~~[m[K
+[3.116s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.116s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.117s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.117s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.117s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.117s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.117s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.117s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.117s]       |         [01;36m[K^~~~~~~~[m[K
+[3.117s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.117s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.117s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.117s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.117s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.117s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.117s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:165:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[3.117s]   165 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.117s]       |                     [01;36m[K^~~~[m[K
+[3.117s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.117s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.117s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.117s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.117s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.118s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.118s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.118s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.118s]       |         [01;36m[K^~~~~~~~[m[K
+[3.118s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.118s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.118s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.118s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.118s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.118s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:165:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Klong int[m[K’
+[3.118s]   165 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.118s]       |                     [01;36m[K^~~~[m[K
+[3.118s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.118s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.118s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.118s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.118s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.118s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.118s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’ (near match)
+[3.119s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.119s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.119s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[3.119s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’ (near match)
+[3.119s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.119s]       |       [01;36m[K^~~~~~~~[m[K
+[3.119s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[3.119s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.119s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.119s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.119s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.119s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.119s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In member function ‘[01m[Kvoid Z1ManagerNode::set_passive_callback(std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >, std::shared_ptr<z1_interfaces::srv::NoInputCommand_Response_<std::allocator<void> > >)[m[K’:
+[3.119s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:184:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >[m[K’ and ‘[01m[Klong int[m[K’)
+[3.119s]   184 |             request=[01;31m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.119s]       |                     [01;31m[K^~~~[m[K
+[3.119s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.119s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.119s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.119s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.119s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.120s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.120s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.120s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.120s]       |         [01;36m[K^~~~~~~~[m[K
+[3.120s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.120s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.120s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.120s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.120s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.120s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:184:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[3.120s]   184 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.120s]       |                     [01;36m[K^~~~[m[K
+[3.120s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.120s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.120s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.120s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.120s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.120s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.120s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.121s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.121s]       |         [01;36m[K^~~~~~~~[m[K
+[3.121s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.121s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.121s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.121s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.121s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.121s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:184:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<_Up>[m[K’ and ‘[01m[Klong int[m[K’
+[3.121s]   184 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.121s]       |                     [01;36m[K^~~~[m[K
+[3.121s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.121s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.121s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.121s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.121s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.121s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.121s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.121s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.121s]       |         [01;36m[K^~~~~~~~[m[K
+[3.121s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.122s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.122s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.122s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.122s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.122s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.122s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:184:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[3.122s]   184 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.122s]       |                     [01;36m[K^~~~[m[K
+[3.122s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.122s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.122s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.122s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.122s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.122s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.122s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’
+[3.122s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.122s]       |         [01;36m[K^~~~~~~~[m[K
+[3.122s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.122s] In file included from [01m[K/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:23[m[K,
+[3.122s]                  from [01m[K/usr/include/signal.h:313[m[K,
+[3.122s]                  from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[3.122s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+[3.123s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:2[m[K:
+[3.123s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:184:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Klong int[m[K’
+[3.123s]   184 |             request=[01;36m[KNULL[m[K; //Aqui so para evitar avisos no console
+[3.123s]       |                     [01;36m[K^~~~[m[K
+[3.123s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.123s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/utilities/loop.h:7[m[K,
+[3.123s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/udp.h:9[m[K,
+[3.123s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:7[m[K,
+[3.123s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.123s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.123s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’ (near match)
+[3.123s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.123s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.123s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[3.123s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> >][m[K’ (near match)
+[3.123s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.123s]       |       [01;36m[K^~~~~~~~[m[K
+[3.123s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst std::shared_ptr<z1_interfaces::srv::NoInputCommand_Request_<std::allocator<void> > >*[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[6.301s] gmake[2]: *** [CMakeFiles/z1_manager.dir/build.make:76: CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o] Error 1
+[6.302s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/z1_manager.dir/all] Error 2
+[6.302s] gmake: *** [Makefile:146: all] Error 2
+[6.304s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes' returned '2': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_nodes -- -j16 -l16

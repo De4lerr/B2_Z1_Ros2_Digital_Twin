@@ -1,0 +1,24 @@
+[0.039s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_interfaces -- -j16 -l16
+[0.297s] [  1%] Built target z1_interfaces__cpp
+[0.298s] [ 12%] Built target z1_interfaces__rosidl_generator_c
+[0.298s] [ 12%] Built target ament_cmake_python_symlink_z1_interfaces
+[0.299s] [ 47%] Built target z1_interfaces__rosidl_typesupport_introspection_c
+[0.299s] [ 47%] Built target z1_interfaces__rosidl_typesupport_cpp
+[0.299s] [ 49%] Built target z1_interfaces__rosidl_typesupport_c
+[0.299s] [ 57%] Built target z1_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.300s] [ 69%] Built target z1_interfaces__rosidl_typesupport_introspection_cpp
+[0.300s] [ 80%] Built target z1_interfaces__rosidl_typesupport_fastrtps_c
+[0.300s] [ 80%] Built target z1_interfaces
+[0.300s] [ 81%] Built target z1_interfaces__py
+[0.300s] [ 91%] Built target z1_interfaces__rosidl_generator_py
+[0.300s] [100%] Built target z1_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.300s] [100%] Built target z1_interfaces__rosidl_typesupport_c__pyext
+[0.300s] [100%] Built target z1_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.337s] running egg_info
+[0.338s] writing z1_interfaces.egg-info/PKG-INFO
+[0.340s] writing dependency_links to z1_interfaces.egg-info/dependency_links.txt
+[0.340s] writing top-level names to z1_interfaces.egg-info/top_level.txt
+[0.340s] reading manifest file 'z1_interfaces.egg-info/SOURCES.txt'
+[0.341s] writing manifest file 'z1_interfaces.egg-info/SOURCES.txt'
+[0.376s] [100%] Built target ament_cmake_python_build_z1_interfaces_egg
+[0.438s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_interfaces -- -j16 -l16

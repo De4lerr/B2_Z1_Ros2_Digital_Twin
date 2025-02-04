@@ -1,0 +1,1 @@
+/home/ros_ws/ros_ws/b2_ws/build/z1_urdf/ament_cmake_environment_hooks/local_setup.zsh

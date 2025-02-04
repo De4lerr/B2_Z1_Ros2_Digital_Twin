@@ -1,0 +1,48 @@
+[0.038s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.324s] [35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[0.325s] [ 55%] Built target low_level_ctrl_hg
+[0.325s] [ 55%] Built target g1_low_level_example
+[0.326s] [ 55%] Built target low_level_ctrl
+[0.326s] [ 55%] Built target read_low_state_hg
+[0.326s] [ 75%] Built target read_motion_state
+[0.327s] [ 75%] Built target read_low_state
+[0.327s] [ 85%] Built target read_wireless_controller
+[0.327s] [ 90%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[2.351s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:104:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSportClient[m[K’ does not name a type
+[2.351s]   104 |     [01;31m[KSportClient[m[K sport_req;
+[2.351s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.366s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid KeyboardController::key_loop()[m[K’:
+[2.366s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPathPoint[m[K’ was not declared in this scope
+[2.366s]    44 |         [01;31m[KPathPoint[m[K path_point_tmp;
+[2.366s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.371s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:50:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[2.372s]    50 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.5;
+[2.372s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.377s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:57:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[2.377s]    57 |             [01;31m[Kpath_point_tmp[m[K.vx = -0.5;
+[2.377s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.383s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:64:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[2.383s]    64 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+[2.383s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.388s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[2.388s]    71 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+[2.388s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.394s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:78:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[2.394s]    78 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+[2.394s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.399s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:85:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[2.399s]    85 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+[2.399s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.405s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:92:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[2.405s]    92 |             [01;31m[Kpath_point_tmp[m[K.vx = 0.0;
+[2.405s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.409s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:96:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksport_req[m[K’ was not declared in this scope
+[2.409s]    96 |         [01;31m[Ksport_req[m[K.TrajectoryFollow(request, path_point_tmp);
+[2.409s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.414s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:96:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_point_tmp[m[K’ was not declared in this scope
+[2.414s]    96 |         sport_req.TrajectoryFollow(request, [01;31m[Kpath_point_tmp[m[K);
+[2.414s]       |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.053s] gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+[3.053s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+[3.053s] gmake: *** [Makefile:146: all] Error 2
+[3.055s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16

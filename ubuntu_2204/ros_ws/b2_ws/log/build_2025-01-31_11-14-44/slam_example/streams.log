@@ -1,0 +1,135 @@
+[0.272s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/slam_example': /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/slam_example -- -j16 -l16
+[0.302s] -- Configuring done
+[0.339s] -- Generating done
+[0.344s] -- Build files have been written to: /home/ros_ws/ros_ws/b2_ws/build/slam_example
+[0.383s] [35m[1mConsolidate compiler generated dependencies of target start_mappping[0m
+[0.409s] [35m[1mConsolidate compiler generated dependencies of target start_relocation[0m
+[0.409s] [35m[1mConsolidate compiler generated dependencies of target delete_edge[0m
+[0.410s] [35m[1mConsolidate compiler generated dependencies of target end_mappping[0m
+[0.410s] [35m[1mConsolidate compiler generated dependencies of target query_node[0m
+[0.410s] [35m[1mConsolidate compiler generated dependencies of target delete_node[0m
+[0.410s] [35m[1mConsolidate compiler generated dependencies of target add_node[0m
+[0.410s] [35m[1mConsolidate compiler generated dependencies of target add_edge[0m
+[0.410s] [35m[1mConsolidate compiler generated dependencies of target multiple_nav_set[0m
+[0.412s] [35m[1mConsolidate compiler generated dependencies of target recover_nav[0m
+[0.413s] [35m[1mConsolidate compiler generated dependencies of target start_nav[0m
+[0.415s] [35m[1mConsolidate compiler generated dependencies of target multiple_nav_default[0m
+[0.415s] [35m[1mConsolidate compiler generated dependencies of target pose_init[0m
+[0.418s] [35m[1mConsolidate compiler generated dependencies of target query_edge[0m
+[0.442s] [35m[1mConsolidate compiler generated dependencies of target single_nav[0m
+[0.442s] [35m[1mConsolidate compiler generated dependencies of target pause_nav[0m
+[0.442s] [  2%] [32mBuilding CXX object CMakeFiles/delete_edge.dir/unitree_slam_example/delete_edge.cpp.o[0m
+[0.453s] [  4%] [32mBuilding CXX object CMakeFiles/query_node.dir/unitree_slam_example/query_node.cpp.o[0m
+[0.454s] [  6%] [32mBuilding CXX object CMakeFiles/end_mappping.dir/unitree_slam_example/end_mapping.cpp.o[0m
+[0.454s] [  9%] [32mBuilding CXX object CMakeFiles/multiple_nav_set.dir/unitree_slam_example/multiple_nav_set.cpp.o[0m
+[0.455s] [ 11%] [32mBuilding CXX object CMakeFiles/delete_node.dir/unitree_slam_example/delete_node.cpp.o[0m
+[0.464s] [ 13%] [32mBuilding CXX object CMakeFiles/add_node.dir/unitree_slam_example/add_node.cpp.o[0m
+[0.464s] [ 15%] [32mBuilding CXX object CMakeFiles/recover_nav.dir/unitree_slam_example/recover_nav.cpp.o[0m
+[0.464s] [ 18%] [32mBuilding CXX object CMakeFiles/multiple_nav_default.dir/unitree_slam_example/multiple_nav_default.cpp.o[0m
+[0.465s] [ 20%] [32mBuilding CXX object CMakeFiles/start_nav.dir/unitree_slam_example/start_nav.cpp.o[0m
+[0.472s] [ 22%] [32mBuilding CXX object CMakeFiles/add_edge.dir/unitree_slam_example/add_edge.cpp.o[0m
+[0.473s] [ 25%] [32mBuilding CXX object CMakeFiles/pose_init.dir/unitree_slam_example/pose_init.cpp.o[0m
+[0.474s] [ 27%] [32mBuilding CXX object CMakeFiles/start_mappping.dir/unitree_slam_example/start_mapping.cpp.o[0m
+[0.484s] [ 29%] [32mBuilding CXX object CMakeFiles/start_relocation.dir/unitree_slam_example/start_relocation.cpp.o[0m
+[0.508s] [ 31%] [32mBuilding CXX object CMakeFiles/single_nav.dir/unitree_slam_example/single_nav.cpp.o[0m
+[0.544s] [ 34%] [32mBuilding CXX object CMakeFiles/query_edge.dir/unitree_slam_example/query_edge.cpp.o[0m
+[0.556s] [ 36%] [32mBuilding CXX object CMakeFiles/pause_nav.dir/unitree_slam_example/pause_nav.cpp.o[0m
+[0.702s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/delete_edge.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.702s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.702s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.702s] compilation terminated.
+[0.710s] gmake[2]: *** [CMakeFiles/delete_edge.dir/build.make:76: CMakeFiles/delete_edge.dir/unitree_slam_example/delete_edge.cpp.o] Error 1
+[0.711s] gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/delete_edge.dir/all] Error 2
+[0.711s] gmake[1]: *** Waiting for unfinished jobs....
+[0.729s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/multiple_nav_set.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.729s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.729s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.729s] compilation terminated.
+[0.742s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/delete_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.742s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.742s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.742s] compilation terminated.
+[0.742s] gmake[2]: *** [CMakeFiles/multiple_nav_set.dir/build.make:76: CMakeFiles/multiple_nav_set.dir/unitree_slam_example/multiple_nav_set.cpp.o] Error 1
+[0.742s] gmake[1]: *** [CMakeFiles/Makefile2:463: CMakeFiles/multiple_nav_set.dir/all] Error 2
+[0.742s] gmake[2]: *** [CMakeFiles/delete_node.dir/build.make:76: CMakeFiles/delete_node.dir/unitree_slam_example/delete_node.cpp.o] Error 1
+[0.742s] gmake[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/delete_node.dir/all] Error 2
+[0.746s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/end_mapping.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.746s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.746s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.746s] compilation terminated.
+[0.758s] gmake[2]: *** [CMakeFiles/end_mappping.dir/build.make:76: CMakeFiles/end_mappping.dir/unitree_slam_example/end_mapping.cpp.o] Error 1
+[0.758s] gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/end_mappping.dir/all] Error 2
+[0.770s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/query_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.770s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.771s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.771s] compilation terminated.
+[0.783s] gmake[2]: *** [CMakeFiles/query_node.dir/build.make:76: CMakeFiles/query_node.dir/unitree_slam_example/query_node.cpp.o] Error 1
+[0.783s] gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/query_node.dir/all] Error 2
+[0.787s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/single_nav.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.787s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.787s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.787s] compilation terminated.
+[0.792s] gmake[2]: *** [CMakeFiles/single_nav.dir/build.make:76: CMakeFiles/single_nav.dir/unitree_slam_example/single_nav.cpp.o] Error 1
+[0.792s] gmake[1]: *** [CMakeFiles/Makefile2:411: CMakeFiles/single_nav.dir/all] Error 2
+[0.795s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/start_nav.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.795s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.795s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.795s] compilation terminated.
+[0.800s] gmake[2]: *** [CMakeFiles/start_nav.dir/build.make:76: CMakeFiles/start_nav.dir/unitree_slam_example/start_nav.cpp.o] Error 1
+[0.800s] gmake[1]: *** [CMakeFiles/Makefile2:385: CMakeFiles/start_nav.dir/all] Error 2
+[0.813s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/add_edge.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtEdge_.hpp: No such file or directory
+[0.813s]     2 | #include [01;31m[K<unitree/ros2_idl/QtEdge_.hpp>[m[K
+[0.814s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.814s] compilation terminated.
+[0.816s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/start_mapping.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.816s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.816s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.816s] compilation terminated.
+[0.820s] gmake[2]: *** [CMakeFiles/start_mappping.dir/build.make:76: CMakeFiles/start_mappping.dir/unitree_slam_example/start_mapping.cpp.o] Error 1
+[0.820s] gmake[2]: *** [CMakeFiles/add_edge.dir/build.make:76: CMakeFiles/add_edge.dir/unitree_slam_example/add_edge.cpp.o] Error 1
+[0.821s] gmake[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/start_mappping.dir/all] Error 2
+[0.822s] gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/add_edge.dir/all] Error 2
+[0.826s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/pose_init.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.826s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.826s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.826s] compilation terminated.
+[0.828s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/recover_nav.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.828s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.828s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.828s] compilation terminated.
+[0.830s] gmake[2]: *** [CMakeFiles/pose_init.dir/build.make:76: CMakeFiles/pose_init.dir/unitree_slam_example/pose_init.cpp.o] Error 1
+[0.830s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/query_edge.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.830s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.830s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.830s] compilation terminated.
+[0.832s] gmake[1]: *** [CMakeFiles/Makefile2:359: CMakeFiles/pose_init.dir/all] Error 2
+[0.832s] gmake[2]: *** [CMakeFiles/recover_nav.dir/build.make:76: CMakeFiles/recover_nav.dir/unitree_slam_example/recover_nav.cpp.o] Error 1
+[0.832s] gmake[1]: *** [CMakeFiles/Makefile2:515: CMakeFiles/recover_nav.dir/all] Error 2
+[0.835s] gmake[2]: *** [CMakeFiles/query_edge.dir/build.make:76: CMakeFiles/query_edge.dir/unitree_slam_example/query_edge.cpp.o] Error 1
+[0.835s] gmake[1]: *** [CMakeFiles/Makefile2:281: CMakeFiles/query_edge.dir/all] Error 2
+[0.841s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/add_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtNode_.hpp: No such file or directory
+[0.841s]     2 | #include [01;31m[K<unitree/ros2_idl/QtNode_.hpp>[m[K
+[0.841s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.841s] compilation terminated.
+[0.845s] gmake[2]: *** [CMakeFiles/add_node.dir/build.make:76: CMakeFiles/add_node.dir/unitree_slam_example/add_node.cpp.o] Error 1
+[0.845s] gmake[1]: *** [CMakeFiles/Makefile2:177: CMakeFiles/add_node.dir/all] Error 2
+[0.858s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/multiple_nav_default.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.858s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.858s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.858s] compilation terminated.
+[0.859s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/start_relocation.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.860s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.860s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.860s] compilation terminated.
+[0.862s] gmake[2]: *** [CMakeFiles/multiple_nav_default.dir/build.make:76: CMakeFiles/multiple_nav_default.dir/unitree_slam_example/multiple_nav_default.cpp.o] Error 1
+[0.862s] gmake[1]: *** [CMakeFiles/Makefile2:437: CMakeFiles/multiple_nav_default.dir/all] Error 2
+[0.863s] gmake[2]: *** [CMakeFiles/start_relocation.dir/build.make:76: CMakeFiles/start_relocation.dir/unitree_slam_example/start_relocation.cpp.o] Error 1
+[0.863s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/start_relocation.dir/all] Error 2
+[0.874s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/unitree_slam/unitree_slam_example/pause_nav.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kunitree/ros2_idl/QtCommand_.hpp: No such file or directory
+[0.875s]     2 | #include [01;31m[K<unitree/ros2_idl/QtCommand_.hpp>[m[K
+[0.875s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.875s] compilation terminated.
+[0.879s] gmake[2]: *** [CMakeFiles/pause_nav.dir/build.make:76: CMakeFiles/pause_nav.dir/unitree_slam_example/pause_nav.cpp.o] Error 1
+[0.879s] gmake[1]: *** [CMakeFiles/Makefile2:489: CMakeFiles/pause_nav.dir/all] Error 2
+[0.879s] gmake: *** [Makefile:91: all] Error 2
+[0.882s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/slam_example' returned '2': /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/slam_example -- -j16 -l16

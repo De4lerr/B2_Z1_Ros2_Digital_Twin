@@ -1,0 +1,1 @@
+/home/ros_ws/ros_ws/b2_ws/build/b2_urdf/ament_cmake_core/b2_urdfConfig-version.cmake

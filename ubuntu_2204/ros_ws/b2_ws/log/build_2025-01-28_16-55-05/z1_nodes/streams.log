@@ -1,0 +1,69 @@
+[0.017s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_nodes -- -j16 -l16
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target z1_manager[0m
+[0.093s] [ 50%] Built target z1_parse_joint_state
+[0.108s] [ 75%] [32mBuilding CXX object CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o[0m
+[3.334s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces[m[K’ does not name a type
+[3.334s]   100 |     void control_callback(const [01;31m[Kz1_interfaces[m[K::msg::ArmControlCommand::SharedPtr msg) {
+[3.334s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[3.334s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:51:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[3.334s]   100 |     void control_callback(const z1_interfaces::msg[01;31m[K::[m[KArmControlCommand::SharedPtr msg) {
+[3.334s]       |                                                   [01;31m[K^~[m[K
+[3.334s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[3.334s]   100 |     void control_callback[34m[K([m[Kconst z1_interfaces::msg[01;31m[K:[m[K[32m[K:[m[KArmControlCommand::SharedPtr msg) {
+[3.334s]       |                          [34m[K~[m[K                        [01;31m[K^[m[K[32m[K~[m[K
+[3.334s]       |                                                   [32m[K)[m[K
+[3.334s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.334s]   100 |     void control_callback(const z1_interfaces::[01;31m[Kmsg[m[K::ArmControlCommand::SharedPtr msg) {
+[3.335s]       |                                                [01;31m[K^~~[m[K
+[3.335s]       |                                                   [32m[K;[m[K
+[3.338s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:100:53:[m[K [01;31m[Kerror: [m[K‘[01m[KArmControlCommand[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[3.338s]   100 |     void control_callback(const z1_interfaces::msg::[01;31m[KArmControlCommand[m[K::SharedPtr msg) {
+[3.338s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.346s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[3.346s]   152 |     rclcpp::Subscription<[01;31m[Kz1_interfaces[m[K::msg::ArmControlCommand>::SharedPtr subscription_;
+[3.346s]       |                          [01;31m[K^~~~~~~~~~~~~[m[K
+[3.346s]       |                          [32m[Krcl_interfaces[m[K
+[3.346s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.346s]   152 |     rclcpp::Subscription<z1_interfaces::msg::ArmControlCommand[01;31m[K>[m[K::SharedPtr subscription_;
+[3.346s]       |                                                               [01;31m[K^[m[K
+[3.346s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[3.346s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[3.346s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[3.347s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.347s]   152 |     rclcpp::Subscription<z1_interfaces::msg::ArmControlCommand>::[01;31m[KSharedPtr[m[K subscription_;
+[3.347s]       |                                                                  [01;31m[K^~~~~~~~~[m[K
+[3.347s]       |                                                                           [32m[K;[m[K
+[3.348s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:152:76:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[3.348s]   152 |     rclcpp::Subscription<z1_interfaces::msg::ArmControlCommand>::SharedPtr [01;31m[Ksubscription_[m[K;
+[3.348s]       |                                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[3.348s]       |                                                                            [32m[Krmw_subscription_t[m[K
+[3.364s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:[m[K In constructor ‘[01m[KZ1ManagerNode::Z1ManagerNode()[m[K’:
+[3.364s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:79:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[3.364s]    79 |         [01;31m[Ksubscription_[m[K = this->create_subscription<z1_interfaces::msg::ArmControlCommand>(
+[3.364s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.364s]       |         [32m[Krmw_subscription_t[m[K
+[3.372s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:79:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kz1_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[3.372s]    79 |         subscription_ = this->create_subscription<[01;31m[Kz1_interfaces[m[K::msg::ArmControlCommand>(
+[3.372s]       |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[3.372s]       |                                                   [32m[Krcl_interfaces[m[K
+[3.372s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:79:31:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.372s]    79 |         subscription_ = this->[01;31m[Kcreate_subscription<z1_interfaces::msg::ArmControlCommand>[m[K(
+[3.372s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.372s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:80:91:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[3.373s]    80 |             "z1_cartesian_control", 10, std::bind(&Z1ManagerNode::control_callback, this, [01;31m[K_1[m[K));
+[3.373s]       |                                                                                           [01;31m[K^~[m[K
+[3.373s]       |                                                                                           [32m[Kstd::placeholders::_1[m[K
+[3.373s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:85[m[K,
+[3.373s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[3.373s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/math/mathTypes.h:4[m[K,
+[3.373s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/message/LowlevelCmd.h:4[m[K,
+[3.373s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/ctrlComponents.h:5[m[K,
+[3.373s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/include/unitree_arm_sdk/control/unitreeArm.h:4[m[K,
+[3.373s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:1[m[K:
+[3.373s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[3.373s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[3.373s]       |                                  [01;36m[K^~[m[K
+[4.606s] gmake[2]: *** [CMakeFiles/z1_manager.dir/build.make:76: CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o] Error 1
+[4.607s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/z1_manager.dir/all] Error 2
+[4.607s] gmake: *** [Makefile:146: all] Error 2
+[4.609s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/z1_nodes' returned '2': CMAKE_PREFIX_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces:/home/ros_ws/ros_ws/b2_ws/install/z1_urdf:/home/ros_ws/ros_ws/b2_ws/install/z1_nodes:/home/ros_ws/ros_ws/b2_ws/install/py_cpp:/home/ros_ws/ros_ws/b2_ws/install/b2_urdf:/home/ros_ws/ros_ws/b2_ws/install/b2_ctrl:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: LD_LIBRARY_PATH=/home/ros_ws/ros_ws/b2_ws/install/z1_interfaces/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/ros_ws/ros_ws/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/z1_controller/lib:/z1_sdk/lib:/z1_controller/lib:/z1_sdk/lib /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_nodes -- -j16 -l16

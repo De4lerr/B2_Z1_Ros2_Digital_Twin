@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target z1_manager[0m
+[ 50%] Built target z1_parse_joint_state
+[ 75%] [32mBuilding CXX object CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o[0m
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/z1_nodes/src/z1_manager.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kz1_interfaces/srv/no_input.hpp: No such file or directory
+   15 | #include [01;31m[K"z1_interfaces/srv/no_input.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/z1_manager.dir/build.make:76: CMakeFiles/z1_manager.dir/src/z1_manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/z1_manager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

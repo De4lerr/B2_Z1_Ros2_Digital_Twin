@@ -1,0 +1,30 @@
+[0.734s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_nodes': PYTHONPATH=/home/ros_ws/ros_ws/b2_ws/build/b2_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build --no-deps symlink_data
+[0.989s] running develop
+[0.989s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.989s]   warnings.warn(
+[1.137s] running egg_info
+[1.137s] creating b2_nodes.egg-info
+[1.137s] writing b2_nodes.egg-info/PKG-INFO
+[1.137s] writing dependency_links to b2_nodes.egg-info/dependency_links.txt
+[1.137s] writing entry points to b2_nodes.egg-info/entry_points.txt
+[1.137s] writing requirements to b2_nodes.egg-info/requires.txt
+[1.138s] writing top-level names to b2_nodes.egg-info/top_level.txt
+[1.138s] writing manifest file 'b2_nodes.egg-info/SOURCES.txt'
+[1.140s] reading manifest file 'b2_nodes.egg-info/SOURCES.txt'
+[1.141s] writing manifest file 'b2_nodes.egg-info/SOURCES.txt'
+[1.141s] running build_ext
+[1.142s] Creating /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages/b2-nodes.egg-link (link to .)
+[1.142s] Installing keyboard_control script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+[1.142s] Installing parse_joint_state script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+[1.143s] Installing parse_joint_state_z1_b2 script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+[1.143s] Installing parse_odometry script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+[1.143s] Installing print_joint_state script to /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/b2_nodes
+[1.143s] 
+[1.143s] Installed /home/ros_ws/ros_ws/b2_ws/build/b2_nodes
+[1.143s] running symlink_data
+[1.143s] creating /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/share/ament_index
+[1.144s] creating /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/share/ament_index/resource_index
+[1.144s] creating /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/share/ament_index/resource_index/packages
+[1.144s] symbolically linking /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/resource/b2_nodes -> /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/share/ament_index/resource_index/packages
+[1.144s] symbolically linking /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/package.xml -> /home/ros_ws/ros_ws/b2_ws/install/b2_nodes/share/b2_nodes
+[1.181s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_nodes' returned '0': PYTHONPATH=/home/ros_ws/ros_ws/b2_ws/build/b2_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros_ws/ros_ws/b2_ws/build/b2_nodes/build --no-deps symlink_data

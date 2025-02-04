@@ -1,0 +1,39 @@
+[0.015s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[0.105s] [ 10%] Built target read_motion_state
+[0.105s] [ 20%] Built target read_low_state
+[0.105s] [ 35%] Built target low_level_ctrl
+[0.105s] [ 50%] Built target g1_low_level_example
+[0.105s] [ 65%] Built target low_level_ctrl_hg
+[0.105s] [ 75%] Built target read_wireless_controller
+[0.106s] [ 85%] Built target read_low_state_hg
+[0.122s] [ 90%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[2.694s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid SportManager::key_loop()[m[K’:
+[2.694s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:228:20:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+[2.694s]   228 |             double [01;31m[K=[m[K height;
+[2.694s]       |                    [01;31m[K^[m[K
+[2.699s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:229:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kheight[m[K’ was not declared in this scope
+[2.699s]   229 |             [01;31m[Kheight[m[K = atof(getchar());
+[2.699s]       |             [01;31m[K^~~~~~[m[K
+[2.699s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:229:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.699s]   229 |             height = atof([01;31m[Kgetchar()[m[K);
+[2.699s]       |                           [01;31m[K~~~~~~~^~[m[K
+[2.700s]       |                                  [01;31m[K|[m[K
+[2.700s]       |                                  [01;31m[Kint[m[K
+[2.700s] In file included from [01m[K/usr/include/c++/11/cstdlib:75[m[K,
+[2.700s]                  from [01m[K/usr/include/c++/11/ext/string_conversions.h:41[m[K,
+[2.700s]                  from [01m[K/usr/include/c++/11/bits/basic_string.h:6608[m[K,
+[2.700s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[2.700s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[2.700s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[2.700s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[2.700s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[2.700s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[2.700s]                  from [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:5[m[K:
+[2.700s] [01m[K/usr/include/stdlib.h:102:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble atof(const char*)[m[K’
+[2.700s]   102 | extern double atof ([01;36m[Kconst char *__nptr[m[K)
+[2.700s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[5.222s] gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+[5.222s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+[5.222s] gmake: *** [Makefile:146: all] Error 2
+[5.225s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16

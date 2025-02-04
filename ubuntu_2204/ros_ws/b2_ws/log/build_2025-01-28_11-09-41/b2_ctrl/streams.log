@@ -1,0 +1,34 @@
+[0.035s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.324s] [35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[0.324s] [ 15%] Built target read_low_state
+[0.325s] [ 30%] Built target read_low_state_hg
+[0.326s] [ 70%] Built target low_level_ctrl_hg
+[0.326s] [ 70%] Built target g1_low_level_example
+[0.327s] [ 75%] Built target low_level_ctrl
+[0.327s] [ 75%] Built target read_wireless_controller
+[0.327s] [ 85%] Built target read_motion_state
+[0.328s] [ 90%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[2.580s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In constructor ‘[01m[KKeyboardController::KeyboardController()[m[K’:
+[2.581s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:36:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksoprt_request[m[K’ has not been declared
+[2.581s]    36 |             "sportmodestate", 10, std::bind(&[01;31m[Ksoprt_request[m[K::state_callback, this, _1));
+[2.581s]       |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[2.597s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid KeyboardController::state_callback(unitree_go::msg::SportModeState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.597s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:121:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[2.597s]   121 |         if ([01;31m[Kt[m[K < 0)
+[2.597s]       |             [01;31m[K^[m[K
+[2.597s]       |             [32m[Ktm[m[K
+[2.600s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:124:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpx0[m[K’ was not declared in this scope
+[2.600s]   124 |             [01;31m[Kpx0[m[K = data->position[0];
+[2.600s]       |             [01;31m[K^~~[m[K
+[2.603s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:125:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpy0[m[K’ was not declared in this scope; did you mean ‘[01m[Ky0[m[K’?
+[2.603s]   125 |             [01;31m[Kpy0[m[K = data->position[1];
+[2.603s]       |             [01;31m[K^~~[m[K
+[2.604s]       |             [32m[Ky0[m[K
+[2.607s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:126:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw0[m[K’ was not declared in this scope; did you mean ‘[01m[Ky0[m[K’?
+[2.607s]   126 |             [01;31m[Kyaw0[m[K = data->imu_state.rpy[2];
+[2.607s]       |             [01;31m[K^~~~[m[K
+[2.607s]       |             [32m[Ky0[m[K
+[3.970s] gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+[3.970s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+[3.970s] gmake: *** [Makefile:146: all] Error 2
+[3.973s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16

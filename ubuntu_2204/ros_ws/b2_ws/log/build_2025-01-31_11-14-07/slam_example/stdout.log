@@ -1,0 +1,35 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros_ws/ros_ws/b2_ws/build/slam_example
+[  2%] [32mBuilding CXX object CMakeFiles/end_mappping.dir/unitree_slam_example/end_mapping.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/add_node.dir/unitree_slam_example/add_node.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/start_mappping.dir/unitree_slam_example/start_mapping.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/add_edge.dir/unitree_slam_example/add_edge.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/delete_node.dir/unitree_slam_example/delete_node.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/query_edge.dir/unitree_slam_example/query_edge.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/delete_edge.dir/unitree_slam_example/delete_edge.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/query_node.dir/unitree_slam_example/query_node.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/pose_init.dir/unitree_slam_example/pose_init.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/single_nav.dir/unitree_slam_example/single_nav.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/start_relocation.dir/unitree_slam_example/start_relocation.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/start_nav.dir/unitree_slam_example/start_nav.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/multiple_nav_default.dir/unitree_slam_example/multiple_nav_default.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/multiple_nav_set.dir/unitree_slam_example/multiple_nav_set.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/recover_nav.dir/unitree_slam_example/recover_nav.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/pause_nav.dir/unitree_slam_example/pause_nav.cpp.o[0m
+[ 38%] [32m[1mLinking CXX executable query_edge[0m
+[ 40%] [32m[1mLinking CXX executable pose_init[0m
+[ 43%] [32m[1mLinking CXX executable delete_node[0m
+[ 45%] [32m[1mLinking CXX executable multiple_nav_default[0m
+[ 47%] [32m[1mLinking CXX executable start_mappping[0m
+[ 50%] [32m[1mLinking CXX executable recover_nav[0m
+[ 52%] [32m[1mLinking CXX executable pause_nav[0m
+[ 54%] [32m[1mLinking CXX executable start_relocation[0m
+[ 56%] [32m[1mLinking CXX executable query_node[0m
+[ 59%] [32m[1mLinking CXX executable start_nav[0m
+[ 61%] [32m[1mLinking CXX executable multiple_nav_set[0m
+[ 63%] [32m[1mLinking CXX executable single_nav[0m
+[ 65%] [32m[1mLinking CXX executable add_node[0m
+[ 68%] [32m[1mLinking CXX executable delete_edge[0m
+[ 70%] [32m[1mLinking CXX executable end_mappping[0m
+[ 72%] [32m[1mLinking CXX executable add_edge[0m

@@ -1,0 +1,49 @@
+[0.519s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/z1_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_urdf -- -j16 -l16
+[0.601s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/z1_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/z1_urdf -- -j16 -l16
+[0.662s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/z1_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/z1_urdf
+[0.673s] -- Install configuration: ""
+[0.674s] -- Execute custom install script
+[0.675s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/launch/z1_model.launch.py
+[0.675s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/launch/z1_rviz.launch.py
+[0.676s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/launch/z1_rviz_real2sim.launch.py
+[0.676s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/urdf/z1_description.urdf
+[0.676s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/config/robot_control.yaml
+[0.677s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/collision/z1_GripperMover.STL
+[0.677s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/collision/z1_GripperStator.STL
+[0.678s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/collision/z1_Link00.STL
+[0.678s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/collision/z1_Link01.STL
+[0.682s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/collision/z1_Link02.STL
+[0.682s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/collision/z1_Link03.STL
+[0.682s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/collision/z1_Link04.STL
+[0.683s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/collision/z1_Link05.STL
+[0.685s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/collision/z1_Link06.STL
+[0.685s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/visual/z1_GripperMover.dae
+[0.688s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/visual/z1_GripperStator.dae
+[0.689s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/visual/z1_Link00.dae
+[0.690s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/visual/z1_Link01.dae
+[0.690s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/visual/z1_Link02.dae
+[0.690s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/visual/z1_Link03.dae
+[0.690s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/visual/z1_Link04.dae
+[0.690s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/visual/z1_Link05.dae
+[0.690s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/meshes/visual/z1_Link06.dae
+[0.690s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/xacro/const.xacro
+[0.692s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/xacro/gazebo.xacro
+[0.692s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/xacro/robot.xacro
+[0.692s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/xacro/transmission.xacro
+[0.693s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/xacro/z1.urdf
+[0.694s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/ament_index/resource_index/package_run_dependencies/z1_urdf
+[0.694s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/ament_index/resource_index/parent_prefix_path/z1_urdf
+[0.695s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/environment/ament_prefix_path.sh
+[0.695s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/environment/ament_prefix_path.dsv
+[0.695s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/environment/path.sh
+[0.695s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/environment/path.dsv
+[0.696s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/local_setup.bash
+[0.696s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/local_setup.sh
+[0.696s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/local_setup.zsh
+[0.696s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/local_setup.dsv
+[0.697s] -- Symlinking: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/package.dsv
+[0.709s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/ament_index/resource_index/packages/z1_urdf
+[0.709s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/cmake/z1_urdfConfig.cmake
+[0.709s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/cmake/z1_urdfConfig-version.cmake
+[0.710s] -- Up-to-date symlink: /home/ros_ws/ros_ws/b2_ws/install/z1_urdf/share/z1_urdf/package.xml
+[0.721s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/z1_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/build/z1_urdf

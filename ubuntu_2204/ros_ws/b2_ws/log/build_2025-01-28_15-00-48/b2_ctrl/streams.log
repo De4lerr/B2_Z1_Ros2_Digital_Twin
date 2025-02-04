@@ -1,0 +1,43 @@
+[0.014s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[0.093s] [ 10%] Built target read_motion_state
+[0.093s] [ 25%] Built target read_low_state
+[0.093s] [ 40%] Built target low_level_ctrl_hg
+[0.094s] [ 50%] Built target low_level_ctrl
+[0.094s] [ 60%] Built target read_wireless_controller
+[0.095s] [ 75%] Built target g1_low_level_example
+[0.096s] [ 85%] Built target read_low_state_hg
+[0.113s] [ 90%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[2.604s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid SportManager::key_loop()[m[K’:
+[2.604s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:183:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ksleep[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Ksleep[m[K’?
+[2.604s]   183 |             std::[01;31m[Ksleep[m[K(1);
+[2.604s]       |                  [01;31m[K^~~~~[m[K
+[2.604s] In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:1[m[K:
+[2.604s] [01m[K/usr/include/unistd.h:464:21:[m[K [01;36m[Knote: [m[K‘[01m[Ksleep[m[K’ declared here
+[2.605s]   464 | extern unsigned int [01;36m[Ksleep[m[K (unsigned int __seconds);
+[2.605s]       |                     [01;36m[K^~~~~[m[K
+[2.605s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:187:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ksleep[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Ksleep[m[K’?
+[2.605s]   187 |             std::[01;31m[Ksleep[m[K(1);
+[2.606s]       |                  [01;31m[K^~~~~[m[K
+[2.606s] In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:1[m[K:
+[2.606s] [01m[K/usr/include/unistd.h:464:21:[m[K [01;36m[Knote: [m[K‘[01m[Ksleep[m[K’ declared here
+[2.606s]   464 | extern unsigned int [01;36m[Ksleep[m[K (unsigned int __seconds);
+[2.606s]       |                     [01;36m[K^~~~~[m[K
+[2.607s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:191:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ksleep[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Ksleep[m[K’?
+[2.607s]   191 |             std::[01;31m[Ksleep[m[K(1);
+[2.607s]       |                  [01;31m[K^~~~~[m[K
+[2.607s] In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:1[m[K:
+[2.607s] [01m[K/usr/include/unistd.h:464:21:[m[K [01;36m[Knote: [m[K‘[01m[Ksleep[m[K’ declared here
+[2.607s]   464 | extern unsigned int [01;36m[Ksleep[m[K (unsigned int __seconds);
+[2.607s]       |                     [01;36m[K^~~~~[m[K
+[2.608s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:195:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ksleep[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Ksleep[m[K’?
+[2.608s]   195 |             std::[01;31m[Ksleep[m[K(1);
+[2.608s]       |                  [01;31m[K^~~~~[m[K
+[2.608s] In file included from [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:1[m[K:
+[2.608s] [01m[K/usr/include/unistd.h:464:21:[m[K [01;36m[Knote: [m[K‘[01m[Ksleep[m[K’ declared here
+[2.608s]   464 | extern unsigned int [01;36m[Ksleep[m[K (unsigned int __seconds);
+[2.608s]       |                     [01;36m[K^~~~~[m[K
+[5.124s] gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+[5.124s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+[5.125s] gmake: *** [Makefile:146: all] Error 2
+[5.127s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16

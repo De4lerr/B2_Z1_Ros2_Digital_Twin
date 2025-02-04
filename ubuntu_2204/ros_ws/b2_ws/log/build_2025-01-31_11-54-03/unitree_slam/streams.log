@@ -1,0 +1,122 @@
+[0.295s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/unitree_slam': /usr/bin/cmake /home/ros_ws/ros_ws/b2_ws/src/unitree_slam -DCMAKE_INSTALL_PREFIX=/home/ros_ws/ros_ws/b2_ws/install/unitree_slam
+[0.370s] -- The C compiler identification is GNU 11.4.0
+[0.442s] -- The CXX compiler identification is GNU 11.4.0
+[0.452s] -- Detecting C compiler ABI info
+[0.552s] -- Detecting C compiler ABI info - done
+[0.558s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.559s] -- Detecting C compile features
+[0.559s] -- Detecting C compile features - done
+[0.565s] -- Detecting CXX compiler ABI info
+[0.691s] -- Detecting CXX compiler ABI info - done
+[0.701s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.702s] -- Detecting CXX compile features
+[0.702s] -- Detecting CXX compile features - done
+[0.710s] -- Looking for pthread.h
+[0.817s] -- Looking for pthread.h - found
+[0.817s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.930s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.931s] -- Found Threads: TRUE  
+[0.933s] -- Configuring done
+[0.971s] -- Generating done
+[0.974s] -- Build files have been written to: /home/ros_ws/ros_ws/b2_ws/build/unitree_slam
+[0.980s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/unitree_slam' returned '0': /usr/bin/cmake /home/ros_ws/ros_ws/b2_ws/src/unitree_slam -DCMAKE_INSTALL_PREFIX=/home/ros_ws/ros_ws/b2_ws/install/unitree_slam
+[0.981s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/unitree_slam': /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/unitree_slam -- -j16 -l16
+[1.070s] [  2%] [32mBuilding CXX object CMakeFiles/delete_node.dir/unitree_slam_example/delete_node.cpp.o[0m
+[1.071s] [  4%] [32mBuilding CXX object CMakeFiles/add_node.dir/unitree_slam_example/add_node.cpp.o[0m
+[1.071s] [  6%] [32mBuilding CXX object CMakeFiles/add_edge.dir/unitree_slam_example/add_edge.cpp.o[0m
+[1.075s] [  9%] [32mBuilding CXX object CMakeFiles/end_mappping.dir/unitree_slam_example/end_mapping.cpp.o[0m
+[1.075s] [ 11%] [32mBuilding CXX object CMakeFiles/start_mappping.dir/unitree_slam_example/start_mapping.cpp.o[0m
+[1.082s] [ 13%] [32mBuilding CXX object CMakeFiles/query_node.dir/unitree_slam_example/query_node.cpp.o[0m
+[1.083s] [ 15%] [32mBuilding CXX object CMakeFiles/query_edge.dir/unitree_slam_example/query_edge.cpp.o[0m
+[1.090s] [ 18%] [32mBuilding CXX object CMakeFiles/start_relocation.dir/unitree_slam_example/start_relocation.cpp.o[0m
+[1.096s] [ 20%] [32mBuilding CXX object CMakeFiles/delete_edge.dir/unitree_slam_example/delete_edge.cpp.o[0m
+[1.097s] [ 22%] [32mBuilding CXX object CMakeFiles/start_nav.dir/unitree_slam_example/start_nav.cpp.o[0m
+[1.103s] [ 25%] [32mBuilding CXX object CMakeFiles/pause_nav.dir/unitree_slam_example/pause_nav.cpp.o[0m
+[1.105s] [ 27%] [32mBuilding CXX object CMakeFiles/multiple_nav_default.dir/unitree_slam_example/multiple_nav_default.cpp.o[0m
+[1.109s] [ 29%] [32mBuilding CXX object CMakeFiles/pose_init.dir/unitree_slam_example/pose_init.cpp.o[0m
+[1.123s] [ 31%] [32mBuilding CXX object CMakeFiles/recover_nav.dir/unitree_slam_example/recover_nav.cpp.o[0m
+[1.144s] [ 34%] [32mBuilding CXX object CMakeFiles/single_nav.dir/unitree_slam_example/single_nav.cpp.o[0m
+[1.145s] [ 36%] [32mBuilding CXX object CMakeFiles/multiple_nav_set.dir/unitree_slam_example/multiple_nav_set.cpp.o[0m
+[5.906s] [ 38%] [32m[1mLinking CXX executable delete_node[0m
+[5.988s] [ 40%] [32m[1mLinking CXX executable pause_nav[0m
+[5.995s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[6.095s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[6.190s] [ 43%] [32m[1mLinking CXX executable pose_init[0m
+[6.270s] [ 45%] [32m[1mLinking CXX executable delete_edge[0m
+[6.277s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[6.367s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[6.376s] collect2: error: ld returned 1 exit status
+[6.388s] gmake[2]: *** [CMakeFiles/pause_nav.dir/build.make:100: pause_nav] Error 1
+[6.388s] gmake[1]: *** [CMakeFiles/Makefile2:489: CMakeFiles/pause_nav.dir/all] Error 2
+[6.388s] gmake[1]: *** Waiting for unfinished jobs....
+[6.408s] collect2: error: ld returned 1 exit status
+[6.420s] gmake[2]: *** [CMakeFiles/delete_node.dir/build.make:100: delete_node] Error 1
+[6.420s] gmake[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/delete_node.dir/all] Error 2
+[6.455s] [ 47%] [32m[1mLinking CXX executable recover_nav[0m
+[6.534s] /usr/bin/ldcollect2: error: ld returned 1 exit status
+[6.534s] : cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[6.542s] gmake[2]: *** [CMakeFiles/pose_init.dir/build.make:100: pose_init] Error 1
+[6.543s] gmake[1]: *** [CMakeFiles/Makefile2:359: CMakeFiles/pose_init.dir/all] Error 2
+[6.551s] [ 50%] [32m[1mLinking CXX executable start_nav[0m
+[6.597s] [ 52%] [32m[1mLinking CXX executable multiple_nav_default[0m
+[6.621s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[6.625s] collect2: error: ld returned 1 exit status
+[6.633s] gmake[2]: *** [CMakeFiles/delete_edge.dir/build.make:100: delete_edge] Error 1
+[6.633s] gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/delete_edge.dir/all] Error 2
+[6.638s] [ 54%] [32m[1mLinking CXX executable add_node[0m
+[6.674s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[6.702s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[6.783s] [ 56%] [32m[1mLinking CXX executable query_node[0m
+[6.785s] collect2: error: ld returned 1 exit status
+[6.789s] gmake[2]: *** [CMakeFiles/recover_nav.dir/build.make:100: recover_nav] Error 1
+[6.790s] gmake[1]: *** [CMakeFiles/Makefile2:515: CMakeFiles/recover_nav.dir/all] Error 2
+[6.837s] collect2: error: ld returned 1 exit status
+[6.846s] gmake[2]: *** [CMakeFiles/start_nav.dir/build.make:100: start_nav] Error 1
+[6.849s] gmake[1]: *** [CMakeFiles/Makefile2:385: CMakeFiles/start_nav.dir/all] Error 2
+[6.850s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[6.855s] collect2: error: ld returned 1 exit status
+[6.859s] gmake[2]: *** [CMakeFiles/multiple_nav_default.dir/build.make:100: multiple_nav_default] Error 1
+[6.859s] gmake[1]: *** [CMakeFiles/Makefile2:437: CMakeFiles/multiple_nav_default.dir/all] Error 2
+[6.874s] collect2: error: ld returned 1 exit status
+[6.877s] gmake[2]: *** [CMakeFiles/add_node.dir/build.make:100: add_node] Error 1
+[6.878s] gmake[1]: *** [CMakeFiles/Makefile2:177: CMakeFiles/add_node.dir/all] Error 2
+[6.940s] [ 59%] [32m[1mLinking CXX executable query_edge[0m
+[6.948s] [ 61%] [32m[1mLinking CXX executable start_relocation[0m
+[6.974s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[6.978s] collect2: error: ld returned 1 exit status
+[6.981s] gmake[2]: *** [CMakeFiles/query_node.dir/build.make:100: query_node] Error 1
+[6.981s] gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/query_node.dir/all] Error 2
+[6.984s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[7.064s] [ 63%] [32m[1mLinking CXX executable multiple_nav_set[0m
+[7.105s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[7.108s] collect2: error: ld returned 1 exit status
+[7.110s] collect2: error: ld returned 1 exit status
+[7.111s] gmake[2]: *** [CMakeFiles/query_edge.dir/build.make:100: query_edge] Error 1
+[7.111s] gmake[1]: *** [CMakeFiles/Makefile2:281: CMakeFiles/query_edge.dir/all] Error 2
+[7.113s] gmake[2]: *** [CMakeFiles/start_relocation.dir/build.make:100: start_relocation] Error 1
+[7.113s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/start_relocation.dir/all] Error 2
+[7.136s] [ 65%] [32m[1mLinking CXX executable end_mappping[0m
+[7.172s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[7.190s] [ 68%] [32m[1mLinking CXX executable start_mappping[0m
+[7.220s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[7.221s] collect2: error: ld returned 1 exit status
+[7.224s] gmake[2]: *** [CMakeFiles/multiple_nav_set.dir/build.make:100: multiple_nav_set] Error 1
+[7.224s] gmake[1]: *** [CMakeFiles/Makefile2:463: CMakeFiles/multiple_nav_set.dir/all] Error 2
+[7.284s] collect2: error: ld returned 1 exit status
+[7.286s] gmake[2]: *** [CMakeFiles/end_mappping.dir/build.make:100: end_mappping] Error 1
+[7.286s] gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/end_mappping.dir/all] Error 2
+[7.328s] collect2: error: ld returned 1 exit status
+[7.331s] gmake[2]: *** [CMakeFiles/start_mappping.dir/build.make:100: start_mappping] Error 1
+[7.333s] gmake[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/start_mappping.dir/all] Error 2
+[7.465s] [ 70%] [32m[1mLinking CXX executable single_nav[0m
+[7.496s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[7.587s] [ 72%] [32m[1mLinking CXX executable add_edge[0m
+[7.625s] /usr/bin/ld: cannot find -lunitree_ros2_idl_cpp: No such file or directory
+[7.636s] collect2: error: ld returned 1 exit status
+[7.638s] gmake[2]: *** [CMakeFiles/single_nav.dir/build.make:100: single_nav] Error 1
+[7.639s] gmake[1]: *** [CMakeFiles/Makefile2:411: CMakeFiles/single_nav.dir/all] Error 2
+[7.742s] collect2: error: ld returned 1 exit status
+[7.746s] gmake[2]: *** [CMakeFiles/add_edge.dir/build.make:100: add_edge] Error 1
+[7.746s] gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/add_edge.dir/all] Error 2
+[7.746s] gmake: *** [Makefile:91: all] Error 2
+[7.749s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/unitree_slam' returned '2': /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/unitree_slam -- -j16 -l16

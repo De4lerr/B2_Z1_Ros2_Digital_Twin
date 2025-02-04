@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from z1_interfaces/srv/MoveJointPathCommand.srv
+// generated code does not contain a copyright notice
+
+
+module z1_interfaces {
+  module srv {
+    typedef double double__6[6];
+    struct MoveJointPathCommand_Request {
+      double__6 posture;
+
+      double gripper_pos;
+
+      double max_speed;
+    };
+    struct MoveJointPathCommand_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

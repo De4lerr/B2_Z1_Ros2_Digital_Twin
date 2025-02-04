@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from z1_interfaces/msg/ArmControlCommand.msg
+// generated code does not contain a copyright notice
+
+
+module z1_interfaces {
+  module msg {
+    typedef double double__7[7];
+    struct ArmControlCommand {
+      @verbatim (language="comment", text=
+        "Vetor de direções: roll, pitch, yaw, x, y, z, gripper")
+      double__7 directions;
+
+      @verbatim (language="comment", text=
+        "Velocidade de orientação (range: [0, 0.6])")
+      double speed_1;
+
+      @verbatim (language="comment", text=
+        "Velocidade de posição (range: [0, 0.3])")
+      double speed_2;
+
+      @verbatim (language="comment", text=
+        "Diz se quer movimento cartesiano ou nao")
+      boolean cartesian;
+    };
+  };
+};

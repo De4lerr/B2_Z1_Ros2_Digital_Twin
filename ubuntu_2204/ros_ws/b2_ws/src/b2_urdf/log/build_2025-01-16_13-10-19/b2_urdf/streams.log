@@ -1,0 +1,88 @@
+[0.009s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/src/b2_urdf/build/b2_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros_ws/ros_ws/b2_ws/src/b2_urdf -DCMAKE_INSTALL_PREFIX=/home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.266s] -- Detecting CXX compiler ABI info - done
+[0.272s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.280s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.410s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.517s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.598s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.598s] -- Configured cppcheck include dirs: 
+[0.598s] -- Configured cppcheck exclude dirs and/or files: 
+[0.600s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.602s] -- Added test 'lint_cmake' to check CMake code style
+[0.603s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.611s] -- Added test 'uncrustify' to check C / C++ code style
+[0.611s] -- Configured uncrustify additional arguments: 
+[0.612s] -- Added test 'xmllint' to check XML markup files
+[0.614s] -- Configuring done
+[0.618s] -- Generating done
+[0.619s] -- Build files have been written to: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/build/b2_urdf
+[0.623s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/src/b2_urdf/build/b2_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros_ws/ros_ws/b2_ws/src/b2_urdf -DCMAKE_INSTALL_PREFIX=/home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf
+[0.624s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/src/b2_urdf/build/b2_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/build/b2_urdf -- -j16 -l16
+[0.660s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/src/b2_urdf/build/b2_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/build/b2_urdf -- -j16 -l16
+[0.690s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/src/b2_urdf/build/b2_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/build/b2_urdf
+[0.697s] -- Install configuration: ""
+[0.697s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/launch
+[0.698s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/launch/b2_rviz_real2sim.launch.py
+[0.698s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/launch/b2_rviz.launch.py
+[0.698s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/launch/b2_model.launch.py
+[0.698s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/urdf
+[0.699s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/urdf/b2_description.urdf
+[0.699s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/config
+[0.699s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/config/robot_control.yaml
+[0.699s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes
+[0.699s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/FR_thigh.dae
+[0.701s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/RR_thigh.dae
+[0.703s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/trunk1.dae
+[0.768s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/base_link.dae
+[0.778s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/FR_calf.dae
+[0.781s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/FL_hip.dae
+[0.782s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/FR_hip.dae
+[0.783s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/trunk.dae
+[0.845s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/RR_hip.dae
+[0.846s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/hip.dae
+[0.846s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/FL_calf.dae
+[0.850s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/RL_calf.dae
+[0.853s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/thigh.dae
+[0.855s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/RL_thigh.dae
+[0.856s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/calf.dae
+[0.860s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/RL_hip.dae
+[0.861s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/RR_calf.dae
+[0.864s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/FL_thigh.dae
+[0.866s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/thigh_mirror.dae
+[0.867s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/FL_foot.dae
+[0.870s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/meshes/trunk2.dae
+[0.932s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/xacro
+[0.932s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/xacro/gazebo.xacro
+[0.932s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/xacro/stairs.xacro
+[0.932s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/xacro/transmission.xacro
+[0.932s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/xacro/leg.xacro
+[0.933s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/xacro/const.xacro
+[0.933s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/xacro/materials.xacro
+[0.933s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/xacro/robot.xacro
+[0.933s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/lib/b2_urdf/odom_state_publisher.py
+[0.934s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/ament_index/resource_index/package_run_dependencies/b2_urdf
+[0.934s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/ament_index/resource_index/parent_prefix_path/b2_urdf
+[0.934s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/environment/ament_prefix_path.sh
+[0.934s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/environment/ament_prefix_path.dsv
+[0.935s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/environment/path.sh
+[0.935s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/environment/path.dsv
+[0.935s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/local_setup.bash
+[0.935s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/local_setup.sh
+[0.935s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/local_setup.zsh
+[0.935s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/local_setup.dsv
+[0.935s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/package.dsv
+[0.936s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/ament_index/resource_index/packages/b2_urdf
+[0.936s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/cmake/b2_urdfConfig.cmake
+[0.936s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/cmake/b2_urdfConfig-version.cmake
+[0.936s] -- Installing: /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/install/b2_urdf/share/b2_urdf/package.xml
+[0.938s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/src/b2_urdf/build/b2_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros_ws/ros_ws/b2_ws/src/b2_urdf/build/b2_urdf

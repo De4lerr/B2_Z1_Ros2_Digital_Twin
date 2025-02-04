@@ -1,0 +1,12 @@
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:126:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  126 |     [01;31m[Kuint8[m[K mode;
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Kuint[m[K
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid SportManager::state_callback(unitree_go::msg::SportModeState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:118:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  118 |         [01;31m[Kmode[m[K = data->mode;
+      |         [01;31m[K^~~~[m[K
+      |         [32m[KNode[m[K
+gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

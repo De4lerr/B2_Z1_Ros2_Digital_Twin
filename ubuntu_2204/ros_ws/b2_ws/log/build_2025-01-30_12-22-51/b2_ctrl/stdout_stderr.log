@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target b2_z1_control[0m
+[  8%] Built target read_motion_state
+[ 17%] Built target read_wireless_controller
+[ 26%] Built target read_low_state
+[ 39%] Built target low_level_ctrl
+[ 52%] Built target g1_low_level_example
+[ 73%] Built target read_low_state_hg
+[ 73%] Built target sport_mode_ctrl
+[ 86%] Built target low_level_ctrl_hg
+[ 91%] [32mBuilding CXX object CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o[0m
+[01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/b2_z1_control.cpp:339:19:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+  339 |     void ~key_loop[01;31m[K([m[K)
+      |                   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/b2_z1_control.dir/build.make:76: CMakeFiles/b2_z1_control.dir/src/b2_z1_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/b2_z1_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

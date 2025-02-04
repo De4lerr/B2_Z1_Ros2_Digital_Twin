@@ -1,0 +1,1 @@
+/home/ros_ws/ros_ws/b2_ws/build/z1_interfaces/rosidl_generator_py/z1_interfaces/srv/_move_joint_path_command_s.c

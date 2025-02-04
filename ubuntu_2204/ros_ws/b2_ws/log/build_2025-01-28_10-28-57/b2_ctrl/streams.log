@@ -1,0 +1,24 @@
+[0.079s] Invoking command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16
+[0.636s] [35m[1mConsolidate compiler generated dependencies of target sport_mode_ctrl[0m
+[0.637s] [ 10%] Built target read_low_state_hg
+[0.640s] [ 45%] Built target read_motion_state
+[0.641s] [ 45%] Built target low_level_ctrl_hg
+[0.641s] [ 55%] Built target read_wireless_controller
+[0.642s] [ 60%] Built target g1_low_level_example
+[0.642s] [ 70%] Built target read_low_state
+[0.642s] [ 85%] Built target low_level_ctrl
+[0.642s] [ 90%] [32mBuilding CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o[0m
+[4.625s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:[m[K In member function ‘[01m[Kvoid KeyboardController::key_loop()[m[K’:
+[4.625s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:97:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K{[m[K’ token
+[4.626s]    97 |         [01;31m[K{[m[K
+[4.626s]       |         [01;31m[K^[m[K
+[4.626s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:103:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+[4.626s]   103 |         }[01;31m[Kelse[m[K (key == 'm')
+[4.626s]       |          [01;31m[K^~~~[m[K
+[4.626s] [01m[K/home/ros_ws/ros_ws/b2_ws/src/b2_ctrl/src/sport_mode_ctrl.cpp:104:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[4.626s]   104 |         [01;31m[K{[m[K
+[4.627s]       |         [01;31m[K^[m[K
+[7.030s] gmake[2]: *** [CMakeFiles/sport_mode_ctrl.dir/build.make:76: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o] Error 1
+[7.030s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sport_mode_ctrl.dir/all] Error 2
+[7.031s] gmake: *** [Makefile:146: all] Error 2
+[7.035s] Invoked command in '/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/unitree_sdk2:/home/ros_ws/ros_ws/b2_ws/install/b2_nodes:/opt/ros/humble: /usr/bin/cmake --build /home/ros_ws/ros_ws/b2_ws/build/b2_ctrl -- -j16 -l16

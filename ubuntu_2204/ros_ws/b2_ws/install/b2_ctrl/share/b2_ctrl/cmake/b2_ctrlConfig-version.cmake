@@ -1,0 +1,1 @@
+/home/ros_ws/ros_ws/b2_ws/build/b2_ctrl/ament_cmake_core/b2_ctrlConfig-version.cmake
